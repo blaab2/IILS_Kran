@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: kran_v2
+Bundle-SymbolicName: kran_v2
+Bundle-Version: 1.0.0
+Bundle-Vendor: DC43
+Require-Bundle: org.eclipse.uml2.uml,
+ org.eclipse.emf.transaction,
+ org.eclipse.ui.console,
+ de.iils.dc43.persistence,
+ de.iils.dc43.os,
+ de.iils.dc43.transformationengine,
+ de.iils.dc43.math,
+ org.apache.log4j,
+ org.eclipse.xtext.xbase.lib,
+ de.iils.dc43.scriptrule,
+ de.iils.dc43.geometry,
+ gittermastschuss,
+ raupe,
+ auslegerende,
+ gegengewichte,
+ seil,
+ gittermastschussanschluss;bundle-version="1.0.0"
+Import-Package: gittermastschussanschluss.classes
+Export-Package: kran_v2.classes
+

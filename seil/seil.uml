@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:_43Utilities="http:///schemas/_43Utilities/_s7U0gAg6EeSs5q8A4YUJOA/25" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/_43Utilities/_s7U0gAg6EeSs5q8A4YUJOA/25 pathmap://UTILITY_PROFILE/43Utilities.profile.uml#_s7U0gQg6EeSs5q8A4YUJOA">
+  <uml:Model xmi:id="_rKdk8HPUEeS8H-8hCbr5NQ" name="seil">
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_rKdk-nPUEeS8H-8hCbr5NQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </elementImport>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_rKmu4HPUEeS8H-8hCbr5NQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_rKmu4XPUEeS8H-8hCbr5NQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+    </elementImport>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_rKmu4nPUEeS8H-8hCbr5NQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </elementImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_rKdk-XPUEeS8H-8hCbr5NQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UTILITY_PROFILE/dimensions43.uml#_WGnrAeAxEd--GtowLWgB4Q"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rKdk8XPUEeS8H-8hCbr5NQ" name="Classes">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TfN60XPYEeS8H-8hCbr5NQ" source="Lookup">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TfN60nPYEeS8H-8hCbr5NQ" key="Geometry" value="pathmap://GEOMETRY_CLASSES/geometry.profile.uml"/>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_s6L2IHPUEeS8H-8hCbr5NQ" name="Seil">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_wggeQHoDEeSSs4qrCUucJA" name="{{position.dx};{position.dy};{position.dz}} = {{start.x};{start.y};{start.z}}" constrainedElement="_s6L2IHPUEeS8H-8hCbr5NQ">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_wggeQXoDEeSSs4qrCUucJA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_79oSwHoMEeS5_KIioYfeBQ" source="@0">
+              <references xmi:type="uml:Property" href="#_vAjudHoDEeSSs4qrCUucJA"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_GfvCQLISEeCczIgiMKnSow"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_79oSwXoMEeS5_KIioYfeBQ" source="@1">
+              <references xmi:type="uml:Property" href="#_vAjudHoDEeSSs4qrCUucJA"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G1yx0LISEeCczIgiMKnSow"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_79oSwnoMEeS5_KIioYfeBQ" source="@2">
+              <references xmi:type="uml:Property" href="#_vAjudHoDEeSSs4qrCUucJA"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G8f2wLISEeCczIgiMKnSow"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_79oSw3oMEeS5_KIioYfeBQ" source="@3">
+              <references xmi:type="uml:Property" href="#_w2QqInPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_79oSxHoMEeS5_KIioYfeBQ" source="@4">
+              <references xmi:type="uml:Property" href="#_w2QqInPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_79oSxXoMEeS5_KIioYfeBQ" source="@5">
+              <references xmi:type="uml:Property" href="#_w2QqInPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <language>spg</language>
+            <body>{{@0};{@1};{@2}} = {{@3};{@4};{@5}}</body>
+          </specification>
+        </ownedRule>
+        <generalization xmi:type="uml:Generalization" xmi:id="_fwVjoHPXEeS8H-8hCbr5NQ">
+          <general xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_TQuNMJdSEeCFQYEzkEv2mw"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_w2QqInPUEeS8H-8hCbr5NQ" name="start" association="_w2G5IHPUEeS8H-8hCbr5NQ">
+          <type xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w2QqI3PUEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w2QqJHPUEeS8H-8hCbr5NQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xKDI1HPUEeS8H-8hCbr5NQ" name="ende" association="_xKDI0HPUEeS8H-8hCbr5NQ">
+          <type xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xKDI1XPUEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xKDI1nPUEeS8H-8hCbr5NQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mtm3xHPXEeS8H-8hCbr5NQ" name="seilErsatzgeometrie" type="_jZT1cHPXEeS8H-8hCbr5NQ" association="_mtm3wHPXEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mtm3xXPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mtm3xnPXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vAjudHoDEeSSs4qrCUucJA" name="position" association="_vAjucHoDEeSSs4qrCUucJA">
+          <type xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_IRYdIHcZEeCKiJ7mgIS1yQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vAjudXoDEeSSs4qrCUucJA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vAjudnoDEeSSs4qrCUucJA" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_w2G5IHPUEeS8H-8hCbr5NQ" memberEnd="_w2G5IXPUEeS8H-8hCbr5NQ _w2QqInPUEeS8H-8hCbr5NQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_w2G5IXPUEeS8H-8hCbr5NQ" name="seil" type="_s6L2IHPUEeS8H-8hCbr5NQ" association="_w2G5IHPUEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w2QqIHPUEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w2QqIXPUEeS8H-8hCbr5NQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xKDI0HPUEeS8H-8hCbr5NQ" memberEnd="_xKDI0XPUEeS8H-8hCbr5NQ _xKDI1HPUEeS8H-8hCbr5NQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xKDI0XPUEeS8H-8hCbr5NQ" name="seil" type="_s6L2IHPUEeS8H-8hCbr5NQ" association="_xKDI0HPUEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xKDI0nPUEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xKDI03PUEeS8H-8hCbr5NQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jZT1cHPXEeS8H-8hCbr5NQ" name="SeilErsatzgeometrie">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_BBLSMHPYEeS8H-8hCbr5NQ" name="{{seil.start.x};{seil.start.y};{seil.start.z}}={{p1.x};{p1.y};{p1.z}}" constrainedElement="_jZT1cHPXEeS8H-8hCbr5NQ">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_BBLSMXPYEeS8H-8hCbr5NQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IatrkHPYEeS8H-8hCbr5NQ" source="@0">
+              <references xmi:type="uml:Property" href="#__9CUpHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="#_w2QqInPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IatrkXPYEeS8H-8hCbr5NQ" source="@1">
+              <references xmi:type="uml:Property" href="#__9CUpHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="#_w2QqInPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IatrknPYEeS8H-8hCbr5NQ" source="@2">
+              <references xmi:type="uml:Property" href="#__9CUpHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="#_w2QqInPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iatrk3PYEeS8H-8hCbr5NQ" source="@3">
+              <references xmi:type="uml:Property" href="#_tXYoJHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IatrlHPYEeS8H-8hCbr5NQ" source="@4">
+              <references xmi:type="uml:Property" href="#_tXYoJHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IatrlXPYEeS8H-8hCbr5NQ" source="@5">
+              <references xmi:type="uml:Property" href="#_tXYoJHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <language>spg</language>
+            <body>{{@0};{@1};{@2}} = {{@3};{@4};{@5}}</body>
+          </specification>
+        </ownedRule>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_IdiWEHPYEeS8H-8hCbr5NQ" name="{{seil.ende.x};{seil.ende.y};{seil.ende.z}}={{p2.x};{p2.y};{p2.z}}" constrainedElement="_jZT1cHPXEeS8H-8hCbr5NQ">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_IdiWEXPYEeS8H-8hCbr5NQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MEIpUHPYEeS8H-8hCbr5NQ" source="@0">
+              <references xmi:type="uml:Property" href="#__9CUpHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="#_xKDI1HPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MEIpUXPYEeS8H-8hCbr5NQ" source="@1">
+              <references xmi:type="uml:Property" href="#__9CUpHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="#_xKDI1HPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MEIpUnPYEeS8H-8hCbr5NQ" source="@2">
+              <references xmi:type="uml:Property" href="#__9CUpHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="#_xKDI1HPUEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MEIpU3PYEeS8H-8hCbr5NQ" source="@3">
+              <references xmi:type="uml:Property" href="#_thgNdHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MEIpVHPYEeS8H-8hCbr5NQ" source="@4">
+              <references xmi:type="uml:Property" href="#_thgNdHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MEIpVXPYEeS8H-8hCbr5NQ" source="@5">
+              <references xmi:type="uml:Property" href="#_thgNdHPXEeS8H-8hCbr5NQ"/>
+              <references xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+            </eAnnotations>
+            <language>spg</language>
+            <body>{{@0};{@1};{@2}} = {{@3};{@4};{@5}}</body>
+          </specification>
+        </ownedRule>
+        <generalization xmi:type="uml:Generalization" xmi:id="_mOgg8HPXEeS8H-8hCbr5NQ">
+          <general xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_gUilgL11EeCstrPozmuiGw"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_tXYoJHPXEeS8H-8hCbr5NQ" name="p1" association="_tXYoIHPXEeS8H-8hCbr5NQ">
+          <type xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tXYoJXPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tXYoJnPXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_thgNdHPXEeS8H-8hCbr5NQ" name="p2" association="_thgNcHPXEeS8H-8hCbr5NQ">
+          <type xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_thgNdXPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_thgNdnPXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__9CUpHPXEeS8H-8hCbr5NQ" name="seil" type="_s6L2IHPUEeS8H-8hCbr5NQ" association="__9CUoHPXEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__9CUpXPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__9CUpnPXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mtm3wHPXEeS8H-8hCbr5NQ" memberEnd="_mtm3wXPXEeS8H-8hCbr5NQ _mtm3xHPXEeS8H-8hCbr5NQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mtm3wXPXEeS8H-8hCbr5NQ" name="seil" type="_s6L2IHPUEeS8H-8hCbr5NQ" association="_mtm3wHPXEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mtm3wnPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mtm3w3PXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tXYoIHPXEeS8H-8hCbr5NQ" memberEnd="_tXYoIXPXEeS8H-8hCbr5NQ _tXYoJHPXEeS8H-8hCbr5NQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_tXYoIXPXEeS8H-8hCbr5NQ" name="seilErsatzgeometrie" type="_jZT1cHPXEeS8H-8hCbr5NQ" association="_tXYoIHPXEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tXYoInPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tXYoI3PXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_thgNcHPXEeS8H-8hCbr5NQ" memberEnd="_thgNcXPXEeS8H-8hCbr5NQ _thgNdHPXEeS8H-8hCbr5NQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_thgNcXPXEeS8H-8hCbr5NQ" name="seilErsatzgeometrie" type="_jZT1cHPXEeS8H-8hCbr5NQ" association="_thgNcHPXEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_thgNcnPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_thgNc3PXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="__9CUoHPXEeS8H-8hCbr5NQ" memberEnd="__9CUoXPXEeS8H-8hCbr5NQ __9CUpHPXEeS8H-8hCbr5NQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="__9CUoXPXEeS8H-8hCbr5NQ" name="seilErsatzgeometrie" type="_jZT1cHPXEeS8H-8hCbr5NQ" association="__9CUoHPXEeS8H-8hCbr5NQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__9CUonPXEeS8H-8hCbr5NQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__9CUo3PXEeS8H-8hCbr5NQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_vAjucHoDEeSSs4qrCUucJA" memberEnd="_vAjucXoDEeSSs4qrCUucJA _vAjudHoDEeSSs4qrCUucJA">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_vAjucXoDEeSSs4qrCUucJA" name="seil" type="_s6L2IHPUEeS8H-8hCbr5NQ" association="_vAjucHoDEeSSs4qrCUucJA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vAjucnoDEeSSs4qrCUucJA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vAjuc3oDEeSSs4qrCUucJA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TfEw4HPYEeS8H-8hCbr5NQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TfN60HPYEeS8H-8hCbr5NQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_gQeBod2TEeKsQs3_k1rRFQ"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_NI-74EjPEeCZmbgsBKi5qQ"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rKdk8nPUEeS8H-8hCbr5NQ" name="Instances"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rKdk83PUEeS8H-8hCbr5NQ" name="Rules">
+      <packagedElement xmi:type="uml:Package" xmi:id="_QLzpUHPYEeS8H-8hCbr5NQ" name="AddPoints">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RKv90HPYEeS8H-8hCbr5NQ" source="mapping">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RK5HwXPYEeS8H-8hCbr5NQ" key="_QeacQHPYEeS8H-8hCbr5NQ" value="_RK5HwHPYEeS8H-8hCbr5NQ"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_QLzpUXPYEeS8H-8hCbr5NQ" name="LHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_QeacQHPYEeS8H-8hCbr5NQ" classifier="_s6L2IHPUEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_QLzpUnPYEeS8H-8hCbr5NQ" name="RHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RK5HwHPYEeS8H-8hCbr5NQ" classifier="_s6L2IHPUEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_VNA5YHPYEeS8H-8hCbr5NQ" definingFeature="_w2QqInPUEeS8H-8hCbr5NQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_VNA5YXPYEeS8H-8hCbr5NQ" instance="_Rl0wQHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_VcxzsHPYEeS8H-8hCbr5NQ" definingFeature="_xKDI1HPUEeS8H-8hCbr5NQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_VcxzsXPYEeS8H-8hCbr5NQ" instance="_UvQmYHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Rl0wQHPYEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_UvQmYHPYEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+          </packagedElement>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QLzpU3PYEeS8H-8hCbr5NQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QLzpVHPYEeS8H-8hCbr5NQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="pathmap://SPG_PROFILE/spg.profile.uml#_O5tTocqCEeGzEenZhMh9ww"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="pathmap://SPG_PROFILE/spg.profile.uml#_YZov0P0bEdqcdNCdjj7aKQ"/>
+          </profileApplication>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YhUiwHPYEeS8H-8hCbr5NQ" name="AddGeometry">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZTBFcHPYEeS8H-8hCbr5NQ" source="mapping">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZTBFcnPYEeS8H-8hCbr5NQ" key="_Yu3PgHPYEeS8H-8hCbr5NQ" value="_ZTBFcXPYEeS8H-8hCbr5NQ"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_YhUiwXPYEeS8H-8hCbr5NQ" name="LHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Yu3PgHPYEeS8H-8hCbr5NQ" classifier="_s6L2IHPUEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_YhUiwnPYEeS8H-8hCbr5NQ" name="RHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ZTBFcXPYEeS8H-8hCbr5NQ" classifier="_s6L2IHPUEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_aQdlIHPYEeS8H-8hCbr5NQ" definingFeature="_mtm3xHPXEeS8H-8hCbr5NQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_aQdlIXPYEeS8H-8hCbr5NQ" instance="_ZgQQMHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_iLRfkHPYEeS8H-8hCbr5NQ">
+              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_jyjn1JdSEeCFQYEzkEv2mw"/>
+              <value xmi:type="uml:InstanceValue" xmi:id="_iLRfkXPYEeS8H-8hCbr5NQ" instance="_hO3hsHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ZgQQMHPYEeS8H-8hCbr5NQ" classifier="_jZT1cHPXEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_adQD8HPYEeS8H-8hCbr5NQ" definingFeature="__9CUpHPXEeS8H-8hCbr5NQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_adQD8XPYEeS8H-8hCbr5NQ" instance="_ZTBFcXPYEeS8H-8hCbr5NQ"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_cPqcwHPYEeS8H-8hCbr5NQ" definingFeature="_tXYoJHPXEeS8H-8hCbr5NQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_cPqcwXPYEeS8H-8hCbr5NQ" instance="_a1NQ8HPYEeS8H-8hCbr5NQ"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_chz8sHPYEeS8H-8hCbr5NQ" definingFeature="_thgNdHPXEeS8H-8hCbr5NQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_chz8sXPYEeS8H-8hCbr5NQ" instance="_bmTWsHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_dPGggHPYEeS8H-8hCbr5NQ">
+              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_iGYKY73UEeCstrPozmuiGw"/>
+              <value xmi:type="uml:InstanceValue" xmi:id="_dPGggXPYEeS8H-8hCbr5NQ" instance="_a1NQ8HPYEeS8H-8hCbr5NQ"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_dpbsEHPYEeS8H-8hCbr5NQ">
+              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_j_zKIL3UEeCstrPozmuiGw"/>
+              <value xmi:type="uml:InstanceValue" xmi:id="_dpbsEXPYEeS8H-8hCbr5NQ" instance="_bmTWsHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_a1NQ8HPYEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+            <slot xmi:type="uml:Slot" xmi:id="_d90AoHPYEeS8H-8hCbr5NQ">
+              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WYgaMr11EeCstrPozmuiGw"/>
+              <value xmi:type="uml:InstanceValue" xmi:id="_d90AoXPYEeS8H-8hCbr5NQ" instance="_bmTWsHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_bmTWsHPYEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_hO3hsHPYEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_K13rsL6tEeCMrczq0zcn0A"/>
+            <slot xmi:type="uml:Slot" xmi:id="_iackAHPYEeS8H-8hCbr5NQ">
+              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_QzbPQ76tEeCMrczq0zcn0A"/>
+              <value xmi:type="uml:InstanceValue" xmi:id="_iackAXPYEeS8H-8hCbr5NQ" instance="_ZgQQMHPYEeS8H-8hCbr5NQ"/>
+            </slot>
+          </packagedElement>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_YhUiw3PYEeS8H-8hCbr5NQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YhUixHPYEeS8H-8hCbr5NQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="pathmap://SPG_PROFILE/spg.profile.uml#_O5tTocqCEeGzEenZhMh9ww"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="pathmap://SPG_PROFILE/spg.profile.uml#_YZov0P0bEdqcdNCdjj7aKQ"/>
+          </profileApplication>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OEkZEHoEEeSSs4qrCUucJA" name="AddPosition">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PDzogHoEEeSSs4qrCUucJA" source="mapping">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PDzognoEEeSSs4qrCUucJA" key="_OcOrIHoEEeSSs4qrCUucJA" value="_PDzogXoEEeSSs4qrCUucJA"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_OEkZEXoEEeSSs4qrCUucJA" name="LHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_OcOrIHoEEeSSs4qrCUucJA" classifier="_s6L2IHPUEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_OEkZEnoEEeSSs4qrCUucJA" name="RHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_PDzogXoEEeSSs4qrCUucJA" classifier="_s6L2IHPUEeS8H-8hCbr5NQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_P5XXgHoEEeSSs4qrCUucJA" definingFeature="_vAjudHoDEeSSs4qrCUucJA">
+              <value xmi:type="uml:InstanceValue" xmi:id="_P5XXgXoEEeSSs4qrCUucJA" instance="_PO9voHoEEeSSs4qrCUucJA"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_PO9voHoEEeSSs4qrCUucJA">
+            <name xsi:nil="true"/>
+            <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_IRYdIHcZEeCKiJ7mgIS1yQ"/>
+          </packagedElement>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OEkZE3oEEeSSs4qrCUucJA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OEkZFHoEEeSSs4qrCUucJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="pathmap://SPG_PROFILE/spg.profile.uml#_O5tTocqCEeGzEenZhMh9ww"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="pathmap://SPG_PROFILE/spg.profile.uml#_YZov0P0bEdqcdNCdjj7aKQ"/>
+          </profileApplication>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rKdk9HPUEeS8H-8hCbr5NQ" name="Programs">
+      <packagedElement xmi:type="uml:Package" xmi:id="_rKdk9XPUEeS8H-8hCbr5NQ" name="RootProgram">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_rKdk9nPUEeS8H-8hCbr5NQ" name="seil" node="_rKdk93PUEeS8H-8hCbr5NQ _rKdk-HPUEeS8H-8hCbr5NQ _Nfel8HPYEeS8H-8hCbr5NQ">
+          <node xmi:type="uml:InitialNode" xmi:id="_rKdk93PUEeS8H-8hCbr5NQ" name="start"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_rKdk-HPUEeS8H-8hCbr5NQ" name="final"/>
+          <node xmi:type="uml:CallBehaviorAction" xmi:id="_Nfel8HPYEeS8H-8hCbr5NQ" name="expandSeil" behavior="_OPYY4XPYEeS8H-8hCbr5NQ"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OPYY4HPYEeS8H-8hCbr5NQ" name="expandSeil">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_OPYY4XPYEeS8H-8hCbr5NQ" name="expandSeil" node="_OPYY4nPYEeS8H-8hCbr5NQ _OPYY43PYEeS8H-8hCbr5NQ _PP1wUHPYEeS8H-8hCbr5NQ _Xh7iUHPYEeS8H-8hCbr5NQ _qNRloHoDEeSSs4qrCUucJA">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_krgAoHPYEeS8H-8hCbr5NQ" target="_PP1wUHPYEeS8H-8hCbr5NQ" source="_OPYY4nPYEeS8H-8hCbr5NQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_krpKkHPYEeS8H-8hCbr5NQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_krpKkXPYEeS8H-8hCbr5NQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_kxvykHPYEeS8H-8hCbr5NQ" target="_Xh7iUHPYEeS8H-8hCbr5NQ" source="_PP1wUHPYEeS8H-8hCbr5NQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_kx5jkHPYEeS8H-8hCbr5NQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_kx5jkXPYEeS8H-8hCbr5NQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_rALpQHoDEeSSs4qrCUucJA" target="_qNRloHoDEeSSs4qrCUucJA" source="_Xh7iUHPYEeS8H-8hCbr5NQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_rALpQXoDEeSSs4qrCUucJA" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_rAVaQHoDEeSSs4qrCUucJA"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_rGbbMHoDEeSSs4qrCUucJA" target="_OPYY43PYEeS8H-8hCbr5NQ" source="_qNRloHoDEeSSs4qrCUucJA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_rGbbMXoDEeSSs4qrCUucJA" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_rGbbMnoDEeSSs4qrCUucJA"/>
+          </edge>
+          <node xmi:type="uml:InitialNode" xmi:id="_OPYY4nPYEeS8H-8hCbr5NQ" name="start" outgoing="_krgAoHPYEeS8H-8hCbr5NQ"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_OPYY43PYEeS8H-8hCbr5NQ" name="final" incoming="_rGbbMHoDEeSSs4qrCUucJA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_PP1wUHPYEeS8H-8hCbr5NQ" name="AddPoints" incoming="_krgAoHPYEeS8H-8hCbr5NQ" outgoing="_kxvykHPYEeS8H-8hCbr5NQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_Xh7iUHPYEeS8H-8hCbr5NQ" name="AddGeometry" incoming="_kxvykHPYEeS8H-8hCbr5NQ" outgoing="_rALpQHoDEeSSs4qrCUucJA"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_qNRloHoDEeSSs4qrCUucJA" name="AddPosition" incoming="_rALpQHoDEeSSs4qrCUucJA" outgoing="_rGbbMHoDEeSSs4qrCUucJA"/>
+        </packagedElement>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PP_hUHPYEeS8H-8hCbr5NQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PQIrQHPYEeS8H-8hCbr5NQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="pathmap://UTILITY_PROFILE/43Utilities.profile.uml#_s7U0gQg6EeSs5q8A4YUJOA"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="pathmap://UTILITY_PROFILE/43Utilities.profile.uml#_U1HE8Fy0Ed6NvKf1SxOu9A"/>
+        </profileApplication>
+      </packagedElement>
+    </packagedElement>
+  </uml:Model>
+  <_43Utilities:Rule xmi:id="_PQIrQXPYEeS8H-8hCbr5NQ" rule="_QLzpUHPYEeS8H-8hCbr5NQ" base_OpaqueAction="_PP1wUHPYEeS8H-8hCbr5NQ"/>
+  <_43Utilities:Rule xmi:id="_XiFTUHPYEeS8H-8hCbr5NQ" rule="_YhUiwHPYEeS8H-8hCbr5NQ" base_OpaqueAction="_Xh7iUHPYEeS8H-8hCbr5NQ"/>
+  <_43Utilities:Rule xmi:id="_qNRloXoDEeSSs4qrCUucJA" rule="_OEkZEHoEEeSSs4qrCUucJA" base_OpaqueAction="_qNRloHoDEeSSs4qrCUucJA"/>
+</xmi:XMI>

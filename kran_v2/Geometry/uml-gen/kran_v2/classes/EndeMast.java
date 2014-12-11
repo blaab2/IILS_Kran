@@ -1,0 +1,86 @@
+package kran_v2.classes;
+
+import java.util.*;
+import javax.annotation.Generated;
+
+@Generated(value = { "de.iils.dc43.scriptrule.generator.JavaGenerator" }, date = "2014-11-24T15:37:12.278+0100")
+@SuppressWarnings("all")
+public interface EndeMast extends gittermastschuss.classes.Mastschuss {
+	
+	public static final String ENDSTUECKX1__PROP = "endstueckx1";
+	public org.eclipse.uml2.uml.Property umlPropEndstueckx1();
+	public org.eclipse.uml2.uml.Slot umlSlotEndstueckx1();
+	public Double getEndstueckx1();
+	public void setEndstueckx1(Double endstueckx1);
+	public static final String ENDSTUECKY1__PROP = "endstuecky1";
+	public org.eclipse.uml2.uml.Property umlPropEndstuecky1();
+	public org.eclipse.uml2.uml.Slot umlSlotEndstuecky1();
+	public Double getEndstuecky1();
+	public void setEndstuecky1(Double endstuecky1);
+	public static final String ENDSTUECKZ1__PROP = "endstueckz1";
+	public org.eclipse.uml2.uml.Property umlPropEndstueckz1();
+	public org.eclipse.uml2.uml.Slot umlSlotEndstueckz1();
+	public Double getEndstueckz1();
+	public void setEndstueckz1(Double endstueckz1);
+	public static final String ENDSTUECKX2__PROP = "endstueckx2";
+	public org.eclipse.uml2.uml.Property umlPropEndstueckx2();
+	public org.eclipse.uml2.uml.Slot umlSlotEndstueckx2();
+	public Double getEndstueckx2();
+	public void setEndstueckx2(Double endstueckx2);
+	public static final String ENDSTUECKY2__PROP = "endstuecky2";
+	public org.eclipse.uml2.uml.Property umlPropEndstuecky2();
+	public org.eclipse.uml2.uml.Slot umlSlotEndstuecky2();
+	public Double getEndstuecky2();
+	public void setEndstuecky2(Double endstuecky2);
+	public static final String ENDSTUECKZ2__PROP = "endstueckz2";
+	public org.eclipse.uml2.uml.Property umlPropEndstueckz2();
+	public org.eclipse.uml2.uml.Slot umlSlotEndstueckz2();
+	public Double getEndstueckz2();
+	public void setEndstueckz2(Double endstueckz2);
+	public static final String AUSLEGER_ENDE__PROP = "auslegerEnde";
+	public org.eclipse.uml2.uml.Property umlPropAuslegerEnde();
+	public org.eclipse.uml2.uml.Slot umlSlotAuslegerEnde();
+	public auslegerende.classes.AuslegerEnde getAuslegerEnde();
+	public void setAuslegerEnde(auslegerende.classes.AuslegerEnde auslegerEnde);
+	public EndeMast endstueckx1_(Double endstueckx1, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast endstuecky1_(Double endstuecky1, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast endstueckz1_(Double endstueckz1, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast endstueckx2_(Double endstueckx2, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast endstuecky2_(Double endstuecky2, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast endstueckz2_(Double endstueckz2, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast auslegerEnde_(auslegerende.classes.AuslegerEnde auslegerEnde);
+	public EndeMast laenge_(Double laenge, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast breite0_(Double breite0, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast hoehe0_(Double hoehe0, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast breite1_(Double breite1, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast hoehe1_(Double hoehe1, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast teile_(Double teile, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast teillaenge_(Double teillaenge, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast anfangsTeilMastschuss_(gittermastschuss.classes.AnfangsTeilMastschuss anfangsTeilMastschuss);
+	public EndeMast anbindunglaenge_(Double anbindunglaenge, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast mittelTeilMastschuss_(gittermastschuss.classes.MittelTeilMastschuss... instancesToLink);
+	public EndeMast mittelTeilMastschuss_(List<gittermastschuss.classes.MittelTeilMastschuss> instancesToLink);
+	public EndeMast mittelTeilMastschuss_add_(gittermastschuss.classes.MittelTeilMastschuss instanceToLink);
+	public EndeMast dy_(Double dy, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast dz_(Double dz, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast endTeilMastschuss_(gittermastschuss.classes.EndTeilMastschuss endTeilMastschuss);
+	public EndeMast mastschussGeometrie_(gittermastschuss.classes.MastschussGeometrie mastschussGeometrie);
+	public EndeMast xposition_(Double xposition, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast nextmastschuss_(gittermastschuss.classes.Mastschuss nextmastschuss);
+	public EndeMast volumen_(Double volumen, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast schwerpunktx_(Double schwerpunktx, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast schwerpunkty_(Double schwerpunkty, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast schwerpunktz_(Double schwerpunktz, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast gschwerpunktx_(Double gschwerpunktx, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast gschwerpunkty_(Double gschwerpunkty, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast gschwerpunktz_(Double gschwerpunktz, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast typ_(Double typ, org.eclipse.uml2.uml.Stereotype... slotStereos);
+	public EndeMast shape_(geometry.Shape shape);
+	public EndeMast existingComponent_(geometry.ExistingComponent existingComponent);
+	public EndeMast color_(geometry.Color color);
+	public EndeMast primitiveShape_(geometry.Shape primitiveShape);
+	public EndeMast userDefinedFeature_(geometry.UserDefinedFeature userDefinedFeature);
+	public EndeMast sub_(geometry.TopologyElement... instancesToLink);
+	public EndeMast sub_(List<geometry.TopologyElement> instancesToLink);
+	public EndeMast sub_add_(geometry.TopologyElement instanceToLink);
+}

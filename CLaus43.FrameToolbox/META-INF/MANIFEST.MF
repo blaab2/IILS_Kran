@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CLaus43.FrameToolbox
+Bundle-SymbolicName: CLaus43.FrameToolbox
+Bundle-Version: 1.0.0
+Bundle-Vendor: 43V2
+Require-Bundle: org.eclipse.uml2.uml,
+ org.eclipse.emf.transaction,
+ org.eclipse.ui.console,
+ org.apache.log4j,
+ org.eclipse.xtext.xbase.lib,
+ de.iils.dc43.geometry,
+ de.iils.dc43.transformationengine,
+ de.iils.dc43.scriptrule,
+ de.iils.dc43.persistence
+Export-Package: claus43.frametoolbox.classes
+

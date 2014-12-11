@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="javaRules"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins">
+		<accessrules>
+			<accessrule kind="accessible" pattern="com/iils/mde/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/CLaus43.FrameToolbox"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/auslegerende"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/gegengewichte"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/gittermastschuss"/>
+	<classpathentry kind="src" path="uml-gen"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
