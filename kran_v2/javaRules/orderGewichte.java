@@ -1,6 +1,7 @@
 import gegengewichte.classes.Gewicht;
 import gegengewichte.classes.Gewichtestapel;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -18,12 +19,14 @@ public class orderGewichte extends JavaRule {
 		for (Gewichtestapel gewichte : gewichtecollection) {
 
 			List<Gewicht> gewichtlist = gewichte.getGewicht();
+			ArrayList<Gewicht> list = new ArrayList<Gewicht>();
 			Gewicht lastgewicht;
+			list.addAll(gewichtlist);
 
-			gewichtlist.remove(gewichte.getFirstgewicht());
+			list.remove(gewichte.getFirstgewicht());
 			lastgewicht = gewichte.getFirstgewicht();
 
-			for (Gewicht gewicht : gewichtlist) {
+			for (Gewicht gewicht : list) {
 				lastgewicht.setNextgewicht(gewicht);
 				lastgewicht = gewicht;
 			}
