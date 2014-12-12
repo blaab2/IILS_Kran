@@ -45,6 +45,9 @@ public class VerbindeGGittermastschuss extends JavaRule {
 		if (teilmastschuss.getDiagonale3() != null) {
 			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale3());
 		}
+		if (teilmastschuss.getDiagonale4() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale4());
+		}
 		if (teilmastschuss.getDiagonale5() != null) {
 			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale5());
 		}
@@ -53,6 +56,9 @@ public class VerbindeGGittermastschuss extends JavaRule {
 		}
 		if (teilmastschuss.getDiagonale7() != null) {
 			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale7());
+		}
+		if (teilmastschuss.getDiagonale8() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale8());
 		}
 	}
 

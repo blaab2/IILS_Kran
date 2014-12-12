@@ -40,6 +40,12 @@ public class BaueDiagonalen2anMittelteil extends JavaRule {
 				mittelTeilMastschuss.stahlrohr_add_(diagonale7);
 				mittelTeilMastschuss.line_add_(diagonale7);
 
+				// Add diagonale8
+				Diagonale diagonale8 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
+						.getName() + "_diagonale8");
+				mittelTeilMastschuss.setDiagonale8(diagonale8);
+				mittelTeilMastschuss.stahlrohr_add_(diagonale8);
+				mittelTeilMastschuss.line_add_(diagonale8);
 			}
 		}
 

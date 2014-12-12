@@ -131,10 +131,11 @@ public class createSolidNotes extends JavaRule {
 					if (teilMastschuss.getDiagonale3() != null) {
 						lines.add(teilMastschuss.getDiagonale3());
 						radius = teilMastschuss.getDiagonale3().getDurchmesser() / 2;
-					}/*
-					 * if (teilMastschuss.getDiagonale4() != null) {
-					 * lines.add(teilMastschuss.getDiagonale4()); }
-					 */
+					}
+					if (teilMastschuss.getDiagonale4() != null) {
+						lines.add(teilMastschuss.getDiagonale4());
+						radius = teilMastschuss.getDiagonale4().getDurchmesser() / 2;
+					}
 					if (teilMastschuss.getDiagonale5() != null) {
 						lines.add(teilMastschuss.getDiagonale5());
 						radius = teilMastschuss.getDiagonale5().getDurchmesser() / 2;
@@ -146,6 +147,10 @@ public class createSolidNotes extends JavaRule {
 					if (teilMastschuss.getDiagonale7() != null) {
 						lines.add(teilMastschuss.getDiagonale7());
 						radius = teilMastschuss.getDiagonale7().getDurchmesser() / 2;
+					}
+					if (teilMastschuss.getDiagonale8() != null) {
+						lines.add(teilMastschuss.getDiagonale8());
+						radius = teilMastschuss.getDiagonale8().getDurchmesser() / 2;
 					}
 
 				}
