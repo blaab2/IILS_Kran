@@ -93,6 +93,14 @@
         <element xmi:type="uml:Property" href="gittermastschuss.uml#_1BnKUG5wEeSolcW82Zo-dw"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_1CD2QW5wEeSolcW82Zo-dw"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_a-T_UIHeEeSNCqUAsqvQGw" type="3001">
+        <element xmi:type="uml:Property" href="gittermastschuss.uml#_xPseUIE8EeSJ4KOaOieBtA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a-T_UYHeEeSNCqUAsqvQGw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_CEfwoIHfEeSNCqUAsqvQGw" type="3001">
+        <element xmi:type="uml:Property" href="gittermastschuss.uml#_CEV_oIHfEeSNCqUAsqvQGw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CEfwoYHfEeSNCqUAsqvQGw"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_vTZxtlYDEeScEcDh5PADsQ" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_vTZxt1YDEeScEcDh5PADsQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_vTZxuFYDEeScEcDh5PADsQ"/>

@@ -131,7 +131,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_vHUWKVYGEeScEcDh5PADsQ"/>
       <element xmi:type="uml:Package" href="gittermastschuss.uml#_vGkvQVYGEeScEcDh5PADsQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vHUWKlYGEeScEcDh5PADsQ" x="2" y="2" width="684" height="731"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vHUWKlYGEeScEcDh5PADsQ" x="2" y="2" width="638" height="447"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_vHUWLlYGEeScEcDh5PADsQ" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_vHUWMVYGEeScEcDh5PADsQ" type="5026"/>
@@ -280,7 +280,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_vHUWL1YGEeScEcDh5PADsQ"/>
       <element xmi:type="uml:Package" href="gittermastschuss.uml#_vGkvQlYGEeScEcDh5PADsQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vHUWMFYGEeScEcDh5PADsQ" x="688" y="2" width="682" height="731"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vHUWMFYGEeScEcDh5PADsQ" x="642" y="2" width="636" height="447"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_vGt5MVYGEeScEcDh5PADsQ"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_vGt5MlYGEeScEcDh5PADsQ"/>

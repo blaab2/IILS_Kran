@@ -54,7 +54,7 @@ public class delnullLengthLines extends JavaRule {
 				System.out.print("33%...");
 			}
 			if (i == i2) {
-				System.out.println("66%...");
+				System.out.print("66%...");
 			}
 			InstanceWrapperExtensions.deleteInstanceAndLinks(line.getEndPoint().umlInstance());
 			InstanceWrapperExtensions.deleteInstanceAndLinks(line.getStartPoint().umlInstance());

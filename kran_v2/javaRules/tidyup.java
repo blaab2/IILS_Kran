@@ -112,7 +112,7 @@ public class tidyup extends JavaRule {
 
 	public void execute(TransformationRunner trafoRunner) {
 		int i = 0, del = 0;
-
+		output("connect collinear lines:");
 		while (i < 10) {
 			del = tidyup_connect();
 			i++;
@@ -122,6 +122,7 @@ public class tidyup extends JavaRule {
 			}
 
 		}
+		output("connect collinear lines finished");
 
 	}
 }

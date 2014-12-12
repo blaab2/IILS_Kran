@@ -52,9 +52,7 @@ public class AddGittermastanschluss extends JavaRule {
 
 		// lines.addAll(mittelteil.getLine());
 
-		System.out.println(teilMastschuss.umlClass().toString());
-
-		System.out.println(teilMastschuss.getClass().toString());
+		// System.out.println(teilMastschuss.umlClass().toString());
 
 		if (teilMastschuss.getClass().equals(AnfangsTeilMastschussImpl.class)) {
 			swap = 1;
@@ -139,14 +137,11 @@ public class AddGittermastanschluss extends JavaRule {
 	private Verbindungsstueck generateanschluss(Line line, double laenge, double breite, double hoehe, double lochdurchmesser, double anschlussdurchmesser,
 			double verrundungpro, double typ, double uberstand, double x, double y, double z, double phi, double theta, double psi, double swap) {
 
-		System.out.println("test");
-		System.out.println(line.umlInstance().getName() + "Verbindungsstueck");
-
 		Stereotype spgconstStereo = getProfile(get43Profiles().getSpg()).getOwnedStereotype("spgconst");
 
 		Verbindungsstueck verbindungsstueck = InstanceWrapperExtensions.createInstance(Verbindungsstueck.class, line.umlInstance().getName()
 				+ "Verbindungsstueck");
-		System.out.println("test2");
+
 		verbindungsstueck.setLaenge(laenge);
 		verbindungsstueck.setBreite(breite);
 		verbindungsstueck.setHoehe(hoehe);
