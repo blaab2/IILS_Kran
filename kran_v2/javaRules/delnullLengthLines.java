@@ -15,6 +15,8 @@ public class delnullLengthLines extends JavaRule {
 
 	@Override
 	public void execute(TransformationRunner trafoRunner) {
+		System.out.print("deleting unnecessary lines (l=0): ");
+
 		Collection<Mastschuss> Mastschuesse = InstanceWrapperExtensions.allInstances(Mastschuss.class);
 
 		List<Line> lines = new ArrayList<Line>();
@@ -49,10 +51,10 @@ public class delnullLengthLines extends JavaRule {
 		for (Line line : lines_deleted) {
 			i++;
 			if (i == i1) {
-				System.out.println("33% deleted");
+				System.out.print("33%...");
 			}
 			if (i == i2) {
-				System.out.println("66% deleted");
+				System.out.println("66%...");
 			}
 			InstanceWrapperExtensions.deleteInstanceAndLinks(line.getEndPoint().umlInstance());
 			InstanceWrapperExtensions.deleteInstanceAndLinks(line.getStartPoint().umlInstance());
@@ -60,6 +62,6 @@ public class delnullLengthLines extends JavaRule {
 		}
 
 		// InstanceWrapperExtensions.deleteInstancesAndLinks(lines_deleted);
-		System.out.println(lines_deleted.size() + " lines deleted");
+		System.out.println("100% - " + lines_deleted.size() + " lines deleted");
 	}
 }
