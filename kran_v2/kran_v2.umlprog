@@ -135,7 +135,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_iPSssXCSEeSCmO9ilbRemA" type="5099"/>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_iPI7sXCSEeSCmO9ilbRemA" diagramLink="_kVC4QHCSEeSCmO9ilbRemA"/>
           <element xmi:type="uml:CallBehaviorAction" href="kran_v2.uml#_iOjF0HCSEeSCmO9ilbRemA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iPI7snCSEeSCmO9ilbRemA" x="885" y="639"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iPI7snCSEeSCmO9ilbRemA" x="875" y="589"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_JW38YHPZEeS8H-8hCbr5NQ" type="3044" fontName="Segoe UI" lineColor="0">
           <children xmi:type="notation:DecorationNode" xmi:id="_JW38Y3PZEeS8H-8hCbr5NQ" type="5027"/>
@@ -323,7 +323,7 @@
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_kkqNcG8lEeSFsZ1gdWP4rQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_krDwZW8lEeSFsZ1gdWP4rQ" points="[-34, 9, 110, -6]$[-84, 9, 60, -6]"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_xE2Ls3CSEeSCmO9ilbRemA" type="4001" source="_OzEe0GtTEeS95cDrbxPj-g" target="_iPI7sHCSEeSCmO9ilbRemA">
+    <edges xmi:type="notation:Edge" xmi:id="_xE2Ls3CSEeSCmO9ilbRemA" type="4001" source="_OzEe0GtTEeS95cDrbxPj-g" target="_iOou61j4EeShbsHi_USVLg">
       <children xmi:type="notation:DecorationNode" xmi:id="_xFJGoHCSEeSCmO9ilbRemA" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_xFJGoXCSEeSCmO9ilbRemA" y="40"/>
       </children>
@@ -331,6 +331,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_xE2LtXCSEeSCmO9ilbRemA" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_xE2LsHCSEeSCmO9ilbRemA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xE2LtnCSEeSCmO9ilbRemA" points="[25, -20, -218, 165]$[185, -186, -58, -1]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bqpAMIHmEeS2OeVAndhXnQ" id="(0.21739130434782608,0.8260869565217391)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_Dy0tw3CTEeSCmO9ilbRemA" type="4001" source="_iPI7sHCSEeSCmO9ilbRemA" target="_iOou61j4EeShbsHi_USVLg">
       <children xmi:type="notation:DecorationNode" xmi:id="_Dy0tx3CTEeSCmO9ilbRemA" type="6003">
@@ -341,7 +342,7 @@
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_Dy0twHCTEeSCmO9ilbRemA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dy0txnCTEeSCmO9ilbRemA" points="[59, 22, -349, -129]$[408, 163, 0, 12]"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_ZxY2wHPIEeSmpMH8PGTtCg" type="4001" source="_fWXysYFEEeSbQPpOxPgQLQ" target="_2QzckGREEeSE6N24lnYFNA">
+    <edges xmi:type="notation:Edge" xmi:id="_ZxY2wHPIEeSmpMH8PGTtCg" type="4001" source="_fWXysYFEEeSbQPpOxPgQLQ" target="_i1SpQoFHEeSbQPpOxPgQLQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_ZxY2xHPIEeSmpMH8PGTtCg" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ZxY2xXPIEeSmpMH8PGTtCg" y="40"/>
       </children>
@@ -350,7 +351,6 @@
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_ZxPFwHPIEeSmpMH8PGTtCg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZxY2w3PIEeSmpMH8PGTtCg" points="[14, -19, -167, -28]$[44, -19, -137, -28]$[44, -5, -137, -14]$[89, -5, -92, -14]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yblJAIFEEeSbQPpOxPgQLQ" id="(0.825,0.38)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rtn20HZIEeSsiPM_3_t3OA" id="(0.7863247863247863,0.66)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_E-6tk3PtEeSfttIacRzeMw" type="4001" source="_D7WXx3PtEeSfttIacRzeMw" target="_JW38YHPZEeS8H-8hCbr5NQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_E-6tl3PtEeSfttIacRzeMw" type="6003">
@@ -518,7 +518,7 @@
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_ik9rEIFDEeSbQPpOxPgQLQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ik9rFoFDEeSbQPpOxPgQLQ" points="[48, 23, -249, -125]$[237, 139, -60, -9]"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_mVsxw4FDEeSbQPpOxPgQLQ" type="4001" source="_rYMeMW5eEeSZbqAEkGjCoQ" target="_fz0WYXSQEeSBR-efoyvvwA">
+    <edges xmi:type="notation:Edge" xmi:id="_mVsxw4FDEeSbQPpOxPgQLQ" type="4001" source="_rYMeMW5eEeSZbqAEkGjCoQ" target="_D7WXx3PtEeSfttIacRzeMw">
       <children xmi:type="notation:DecorationNode" xmi:id="_mVsxx4FDEeSbQPpOxPgQLQ" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_mVsxyIFDEeSbQPpOxPgQLQ" y="40"/>
       </children>
@@ -526,6 +526,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_mVsxxYFDEeSbQPpOxPgQLQ" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_mVsxwIFDEeSbQPpOxPgQLQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mVsxxoFDEeSbQPpOxPgQLQ" points="[17, -20, -43, 50]$[41, -66, -19, 4]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y57MEIHmEeS2OeVAndhXnQ" id="(0.975,0.3)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_mdTOk4FDEeSbQPpOxPgQLQ" type="4001" source="_jyQh4HSQEeSBR-efoyvvwA" target="_D7WXx3PtEeSfttIacRzeMw">
       <children xmi:type="notation:DecorationNode" xmi:id="_mdTOl4FDEeSbQPpOxPgQLQ" type="6003">
@@ -4028,8 +4029,8 @@
   </notation:Diagram>
   <notation:Diagram xmi:id="_Y5hYMGNBEeS_INtEtFBtMA" type="UMLRule" name="AddNebenAusleger" measurementUnit="Pixel">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y5hYNGNBEeS_INtEtFBtMA" source="Counter">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G9eKYIHiEeSNCqUAsqvQGw" key="countergewichte" value="1"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G9eKYYHiEeSNCqUAsqvQGw" key="countergewichte2" value="1"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7KGsIHmEeS2OeVAndhXnQ" key="countergewichte" value="1"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J7KGsYHmEeS2OeVAndhXnQ" key="countergewichte2" value="1"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y5hYNWNBEeS_INtEtFBtMA" source="externalVariable"/>
     <children xmi:type="notation:Shape" xmi:id="_Y8WCsmNBEeS_INtEtFBtMA" type="2014" fontName="Segoe UI" lineColor="0">
@@ -8883,8 +8884,8 @@
   </notation:Diagram>
   <notation:Diagram xmi:id="_TSJqUIEtEeSZPdhqaVooUw" type="UMLRule" name="limitGewichte" measurementUnit="Pixel">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TSTbUIEtEeSZPdhqaVooUw" source="Counter">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KEhlcIHjEeSNCqUAsqvQGw" key="countergewichte" value="1"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KEhlcYHjEeSNCqUAsqvQGw" key="countergewichte2" value="1"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ffqy0IHmEeS2OeVAndhXnQ" key="countergewichte" value="1"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ffqy0YHmEeS2OeVAndhXnQ" key="countergewichte2" value="1"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TSTbUoEtEeSZPdhqaVooUw" source="externalVariable"/>
     <children xmi:type="notation:Shape" xmi:id="_TTMzMoEtEeSZPdhqaVooUw" type="2014" fontName="Segoe UI" lineColor="0">
