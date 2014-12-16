@@ -80,7 +80,7 @@ public class AddSeileJoints extends JavaRule {
 			joint2.setConstrainRotX(true);
 			joint2.setConstrainRotY(true);
 			joint2.setConstrainRotZ(true);
-			joint2.setConstrainX(false);
+			joint2.setConstrainX(true);
 			joint2.setConstrainY(true);
 			joint2.setConstrainZ(true);
 			joint2.setAppliedLocation(seil1MBSBody);

@@ -32,8 +32,8 @@ public class AddSpitzenauslegerJoints extends JavaRule {
 		Spitzenauslegeradapter spitzenauslegeradapter2 = spitzenausleger.getSpitzenauslegeradapter2();
 
 		builtjoint(hauptausleger, spitzenausleger, mbsmodel, mastMBSBodies);
-		builtjoint(spitzenausleger, spitzenauslegeradapter1, mbsmodel, mastMBSBodies);
-		builtjoint(spitzenausleger, spitzenauslegeradapter2, mbsmodel, mastMBSBodies);
+		builtjoint(hauptausleger, spitzenauslegeradapter1, mbsmodel, mastMBSBodies);
+		builtjoint(hauptausleger, spitzenauslegeradapter2, mbsmodel, mastMBSBodies);
 
 		int i = 0;
 
@@ -66,7 +66,8 @@ public class AddSpitzenauslegerJoints extends JavaRule {
 			if (!ausleger1mbs.equals(null) && !ausleger0mbs.equals(null)) {
 				GeneralJoint generaljoint = InstanceWrapperExtensions.createInstance(GeneralJoint.class, ausleger1.umlInstance().getName() + "Joint0");
 
-				//System.out.println("joint heisst: " + ausleger1.umlInstance().getName() + "Joint0");
+				// System.out.println("joint heisst: " +
+				// ausleger1.umlInstance().getName() + "Joint0");
 
 				mbsmodel.joint_add_(generaljoint);
 				generaljoint.setBody1(ausleger1mbs);
