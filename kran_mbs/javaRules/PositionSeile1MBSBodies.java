@@ -13,12 +13,11 @@ public class PositionSeile1MBSBodies extends JavaRule {
 		for (Seil1MBSBodyElement body : bodies) {
 			if (body.getCorrespondingposition() != null) {
 
-				body.setLocalX(body.getVerbindungsseil().getStart().getX());
-				body.setLocalY(body.getVerbindungsseil().getStart().getY());
-				body.setLocalZ(body.getVerbindungsseil().getStart().getZ());
-				body.setLocalTheta(-Math.atan2(body.getVerbindungsseil().getEnde().getZ() - body.getVerbindungsseil().getStart().getZ(), body
-						.getVerbindungsseil().getEnde().getX()
-						- body.getVerbindungsseil().getStart().getX())
+				body.setLocalX(body.getSeil().getStart().getX());
+				body.setLocalY(body.getSeil().getStart().getY());
+				body.setLocalZ(body.getSeil().getStart().getZ());
+				body.setLocalTheta(-Math.atan2(body.getSeil().getEnde().getZ() - body.getSeil().getStart().getZ(), body.getSeil().getEnde().getX()
+						- body.getSeil().getStart().getX())
 						* 180 / Math.PI);
 
 				body.getCorrespondingposition().setDx(body.getLocalX());

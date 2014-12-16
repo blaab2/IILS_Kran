@@ -49,9 +49,9 @@ public class BaueMastschutz extends JavaRule {
 					// Unterscheiden von ungeraden und geraden Mittelteilen zur
 					// Variation der diagonalen Streben
 					if (i % 2 == 1) {
-						mittelteil.setTyp(2.);
+						mittelteil.setVariation(2.);
 					} else {
-						mittelteil.setTyp(1.);
+						mittelteil.setVariation(1.);
 					}
 
 					lastItem = mittelteil;

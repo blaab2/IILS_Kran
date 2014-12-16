@@ -200,6 +200,10 @@
         <element xmi:type="uml:Property" href="gittermastschuss.uml#_xd5p4GQmEeSE6N24lnYFNA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_3CJ7oWQxEeSE6N24lnYFNA"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_V9uNgIUDEeSwi4_uIOuGEQ" type="3001">
+        <element xmi:type="uml:Property" href="gittermastschuss.uml#_V9argIUDEeSwi4_uIOuGEQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V9uNgYUDEeSwi4_uIOuGEQ"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_-YzDh1YDEeScEcDh5PADsQ" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_-YzDiFYDEeScEcDh5PADsQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_-YzDiVYDEeScEcDh5PADsQ"/>
@@ -334,7 +338,7 @@
     </children>
     <styles xmi:type="notation:CanonicalStyle" xmi:id="_JMQeslYHEeScEcDh5PADsQ"/>
     <element xmi:type="uml:Class" href="gittermastschuss.uml#_JMQesFYHEeScEcDh5PADsQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JMQes1YHEeScEcDh5PADsQ" x="275" y="500" height="73"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JMQes1YHEeScEcDh5PADsQ" x="270" y="490" height="73"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_1vv7UFYJEeSDibyCbZcn9g" type="2001" fontName="Segoe UI" fillColor="12621752" lineColor="0">
     <children xmi:type="notation:DecorationNode" xmi:id="_1vv7U1YJEeSDibyCbZcn9g" type="5003">

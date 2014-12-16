@@ -14,7 +14,7 @@ public class tidyup extends JavaRule {
 
 	private double rounddbl(double zahl, int stelle) {
 
-		return (Math.round(zahl * stelle * 10) / stelle * 10);
+		return (Math.round(zahl * stelle * 10) / (stelle * 10));
 
 	}
 
@@ -67,7 +67,7 @@ public class tidyup extends JavaRule {
 								z2 = rounddbl(line2.getStartPoint().getZ(), stelle);
 
 								if (x1 == x2 && y1 == y2 && z1 == z2) {
-									double dx1, dy1, dz1, dx2, dy2, dz2;
+									double dx1, dy1, dz1, dx2, dy2, dz2, zaehler, nenner;
 
 									dx1 = rounddbl(line.getEndPoint().getX() - line.getStartPoint().getX(), stelle);
 									dy1 = rounddbl(line.getEndPoint().getY() - line.getStartPoint().getY(), stelle);
@@ -77,7 +77,24 @@ public class tidyup extends JavaRule {
 									dy2 = rounddbl(line2.getEndPoint().getY() - line2.getStartPoint().getY(), stelle);
 									dz2 = rounddbl(line2.getEndPoint().getZ() - line2.getStartPoint().getZ(), stelle);
 
-									if (dx1 == dx2 && dy1 == dy2 && dz1 == dz2) {
+									// Berechnen des Winkels zwischen dem Vektor
+									// d1 und d2
+
+									zaehler = dx1 * dx2 + dy1 * dy2 + dz1 * dz2;
+
+									nenner = Math.pow(Math.pow(dx1, 2) + Math.pow(dy1, 2) + Math.pow(dz1, 2), 1. / 2.)
+											* Math.pow(Math.pow(dx2, 2) + Math.pow(dy2, 2) + Math.pow(dz2, 2), 1. / 2.);
+
+									// System.out.println("");
+									// System.out.println("bruch: " + (zaehler /
+									// nenner));
+									// System.out.println("bruch gerundet: " +
+									// (rounddbl((zaehler / nenner), 1)));
+									// System.out.println("arc : " +
+									// Math.acos(rounddbl(zaehler / nenner,
+									// 1)));
+
+									if (Math.acos(rounddbl(zaehler / nenner, 1)) <= 3 / 180 * Math.PI) {
 										// System.out.println("found");
 										i++;
 										fixed++;
@@ -88,8 +105,9 @@ public class tidyup extends JavaRule {
 										line.setEndPoint(line2.getEndPoint());
 
 										// delete old Line
-										InstanceWrapperExtensions.deleteInstanceAndLinks(line2.getStartPoint().umlInstance());
-										InstanceWrapperExtensions.deleteInstanceAndLinks(line2.umlInstance());
+
+										InstanceWrapperExtensions.delete(line2.getStartPoint().umlInstance());
+										InstanceWrapperExtensions.delete(line2.umlInstance());
 										lines_deleted.add(line2);
 
 									}
@@ -103,6 +121,9 @@ public class tidyup extends JavaRule {
 				}
 
 			}
+
+			InstanceWrapperExtensions.deleteInstancesAndLinks(lines_deleted);
+
 			// System.out.println(i + " Holme fixed");
 
 		}

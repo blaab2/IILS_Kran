@@ -17,7 +17,7 @@ public class BaueDiagonalen1anMittelteil extends JavaRule {
 		for (MittelTeilMastschuss mittelTeilMastschuss : mittelTeilMastschusse) {
 
 			// Überprüfe ob Mittelteilmastschuss bereits Diagonalen hat
-			if (mittelTeilMastschuss.getTyp().equals(1.) && mittelTeilMastschuss.getDiagonale1() == null) {
+			if (mittelTeilMastschuss.getVariation().equals(1.) && mittelTeilMastschuss.getDiagonale1() == null) {
 
 				// Add Diagonale1
 				Diagonale diagonale1 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
