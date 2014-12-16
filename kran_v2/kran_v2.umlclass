@@ -1089,6 +1089,10 @@
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_tarUVIHbEeSNCqUAsqvQGw" type="5019"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_tarUVYHbEeSNCqUAsqvQGw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_ERxrMIU6EeSkPc1U3puw1w" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_ERU_QIU6EeSkPc1U3puw1w"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ERxrMYU6EeSkPc1U3puw1w"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_tarUVoHbEeSNCqUAsqvQGw" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_tarUV4HbEeSNCqUAsqvQGw"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_tarUWIHbEeSNCqUAsqvQGw"/>
