@@ -254,7 +254,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_QWbv5YU6EeSkPc1U3puw1w" type="5110"/>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_QWbv4oU6EeSkPc1U3puw1w"/>
           <element xmi:type="uml:OpaqueAction" href="kran_v2.uml#_QWR-4IU6EeSkPc1U3puw1w"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QWbv44U6EeSkPc1U3puw1w" x="170" y="54"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QWbv44U6EeSkPc1U3puw1w" x="180" y="134"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_0P1cIoU6EeSkPc1U3puw1w" type="3029" fontName="Segoe UI" lineColor="0">
           <children xmi:type="notation:DecorationNode" xmi:id="_0P1cJYU6EeSkPc1U3puw1w" type="5023"/>
@@ -278,6 +278,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_Fjq0kmRDEeSE6N24lnYFNA" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_FjqNgGRDEeSE6N24lnYFNA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Fjq0k2RDEeSE6N24lnYFNA" points="[56, 0, -92, 0]$[108, 0, -40, 0]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8CKdEIVHEeS_65n_rTvjWw" id="(0.5802469135802469,0.125)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_QZx98GtTEeS95cDrbxPj-g" type="4001" source="_n3P6QFrGEeSb0OiVQ0FT7A" target="_OzEe0GtTEeS95cDrbxPj-g">
       <children xmi:type="notation:DecorationNode" xmi:id="_QZylAGtTEeS95cDrbxPj-g" type="6003">
@@ -362,7 +363,6 @@
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_ZxPFwHPIEeSmpMH8PGTtCg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZxY2w3PIEeSmpMH8PGTtCg" points="[14, 11, -97, 5]$[54, 11, -57, 5]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yblJAIFEEeSbQPpOxPgQLQ" id="(0.825,0.38)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CeeRoIUmEeS0zKqOv2dsJw" id="(0.19130434782608696,0.4)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_E-6tk3PtEeSfttIacRzeMw" type="4001" source="_D7WXx3PtEeSfttIacRzeMw" target="_JW38YHPZEeS8H-8hCbr5NQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_E-6tl3PtEeSfttIacRzeMw" type="6003">
@@ -1135,8 +1135,8 @@
   </notation:Diagram>
   <notation:Diagram xmi:id="_6vZAhVj7EeShbsHi_USVLg" type="UMLRule" name="Axiom" measurementUnit="Pixel">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6vixgFj7EeShbsHi_USVLg" source="Counter">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IJ3-IIU6EeSkPc1U3puw1w" key="countergewichte" value="2"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IJ3-IYU6EeSkPc1U3puw1w" key="countergewichte2" value="2"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MJRkMIVAEeShFetoTGhUZQ" key="countergewichte" value="2"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MJRkMYVAEeShFetoTGhUZQ" key="countergewichte2" value="2"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6vixgVj7EeShbsHi_USVLg" source="externalVariable"/>
     <children xmi:type="notation:Shape" xmi:id="_6xxmIlj7EeShbsHi_USVLg" type="2014" fontName="Segoe UI" lineColor="0">
@@ -1157,7 +1157,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6xxmK1j7EeShbsHi_USVLg"/>
       <element xmi:type="uml:Package" href="kran_v2.uml#_6vZAgVj7EeShbsHi_USVLg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6xxmLFj7EeShbsHi_USVLg" x="2" y="2" width="638" height="402"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6xxmLFj7EeShbsHi_USVLg" x="2" y="2" width="638" height="353"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_6xxmMFj7EeShbsHi_USVLg" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_6xxmM1j7EeShbsHi_USVLg" type="5026"/>
@@ -1202,7 +1202,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6xxmMVj7EeShbsHi_USVLg"/>
       <element xmi:type="uml:Package" href="kran_v2.uml#_6vZAglj7EeShbsHi_USVLg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6xxmMlj7EeShbsHi_USVLg" x="642" y="2" width="636" height="402"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6xxmMlj7EeShbsHi_USVLg" x="642" y="2" width="636" height="353"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_6vZAhlj7EeShbsHi_USVLg"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_6vZAh1j7EeShbsHi_USVLg"/>
