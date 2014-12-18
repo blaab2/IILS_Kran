@@ -8231,55 +8231,6 @@
           </profileApplication>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_-pvnQG11EeSH04jsDT3hOw" name="AddG2">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CEyKwG12EeSH04jsDT3hOw" source="mapping">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CEyx0G12EeSH04jsDT3hOw" key="_AlOcgG12EeSH04jsDT3hOw" value="_CEyKwW12EeSH04jsDT3hOw"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CEyx0W12EeSH04jsDT3hOw" key="__GWDsG11EeSH04jsDT3hOw" value="_CEyKwm12EeSH04jsDT3hOw"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SMXAYW14EeSH04jsDT3hOw" key="_Q3gGQG14EeSH04jsDT3hOw" value="_SMXAYG14EeSH04jsDT3hOw"/>
-        </eAnnotations>
-        <packagedElement xmi:type="uml:Package" xmi:id="_-pvnQW11EeSH04jsDT3hOw" name="LHS">
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="__GWDsG11EeSH04jsDT3hOw" classifier="_MGPykGtbEeS4mM65aOoDEQ">
-            <name xsi:nil="true"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_AlOcgG12EeSH04jsDT3hOw" name="spineprofil" classifier="_HxEFkGtcEeS4mM65aOoDEQ"/>
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Q3gGQG14EeSH04jsDT3hOw" classifier="_jX_34G12EeSH04jsDT3hOw">
-            <name xsi:nil="true"/>
-          </packagedElement>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_-pvnQm11EeSH04jsDT3hOw" name="RHS">
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_CEyKwW12EeSH04jsDT3hOw" classifier="_HxEFkGtcEeS4mM65aOoDEQ">
-            <name xsi:nil="true"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_CEyKwm12EeSH04jsDT3hOw" classifier="_MGPykGtbEeS4mM65aOoDEQ">
-            <name xsi:nil="true"/>
-            <slot xmi:type="uml:Slot" xmi:id="_C-A40G12EeSH04jsDT3hOw">
-              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_jyjn1JdSEeCFQYEzkEv2mw"/>
-              <value xmi:type="uml:InstanceValue" xmi:id="_C-Bf4G12EeSH04jsDT3hOw" instance="_CRJLwG12EeSH04jsDT3hOw"/>
-            </slot>
-          </packagedElement>
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_CRJLwG12EeSH04jsDT3hOw">
-            <name xsi:nil="true"/>
-            <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_K13rsL6tEeCMrczq0zcn0A"/>
-            <slot xmi:type="uml:Slot" xmi:id="_DRDJkG12EeSH04jsDT3hOw">
-              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_QzbPQ76tEeCMrczq0zcn0A"/>
-              <value xmi:type="uml:InstanceValue" xmi:id="_DRDJkW12EeSH04jsDT3hOw" instance="_CEyKwW12EeSH04jsDT3hOw"/>
-            </slot>
-            <slot xmi:type="uml:Slot" xmi:id="_VN6F0G14EeSH04jsDT3hOw">
-              <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_QzbPQ76tEeCMrczq0zcn0A"/>
-              <value xmi:type="uml:InstanceValue" xmi:id="_VN6F0W14EeSH04jsDT3hOw" instance="_SMXAYG14EeSH04jsDT3hOw"/>
-            </slot>
-          </packagedElement>
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SMXAYG14EeSH04jsDT3hOw" classifier="_jX_34G12EeSH04jsDT3hOw">
-            <name xsi:nil="true"/>
-          </packagedElement>
-          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_-pwOUG11EeSH04jsDT3hOw">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-pwOUW11EeSH04jsDT3hOw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-              <references xmi:type="ecore:EPackage" href="pathmap://SPG_PROFILE/spg.profile.uml#_O5tTocqCEeGzEenZhMh9ww"/>
-            </eAnnotations>
-            <appliedProfile xmi:type="uml:Profile" href="pathmap://SPG_PROFILE/spg.profile.uml#_YZov0P0bEdqcdNCdjj7aKQ"/>
-          </profileApplication>
-        </packagedElement>
-      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_XsLUgG13EeSH04jsDT3hOw" name="AddTopPipeProfil">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZfP0oG13EeSH04jsDT3hOw" source="mapping">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZfP0om13EeSH04jsDT3hOw" key="_YRu4oG13EeSH04jsDT3hOw" value="_ZfP0oW13EeSH04jsDT3hOw"/>
@@ -9141,7 +9092,7 @@
         </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YxXIYGtdEeS4mM65aOoDEQ" name="expandGewichte">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_YxXIYWtdEeS4mM65aOoDEQ" name="expandGewichte" node="_YxXIYmtdEeS4mM65aOoDEQ _YxXIY2tdEeS4mM65aOoDEQ _kvPPoGtdEeS4mM65aOoDEQ _0i4ukGtdEeS4mM65aOoDEQ _7KAMgGtdEeS4mM65aOoDEQ _G-nkUG1yEeSH04jsDT3hOw _9BczwG11EeSH04jsDT3hOw _T0Ir8G13EeSH04jsDT3hOw _lbjZIG14EeSH04jsDT3hOw _GEG_sG15EeSH04jsDT3hOw _V1UR0G19EeSro7iWsEulmw _4Y3wAG1-EeSro7iWsEulmw _CtRGEG2BEeSro7iWsEulmw _BOym0G2KEeSro7iWsEulmw _VEPuUG2KEeSro7iWsEulmw">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_YxXIYWtdEeS4mM65aOoDEQ" name="expandGewichte" node="_YxXIYmtdEeS4mM65aOoDEQ _YxXIY2tdEeS4mM65aOoDEQ _kvPPoGtdEeS4mM65aOoDEQ _0i4ukGtdEeS4mM65aOoDEQ _7KAMgGtdEeS4mM65aOoDEQ _G-nkUG1yEeSH04jsDT3hOw _T0Ir8G13EeSH04jsDT3hOw _lbjZIG14EeSH04jsDT3hOw _GEG_sG15EeSH04jsDT3hOw _V1UR0G19EeSro7iWsEulmw _4Y3wAG1-EeSro7iWsEulmw _CtRGEG2BEeSro7iWsEulmw _BOym0G2KEeSro7iWsEulmw _VEPuUG2KEeSro7iWsEulmw">
           <edge xmi:type="uml:ControlFlow" xmi:id="_YFvdUG1yEeSH04jsDT3hOw" target="_0i4ukGtdEeS4mM65aOoDEQ" source="_kvPPoGtdEeS4mM65aOoDEQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_YFvdUW1yEeSH04jsDT3hOw" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_YFvdUm1yEeSH04jsDT3hOw"/>
@@ -9196,7 +9147,6 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_0i4ukGtdEeS4mM65aOoDEQ" name="AddProfil" incoming="_YFvdUG1yEeSH04jsDT3hOw" outgoing="_YNLiEG1yEeSH04jsDT3hOw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_7KAMgGtdEeS4mM65aOoDEQ" name="ExpandProfil" incoming="_YNLiEG1yEeSH04jsDT3hOw" outgoing="_XgD8YG19EeSro7iWsEulmw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_G-nkUG1yEeSH04jsDT3hOw" name="AddG"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_9BczwG11EeSH04jsDT3hOw" name="AddG2"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_T0Ir8G13EeSH04jsDT3hOw" name="AddTopPipeProfil" incoming="_MP1TYG1_EeSro7iWsEulmw" outgoing="_RkxNMG1-EeSro7iWsEulmw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_lbjZIG14EeSH04jsDT3hOw" name="AddTopPipe" incoming="_RkxNMG1-EeSro7iWsEulmw" outgoing="_RmLE8G2KEeSro7iWsEulmw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_GEG_sG15EeSH04jsDT3hOw" name="ConnectElements" incoming="_VyayAG2BEeSro7iWsEulmw" outgoing="_jZJtcG2BEeSro7iWsEulmw"/>
@@ -9224,7 +9174,7 @@
   <spgprofile:spgconst xmi:id="_V0ev4G1zEeSH04jsDT3hOw"/>
   <spgprofile:spgconst xmi:id="_V0og4G1zEeSH04jsDT3hOw"/>
   <spgprofile:spgconst xmi:id="_V0og4W1zEeSH04jsDT3hOw"/>
-  <_43Utilities:Rule xmi:id="_9BgeIG11EeSH04jsDT3hOw" rule="_-pvnQG11EeSH04jsDT3hOw" base_OpaqueAction="_9BczwG11EeSH04jsDT3hOw"/>
+  <_43Utilities:Rule xmi:id="_9BgeIG11EeSH04jsDT3hOw"/>
   <_43Utilities:Rule xmi:id="_T0OLgG13EeSH04jsDT3hOw" rule="_XsLUgG13EeSH04jsDT3hOw" base_OpaqueAction="_T0Ir8G13EeSH04jsDT3hOw"/>
   <_43Utilities:Rule xmi:id="_lbmccG14EeSH04jsDT3hOw" rule="_uOOIoG14EeSH04jsDT3hOw" base_OpaqueAction="_lbjZIG14EeSH04jsDT3hOw"/>
   <_43Utilities:Rule xmi:id="_GEKqEG15EeSH04jsDT3hOw" rule="_LMoYsG15EeSH04jsDT3hOw" base_OpaqueAction="_GEG_sG15EeSH04jsDT3hOw"/>

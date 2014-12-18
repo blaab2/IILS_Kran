@@ -221,7 +221,7 @@
     </children>
     <styles xmi:type="notation:CanonicalStyle" xmi:id="_NFmhUWtcEeS4mM65aOoDEQ"/>
     <element xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_lVWXgL12EeCstrPozmuiGw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NFmhUmtcEeS4mM65aOoDEQ" x="260" y="15"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NFmhUmtcEeS4mM65aOoDEQ" x="230"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_RtItIGtcEeS4mM65aOoDEQ" type="2001" fontName="Segoe UI" fillColor="-537265" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RtItNGtcEeS4mM65aOoDEQ" source="Shortcut">

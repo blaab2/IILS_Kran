@@ -7,8 +7,9 @@ public class setStartTime extends JavaRule {
 
 	@Override
 	public void execute(TransformationRunner trafoRunner) {
-		Long l = new Long(System.currentTimeMillis());
 
+		// Set the Starttime Slot in the Kran-Output Instance
+		Long l = new Long(System.currentTimeMillis());
 		InstanceWrapperExtensions.allInstances(Kran.class).iterator().next().getOutput().setStarttime(l.doubleValue());
 
 	}

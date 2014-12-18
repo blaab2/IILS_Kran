@@ -24,12 +24,12 @@ public class BaueMastschutz extends JavaRule {
 		for (Mastschuss mastschuss : Mastschuesse) {
 
 			mastschuss.setExpanded(0.5);
-			// Expandiert Mastschuss wenn nicht bereits expandiert:
 
+			// Expandiert Mastschuss wenn nicht bereits expandiert:
 			if (mastschuss.getAnfangsTeilMastschuss() == null) {
 				// Erzeugtt ein AnfangsTeilMastschuss und fügt dieses dem
-				// Mastschuss
-				// an
+				// Mastschuss an
+
 				AnfangsTeilMastschuss anfangsTeil = InstanceWrapperExtensions.createInstance(AnfangsTeilMastschuss.class, mastschuss
 						.umlInstance().getName() + "AnfangsTeil");
 				anfangsTeil.setExpanded(0.0);

@@ -22,41 +22,50 @@ public class AddGittermastanschluss extends JavaRule {
 
 	@Override
 	public void execute(TransformationRunner trafoRunner) {
-		System.out.println("createSolidNotes: typ 1.0 = holm, typ 2.0 = pfosten, typ 3.0 = diagonale");
 
 		Collection<Mast> maeste = InstanceWrapperExtensions.allInstances(Mast.class);
 
-		// Generate Solid for Gitterschussmaeste
+		// Generate Solid for Gittermastschuss Anschluesse
 
 		for (Mast mast : maeste) {
 			for (Mastschuss mastschuss : mast.getMastschuss()) {
 
+				// Erstelle neue Componente für SolidVerbindungsStuecke
 				Component component = InstanceWrapperExtensions.createInstance(Component.class, mastschuss.umlInstance().getName() + "_solidcomponentVS");
 				mast.sub_add_(component);
 
-				List<Line> lines = new ArrayList<Line>();
+				// Baue SolidVerbindungsStuecke für AnfangsTeilMastschuesse
+				builtVSforMastschuss(component, mastschuss.getAnfangsTeilMastschuss());
 
-				builtforMastschuss(component, lines, mastschuss.getAnfangsTeilMastschuss(), 0.);
-
-				lines = new ArrayList<Line>();
-
-				builtforMastschuss(component, lines, mastschuss.getEndTeilMastschuss(), 0.);
+				// Baue SolidVerbindungsStuecke für EndTeilmastschuesse
+				builtVSforMastschuss(component, mastschuss.getEndTeilMastschuss());
 			}
 
 		}
 
 	}
 
-	private void builtforMastschuss(Component component, List<Line> lines, TeilMastschuss teilMastschuss, double swap) {
-		double radius = 10, x, y, z, psi, theta, phi, x1, y1, z1, x2, y2, z2, dx, dy, dz;
+	/**
+	 * builtVSforMastschuss fügt einem Mastschuss SolidVerbindungsstuecke hinzu.
+	 *
+	 * @param component
+	 *            die Geometry Component welcher die SolidComponents geadded
+	 *            werden sollen
+	 * @param teilMastschuss
+	 *            teilMastschuss für welchen die SolidVerbindungsstuecke erzeugt
+	 *            werden sollen
+	 *
+	 *
+	 */
+	private void builtVSforMastschuss(Component component, TeilMastschuss teilMastschuss) {
+		double radius = 10, x, y, z, psi, theta, phi, x1, y1, z1, x2, y2, z2, dx, dy, dz, swap;
+		List<Line> lines = new ArrayList<Line>();
 
-		// lines.addAll(mittelteil.getLine());
-
-		// System.out.println(teilMastschuss.umlClass().toString());
-
+		// handelt es sich bei dem teilMastschuss um ein AnfangsTeil muessen
+		// alle Anbindungen um 180° gedreht werden --> swap = 1
 		if (teilMastschuss.getClass().equals(AnfangsTeilMastschussImpl.class)) {
 			swap = 1;
-			System.out.println("swap 1");
+			// System.out.println("swap 1");
 		} else {
 			swap = 0;
 		}
@@ -69,18 +78,21 @@ public class AddGittermastanschluss extends JavaRule {
 		for (Line line : lines) {
 			double laenge, breite, hoehe, lochdurchmesser, anschlussdurchmesser, verrundungpro, typ, uberstand;
 
+			// bereche geometrische Laenge
 			laenge = Math.pow((line.getEndPoint().getX() - line.getStartPoint().getX()), 2)
 					+ Math.pow((line.getEndPoint().getY() - line.getStartPoint().getY()), 2)
 					+ Math.pow((line.getEndPoint().getZ() - line.getStartPoint().getZ()), 2);
+			laenge = Math.sqrt(laenge) / 1000;
 
-			laenge = 0.3; // Math.sqrt(laenge);
+			// Anschlusseigenschaften hardcoded
+			anschlussdurchmesser = radius * 2;
 			breite = 0.1;
 			hoehe = 0.1;
 			lochdurchmesser = 50;
-			anschlussdurchmesser = 100; // radius * 2;
 			verrundungpro = 0.9;
 			uberstand = 1.1;
 
+			// Positionieren de Anschlusssteucke
 			x1 = line.getStartPoint().getX();
 			y1 = line.getStartPoint().getY();
 			z1 = line.getStartPoint().getZ();
@@ -98,11 +110,7 @@ public class AddGittermastanschluss extends JavaRule {
 				z = z1;
 				phi = 0;
 				psi = Math.atan2(dy, dx) * 180 / Math.PI;
-				// psi = 1;
-				theta = -Math.atan2(dz, dx) * 180 / Math.PI;// -50 *
-															// Math.atan(teilMastschuss.getDy())
-															// * 180 /
-				// Math.PI;
+				theta = -Math.atan2(dz, dx) * 180 / Math.PI;
 
 			} else {
 				typ = 2.;
@@ -111,12 +119,14 @@ public class AddGittermastanschluss extends JavaRule {
 				z = z2;
 				phi = 0;
 				psi = Math.atan2(dy, dx) * 180 / Math.PI;
-				// psi = 0;
 				theta = -Math.atan2(dz, dx) * 180 / Math.PI + 180;
 			}
 
+			// Anschlussstueck generieren
 			Verbindungsstueck stueck = generateanschluss(line, laenge, breite, hoehe, lochdurchmesser, anschlussdurchmesser, verrundungpro, typ, uberstand, x,
 					y, z, phi, theta, psi, swap);
+
+			// Anschlusssteuck hinzufügen
 			component.sub_add_(stueck);
 
 		}
@@ -134,6 +144,13 @@ public class AddGittermastanschluss extends JavaRule {
 		return radius;
 	}
 
+	/**
+	 * generateanschluss erstellt eine uml Verbindungsstueck Instance mit den
+	 * übergebenen Eigenschaften
+	 *
+	 * @return erstelltes Verbindungsstueck
+	 *
+	 */
 	private Verbindungsstueck generateanschluss(Line line, double laenge, double breite, double hoehe, double lochdurchmesser, double anschlussdurchmesser,
 			double verrundungpro, double typ, double uberstand, double x, double y, double z, double phi, double theta, double psi, double swap) {
 
@@ -157,7 +174,6 @@ public class AddGittermastanschluss extends JavaRule {
 		verbindungsstueck.setPsi(psi);
 		verbindungsstueck.setTheta(theta);
 		verbindungsstueck.setSwap(swap);
-
 		verbindungsstueck.setLine(line);
 
 		verbindungsstueck.umlSlotLaenge().applyStereotype(spgconstStereo);
@@ -169,7 +185,6 @@ public class AddGittermastanschluss extends JavaRule {
 		verbindungsstueck.umlSlotTyp().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotUberstand().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotSwap().applyStereotype(spgconstStereo);
-
 		verbindungsstueck.umlSlotDx().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotDy().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotDz().applyStereotype(spgconstStereo);

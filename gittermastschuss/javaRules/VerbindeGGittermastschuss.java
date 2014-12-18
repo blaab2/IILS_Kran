@@ -63,31 +63,37 @@ public class VerbindeGGittermastschuss extends JavaRule {
 	}
 
 	public void execute(TransformationRunner trafoRunner) {
-		// TODO Insert Rule Code here
 
 		/*
-		 * Erstellt einen Gittermastschuss indem Anfang-Mittel- und Endeteile
-		 * verkettet werden
+		 * Erstellt G für einen Gittermastschuss indem Anfang-Mittel- und
+		 * Endeteile über G verbunden werden
 		 */
 
 		Collection<Mastschuss> Mastschuesse = InstanceWrapperExtensions.allInstances(Mastschuss.class);
 
 		for (Mastschuss mastschuss : Mastschuesse) {
 
+			// Mastschuss muss bereits expandiert sein
 			if (mastschuss.getExpanded().equals(0.5)) {
+
+				// Verbinde MittelTeilMastschusse
 				for (TeilMastschuss teilmastschuss : mastschuss.getMittelTeilMastschuss()) {
 					connect(mastschuss, teilmastschuss);
-
 				}
+
+				// Verbinde AnfangsTeilMastschuss
 				TeilMastschuss teilmastschuss = null;
 				teilmastschuss = mastschuss.getAnfangsTeilMastschuss();
 				connect(mastschuss, teilmastschuss);
+
+				// Verbinde EndTeilMastschuss
 				teilmastschuss = mastschuss.getEndTeilMastschuss();
 				connect(mastschuss, teilmastschuss);
+
+				// Mastschuss ist vollständig expandiert
 				mastschuss.setExpanded(1.0);
 			}
 
-			// mastschuss.getMastschussGeometrie()
 		}
 
 	}
