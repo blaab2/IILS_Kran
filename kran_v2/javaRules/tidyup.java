@@ -99,14 +99,14 @@ public class tidyup extends JavaRule {
 										i++;
 										fixed++;
 										// delete old EndPoint
-										InstanceWrapperExtensions.deleteInstanceAndLinks(line.getEndPoint().umlInstance());
+										// InstanceWrapperExtensions.deleteInstanceAndLinks(line.getEndPoint().umlInstance());
 
 										// set new EndPoint
 										line.setEndPoint(line2.getEndPoint());
 
 										// delete old Line
 
-										InstanceWrapperExtensions.delete(line2.getStartPoint().umlInstance());
+										// InstanceWrapperExtensions.delete(line2.getStartPoint().umlInstance());
 										InstanceWrapperExtensions.delete(line2.umlInstance());
 										lines_deleted.add(line2);
 

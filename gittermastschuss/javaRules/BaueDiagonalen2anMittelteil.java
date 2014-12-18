@@ -23,29 +23,22 @@ public class BaueDiagonalen2anMittelteil extends JavaRule {
 				Diagonale diagonale5 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
 						.getName() + "_diagonale5");
 				mittelTeilMastschuss.setDiagonale5(diagonale5);
-				mittelTeilMastschuss.stahlrohr_add_(diagonale5);
-				mittelTeilMastschuss.line_add_(diagonale5);
 
 				// Add diagonale6
 				Diagonale diagonale6 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
 						.getName() + "_diagonale6");
 				mittelTeilMastschuss.setDiagonale6(diagonale6);
-				mittelTeilMastschuss.stahlrohr_add_(diagonale6);
-				mittelTeilMastschuss.line_add_(diagonale6);
 
 				// Add diagonale7
 				Diagonale diagonale7 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
 						.getName() + "_diagonale7");
 				mittelTeilMastschuss.setDiagonale7(diagonale7);
-				mittelTeilMastschuss.stahlrohr_add_(diagonale7);
-				mittelTeilMastschuss.line_add_(diagonale7);
 
 				// Add diagonale8
 				Diagonale diagonale8 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
 						.getName() + "_diagonale8");
 				mittelTeilMastschuss.setDiagonale8(diagonale8);
-				mittelTeilMastschuss.stahlrohr_add_(diagonale8);
-				mittelTeilMastschuss.line_add_(diagonale8);
+
 			}
 		}
 
