@@ -564,6 +564,11 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xq7WMIUDEeSwi4_uIOuGEQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xq7WMYUDEeSwi4_uIOuGEQ" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JgV6IIagEeSsELFgLMZpDg" name="expanded" visibility="public">
+          <type xmi:type="uml:DataType" href="pathmap://UTILITY_PROFILE/dimensions43.uml#_tCEEsPGYEd-Zpq1pP6FIGg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JgfEEIagEeSsELFgLMZpDg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JgfEEYagEeSsELFgLMZpDg" value="1"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_T6cAAFYEEeScEcDh5PADsQ" name="EbeneTeil">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_Sn8ygFYGEeScEcDh5PADsQ" name="{{p1.x,p2.x,p3.x,p4.x,p5.x}} = {{xposition,xposition,xposition,xposition,xposition}}" constrainedElement="_T6cAAFYEEeScEcDh5PADsQ">
@@ -2543,6 +2548,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_872qYIaVEeSDdbVg-MD9Ew" definingFeature="_n6MTBFYEEeScEcDh5PADsQ">
               <value xmi:type="uml:InstanceValue" xmi:id="_872qYYaVEeSDdbVg-MD9Ew" instance="_7cfwcIaVEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_bD_2wIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_SmB6AIalEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_b87LMIaVEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
             <name xsi:nil="true"/>
@@ -2617,6 +2625,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_EH72kIaWEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_EH72kYaWEeSDdbVg-MD9Ew" instance="_DEp0qIaWEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_cinJ0IajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_cinJ0YajEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Z4B7Q4aVEeSDdbVg-MD9Ew">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z4LsQIaVEeSDdbVg-MD9Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -2651,6 +2662,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_VEYesIaYEeSDdbVg-MD9Ew" definingFeature="_ED0i1HPjEeS8H-8hCbr5NQ">
               <value xmi:type="uml:InstanceValue" xmi:id="_VEYesYaYEeSDdbVg-MD9Ew" instance="_OBZkXoaYEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_mbG48IajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_mbG48YajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_OBZkXoaYEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
@@ -2700,6 +2714,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_buvd4IaYEeSDdbVg-MD9Ew" definingFeature="_lBqI0FqoEeSX-OlzyYglGQ">
               <value xmi:type="uml:InstanceValue" xmi:id="_buvd4YaYEeSDdbVg-MD9Ew" instance="_az_F4IaYEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_nb0vEIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_nb0vEYajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_az_F24aYEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -2760,6 +2777,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_mDC_QIaYEeSDdbVg-MD9Ew" definingFeature="_f4ukdGLdEeS2senFEonO3g">
               <value xmi:type="uml:InstanceValue" xmi:id="_mDC_QYaYEeSDdbVg-MD9Ew" instance="_lULuXIaYEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_qXaWcIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_qXaWcYajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_lULuXIaYEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
@@ -2835,6 +2855,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_py4uEIaYEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_py4uEYaYEeSDdbVg-MD9Ew" instance="_oa8DtIaYEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_rP8g8IajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_rP8g8YajEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_lJBnA4aYEeSDdbVg-MD9Ew">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lJBnBIaYEeSDdbVg-MD9Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -2869,6 +2892,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_rl48wIaYEeSDdbVg-MD9Ew" definingFeature="_VgDyclrEEeSb0OiVQ0FT7A">
               <value xmi:type="uml:InstanceValue" xmi:id="_rl48wYaYEeSDdbVg-MD9Ew" instance="_rBvHDIaYEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_0LmNUIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_0LmNUYajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_rBvHDIaYEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
@@ -2934,6 +2960,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_uv-6MIaYEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_uv-6MYaYEeSDdbVg-MD9Ew" instance="_thz25YaYEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_1R6VIIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_1R6VIYajEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_thz27YaYEeSDdbVg-MD9Ew">
             <name xsi:nil="true"/>
@@ -2978,6 +3007,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_05hEQIaYEeSDdbVg-MD9Ew" definingFeature="_ekp8pIIaEeSECcte2bz6og">
               <value xmi:type="uml:InstanceValue" xmi:id="_05hEQYaYEeSDdbVg-MD9Ew" instance="_zWub1YaYEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_3FpjoIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_3FpjoYajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_zWub1YaYEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
@@ -3036,6 +3068,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_3dBi0IaYEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_3dBi0YaYEeSDdbVg-MD9Ew" instance="_1oYVbIaYEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_4Fny4IajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_4Fny4YajEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_1oYVbIaYEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
             <name xsi:nil="true"/>
@@ -3088,6 +3123,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_5GD9MIaYEeSDdbVg-MD9Ew" definingFeature="_GsFq9GLfEeS2senFEonO3g">
               <value xmi:type="uml:InstanceValue" xmi:id="_5GD9MYaYEeSDdbVg-MD9Ew" instance="_4nHXnIaYEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_5jMkIIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_5jMkIYajEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_4nHXnIaYEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
             <name xsi:nil="true"/>
@@ -3130,6 +3168,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_7itl0IaYEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_7itl0YaYEeSDdbVg-MD9Ew" instance="_62O6XoaYEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_6Z8l8IajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_6Z8l8YajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_62O6WIaYEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -3196,6 +3237,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_9bYXoIaYEeSDdbVg-MD9Ew" definingFeature="_bvabI2LcEeS2senFEonO3g">
               <value xmi:type="uml:InstanceValue" xmi:id="_9bYXoYaYEeSDdbVg-MD9Ew" instance="_9EndrIaYEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_8ZA6sIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_8ZA6sYajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_9EndrIaYEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
@@ -3271,6 +3315,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_AAXc4IaZEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_AAXc4YaZEeSDdbVg-MD9Ew" instance="__aIjUYaYEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_9XDQQIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_9XDQQYajEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_83Ews4aYEeSDdbVg-MD9Ew">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83EwtIaYEeSDdbVg-MD9Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -3305,6 +3352,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_B-ad8IaZEeSDdbVg-MD9Ew" definingFeature="_jdwUxFj1EeSRvZYm9gtmzA">
               <value xmi:type="uml:InstanceValue" xmi:id="_B-ad8YaZEeSDdbVg-MD9Ew" instance="_BlavXIaZEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_-4DI8IajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_-4DI8YajEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BlavXIaZEeSDdbVg-MD9Ew" classifier="_dgJG0Fj1EeSRvZYm9gtmzA">
@@ -3348,6 +3398,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_Ek4w8IaZEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_Ek4w8YaZEeSDdbVg-MD9Ew" instance="_DUQPi4aZEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_AxxDoIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_AxxDoYakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_DUQPiIaZEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -3410,6 +3463,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_iaf5UIaaEeSDdbVg-MD9Ew" definingFeature="_O0KZBFYgEeS5ZuK8eQfm1Q">
               <value xmi:type="uml:InstanceValue" xmi:id="_iaf5UYaaEeSDdbVg-MD9Ew" instance="_gg6hgIaaEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_CUZUAIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_CUZUAYakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ElNEqYaaEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
             <name xsi:nil="true"/>
@@ -3450,6 +3506,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_knYnoIaaEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_knYnoYaaEeSDdbVg-MD9Ew" instance="_j8GO_IaaEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_EWRsMIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_EWRsMYakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_j8GO9oaaEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -3505,6 +3564,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_moPFEIaaEeSDdbVg-MD9Ew" definingFeature="_ON7fdFYgEeS5ZuK8eQfm1Q">
               <value xmi:type="uml:InstanceValue" xmi:id="_moPFEYaaEeSDdbVg-MD9Ew" instance="_mNTcxIaaEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_GDfb8IakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_GDfb8YakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_mNTcwYaaEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
             <name xsi:nil="true"/>
@@ -3553,6 +3615,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_ofkaIIaaEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_ofkaIYaaEeSDdbVg-MD9Ew" instance="_n32S0YaaEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_HCRYYIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_HCRYYYakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_n32S14aaEeSDdbVg-MD9Ew">
             <name xsi:nil="true"/>
@@ -3599,6 +3664,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_ryuM8IaaEeSDdbVg-MD9Ew" definingFeature="_Nys8BFYgEeS5ZuK8eQfm1Q">
               <value xmi:type="uml:InstanceValue" xmi:id="_ryuM8YaaEeSDdbVg-MD9Ew" instance="_rUW2JIaaEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_IqtV0IakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_IqtV0YakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_rUW2IYaaEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -3650,6 +3718,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_toQLMIaaEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_toQLMYaaEeSDdbVg-MD9Ew" instance="_s6uW3IaaEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_KJC8EIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_KJC8EYakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s6uW3IaaEeSDdbVg-MD9Ew" classifier="_JArXcFYgEeS5ZuK8eQfm1Q">
             <name xsi:nil="true"/>
@@ -3695,6 +3766,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_wQQIMIaaEeSDdbVg-MD9Ew" definingFeature="_Tp7OFFYgEeS5ZuK8eQfm1Q">
               <value xmi:type="uml:InstanceValue" xmi:id="_wQQIMYaaEeSDdbVg-MD9Ew" instance="_vNlKdIaaEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_LthmkIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_LthmkYakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_vNlKcYaaEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
             <name xsi:nil="true"/>
@@ -3731,6 +3805,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_yaoVEIaaEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_yaoVEYaaEeSDdbVg-MD9Ew" instance="_xu5QfIaaEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_MhJb4IakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_MhJb4YakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_xu5QdoaaEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -3794,6 +3871,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_HPcAwIabEeSDdbVg-MD9Ew" definingFeature="_pTs7Q1YSEeS72uhOrKaBtw">
               <value xmi:type="uml:InstanceValue" xmi:id="_HPcAwYabEeSDdbVg-MD9Ew" instance="_FIWYcIabEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_NuW14IakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_NuW14YakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_EbkyP4abEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -3869,6 +3949,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_I8qXkIabEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_I8qXkYabEeSDdbVg-MD9Ew" instance="_IQvsyYabEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_OqOBMIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_OqOBMYakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EPp144abEeSDdbVg-MD9Ew">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EPp15IabEeSDdbVg-MD9Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -3903,6 +3986,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_LfSFUIabEeSDdbVg-MD9Ew" definingFeature="_porFtFYSEeS72uhOrKaBtw">
               <value xmi:type="uml:InstanceValue" xmi:id="_LfSFUYabEeSDdbVg-MD9Ew" instance="_KkX8gIabEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_P9r0MIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_P9r0MYakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_KkX8fIabEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -3962,6 +4048,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_N8jZAIabEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_N8jZAYabEeSDdbVg-MD9Ew" instance="_MqtWoYabEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_Q2XvsIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_Q2XvsYakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_MqtWqoabEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
             <name xsi:nil="true"/>
@@ -4012,6 +4101,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_RPOqsIabEeSDdbVg-MD9Ew" definingFeature="_p7t9hFYSEeS72uhOrKaBtw">
               <value xmi:type="uml:InstanceValue" xmi:id="_RPOqsYabEeSDdbVg-MD9Ew" instance="_QJApwIabEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_SQhZgIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_SQhZgYakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_QJApvIabEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -4076,6 +4168,9 @@
             <slot xmi:type="uml:Slot" xmi:id="_TumQIIabEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_TumQIYabEeSDdbVg-MD9Ew" instance="_SdyIkIabEeSDdbVg-MD9Ew"/>
             </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_TIm4EIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_TIm4EYakEeSa05I2lvUacw" value="0.0"/>
+            </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SdyIkIabEeSDdbVg-MD9Ew" classifier="_UszvwFYSEeS72uhOrKaBtw">
             <name xsi:nil="true"/>
@@ -4121,6 +4216,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_VyQxAIabEeSDdbVg-MD9Ew" definingFeature="_qXsH1FYSEeS72uhOrKaBtw">
               <value xmi:type="uml:InstanceValue" xmi:id="_VyQxAYabEeSDdbVg-MD9Ew" instance="_QwlnIIabEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_UiUdAIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_UiUdAYakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_QwlnHIabEeSDdbVg-MD9Ew" classifier="_T6cAAFYEEeScEcDh5PADsQ">
@@ -4184,6 +4282,9 @@
             </slot>
             <slot xmi:type="uml:Slot" xmi:id="_X87RwIabEeSDdbVg-MD9Ew" definingFeature="_RB6cgmQiEeSE6N24lnYFNA">
               <value xmi:type="uml:InstanceValue" xmi:id="_X87RwYabEeSDdbVg-MD9Ew" instance="_Wz3_EIabEeSDdbVg-MD9Ew"/>
+            </slot>
+            <slot xmi:type="uml:Slot" xmi:id="_VTHAwIakEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_VTHAwYakEeSa05I2lvUacw" value="0.0"/>
             </slot>
           </packagedElement>
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Wz3_EIabEeSDdbVg-MD9Ew" classifier="_UszvwFYSEeS72uhOrKaBtw">
@@ -4249,6 +4350,33 @@
         </packagedElement>
         <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Q4znYIaeEeSDdbVg-MD9Ew" name="Object"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_e_kUcIajEeSa05I2lvUacw" name="setTeilmastschussExpanded">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gT64QIajEeSa05I2lvUacw" source="mapping">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gT64QoajEeSa05I2lvUacw" key="_fNHBMIajEeSa05I2lvUacw" value="_gT64QYajEeSa05I2lvUacw"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_e_kUcYajEeSa05I2lvUacw" name="LHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_fNHBMIajEeSa05I2lvUacw" classifier="_-YzDgFYDEeScEcDh5PADsQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_GjPBEIamEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_GjPBEYamEeSa05I2lvUacw" value="0.0"/>
+            </slot>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_e_kUcoajEeSa05I2lvUacw" name="RHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_gT64QYajEeSa05I2lvUacw" classifier="_-YzDgFYDEeScEcDh5PADsQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_hTmMkIajEeSa05I2lvUacw" definingFeature="_JgV6IIagEeSsELFgLMZpDg">
+              <value xmi:type="uml:LiteralString" xmi:id="_hTmMkYajEeSa05I2lvUacw" value="1.0"/>
+            </slot>
+          </packagedElement>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_e_kUc4ajEeSa05I2lvUacw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e_kUdIajEeSa05I2lvUacw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="pathmap://SPG_PROFILE/spg.profile.uml#_O5tTocqCEeGzEenZhMh9ww"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="pathmap://SPG_PROFILE/spg.profile.uml#_YZov0P0bEdqcdNCdjj7aKQ"/>
+          </profileApplication>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_uRC81FYDEeScEcDh5PADsQ" name="Programs">
       <packagedElement xmi:type="uml:Package" xmi:id="_uRC81VYDEeScEcDh5PADsQ" name="RootProgram">
@@ -4289,7 +4417,7 @@
         </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_-2g9cFYHEeScEcDh5PADsQ" name="baueGittermastschuss">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_-2g9cVYHEeScEcDh5PADsQ" name="expandGittermastschusse" node="_-2g9clYHEeScEcDh5PADsQ _-2g9c1YHEeScEcDh5PADsQ __oM5EFYHEeScEcDh5PADsQ _GKaB0FYIEeScEcDh5PADsQ _tzSQgFYIEeScEcDh5PADsQ _agM1QFYTEeS72uhOrKaBtw _69Zq8FYUEeS72uhOrKaBtw _NI9nAFYWEeS72uhOrKaBtw _D1LSAFYXEeS5ZuK8eQfm1Q _CSdv0FYcEeS5ZuK8eQfm1Q _ipqj0FYgEeS5ZuK8eQfm1Q _QPPoMFYmEeS6Ffcov0CqJA _It3E8FYnEeS6Ffcov0CqJA _fXo-gFj2EeSRvZYm9gtmzA _qsXYIFrEEeSb0OiVQ0FT7A _H0QHwIHqEeS2OeVAndhXnQ _MkotkIHqEeS2OeVAndhXnQ _XQVgQIaVEeSDdbVg-MD9Ew _5hl4EIaXEeSDdbVg-MD9Ew _6xyUoIaXEeSDdbVg-MD9Ew _8vNqoIaXEeSDdbVg-MD9Ew _HPKbUIaYEeSDdbVg-MD9Ew _Kp41wIaYEeSDdbVg-MD9Ew _LUvwoIaYEeSDdbVg-MD9Ew _L1zPQIaYEeSDdbVg-MD9Ew _DAUKYIaaEeSDdbVg-MD9Ew _Id0U4IaaEeSDdbVg-MD9Ew _JqoGQIaaEeSDdbVg-MD9Ew _KSJZQIaaEeSDdbVg-MD9Ew _OCcbEIaaEeSDdbVg-MD9Ew _PlQRoIaaEeSDdbVg-MD9Ew _QVKroIaaEeSDdbVg-MD9Ew _RDct8IaaEeSDdbVg-MD9Ew _MOP8wIaeEeSDdbVg-MD9Ew _Y5sUoIaeEeSDdbVg-MD9Ew">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_-2g9cVYHEeScEcDh5PADsQ" name="expandGittermastschusse" node="_-2g9clYHEeScEcDh5PADsQ _-2g9c1YHEeScEcDh5PADsQ __oM5EFYHEeScEcDh5PADsQ _GKaB0FYIEeScEcDh5PADsQ _tzSQgFYIEeScEcDh5PADsQ _agM1QFYTEeS72uhOrKaBtw _69Zq8FYUEeS72uhOrKaBtw _NI9nAFYWEeS72uhOrKaBtw _D1LSAFYXEeS5ZuK8eQfm1Q _CSdv0FYcEeS5ZuK8eQfm1Q _ipqj0FYgEeS5ZuK8eQfm1Q _QPPoMFYmEeS6Ffcov0CqJA _It3E8FYnEeS6Ffcov0CqJA _fXo-gFj2EeSRvZYm9gtmzA _qsXYIFrEEeSb0OiVQ0FT7A _H0QHwIHqEeS2OeVAndhXnQ _MkotkIHqEeS2OeVAndhXnQ _XQVgQIaVEeSDdbVg-MD9Ew _5hl4EIaXEeSDdbVg-MD9Ew _6xyUoIaXEeSDdbVg-MD9Ew _8vNqoIaXEeSDdbVg-MD9Ew _HPKbUIaYEeSDdbVg-MD9Ew _Kp41wIaYEeSDdbVg-MD9Ew _LUvwoIaYEeSDdbVg-MD9Ew _L1zPQIaYEeSDdbVg-MD9Ew _DAUKYIaaEeSDdbVg-MD9Ew _Id0U4IaaEeSDdbVg-MD9Ew _JqoGQIaaEeSDdbVg-MD9Ew _KSJZQIaaEeSDdbVg-MD9Ew _OCcbEIaaEeSDdbVg-MD9Ew _PlQRoIaaEeSDdbVg-MD9Ew _QVKroIaaEeSDdbVg-MD9Ew _RDct8IaaEeSDdbVg-MD9Ew _MOP8wIaeEeSDdbVg-MD9Ew _Y5sUoIaeEeSDdbVg-MD9Ew _dnMzUIajEeSa05I2lvUacw">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sHfvAIH4EeS_AcYWpcaShg" source="Counter"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_BCNY8FYIEeScEcDh5PADsQ" target="_CSdv0FYcEeS5ZuK8eQfm1Q" source="_-2g9clYHEeScEcDh5PADsQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_BCNY8VYIEeScEcDh5PADsQ" value="true"/>
@@ -4338,14 +4466,6 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_4M62EIaVEeSDdbVg-MD9Ew" target="_XQVgQIaVEeSDdbVg-MD9Ew" source="_H0QHwIHqEeS2OeVAndhXnQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_4M62EYaVEeSDdbVg-MD9Ew" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_4M62EoaVEeSDdbVg-MD9Ew"/>
-          </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_4Up1wIaVEeSDdbVg-MD9Ew" target="_5hl4EIaXEeSDdbVg-MD9Ew" source="_XQVgQIaVEeSDdbVg-MD9Ew">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_4Up1wYaVEeSDdbVg-MD9Ew" value="true"/>
-            <weight xmi:type="uml:LiteralInteger" xmi:id="_4Up1woaVEeSDdbVg-MD9Ew"/>
-          </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_GJpIQIaZEeSDdbVg-MD9Ew" target="_6xyUoIaXEeSDdbVg-MD9Ew" source="_5hl4EIaXEeSDdbVg-MD9Ew">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_GJpIQYaZEeSDdbVg-MD9Ew" value="true"/>
-            <weight xmi:type="uml:LiteralInteger" xmi:id="_GJpIQoaZEeSDdbVg-MD9Ew"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_GN9AgIaZEeSDdbVg-MD9Ew" target="_8vNqoIaXEeSDdbVg-MD9Ew" source="_6xyUoIaXEeSDdbVg-MD9Ew">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_GN9AgYaZEeSDdbVg-MD9Ew" value="true"/>
@@ -4399,7 +4519,7 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_ZZogUYabEeSDdbVg-MD9Ew" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_ZZogUoabEeSDdbVg-MD9Ew"/>
           </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_ZiHG4IabEeSDdbVg-MD9Ew" target="_D1LSAFYXEeS5ZuK8eQfm1Q" source="_RDct8IaaEeSDdbVg-MD9Ew">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ZiHG4IabEeSDdbVg-MD9Ew" target="_dnMzUIajEeSa05I2lvUacw" source="_RDct8IaaEeSDdbVg-MD9Ew">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_ZiHG4YabEeSDdbVg-MD9Ew" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_ZiHG4oabEeSDdbVg-MD9Ew"/>
           </edge>
@@ -4415,6 +4535,18 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_bzDucYaeEeSDdbVg-MD9Ew" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_bzDucoaeEeSDdbVg-MD9Ew"/>
           </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_vLgXkIajEeSa05I2lvUacw" target="_D1LSAFYXEeS5ZuK8eQfm1Q" source="_dnMzUIajEeSa05I2lvUacw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_vLgXkYajEeSa05I2lvUacw" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_vLgXkoajEeSa05I2lvUacw"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_PpVfYIalEeSa05I2lvUacw" target="_5hl4EIaXEeSDdbVg-MD9Ew" source="_XQVgQIaVEeSDdbVg-MD9Ew">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_PpVfYYalEeSa05I2lvUacw" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_PpVfYoalEeSa05I2lvUacw"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_dXFo0IalEeSa05I2lvUacw" target="_6xyUoIaXEeSDdbVg-MD9Ew" source="_5hl4EIaXEeSDdbVg-MD9Ew">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_dXFo0YalEeSa05I2lvUacw" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_dXFo0oalEeSa05I2lvUacw"/>
+          </edge>
           <node xmi:type="uml:InitialNode" xmi:id="_-2g9clYHEeScEcDh5PADsQ" name="start" outgoing="_BCNY8FYIEeScEcDh5PADsQ"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_-2g9c1YHEeScEcDh5PADsQ" name="final" incoming="_zuLZwF6cEeSwHdgqWQIWdQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="__oM5EFYHEeScEcDh5PADsQ" name="baueAnfangsteil"/>
@@ -4423,7 +4555,7 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_agM1QFYTEeS72uhOrKaBtw" name="baueHolme" incoming="_o52bYFYTEeS72uhOrKaBtw" outgoing="_wYJbsF3kEeSde9ijzxWZIw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_69Zq8FYUEeS72uhOrKaBtw" name="baueG" incoming="_Ue1y8FYXEeS5ZuK8eQfm1Q" outgoing="_OG2yoFYWEeS72uhOrKaBtw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_NI9nAFYWEeS72uhOrKaBtw" name="VerbindeG"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_D1LSAFYXEeS5ZuK8eQfm1Q" name="baueLinienPunkte" incoming="_ZiHG4IabEeSDdbVg-MD9Ew" outgoing="_Ue1y8FYXEeS5ZuK8eQfm1Q"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_D1LSAFYXEeS5ZuK8eQfm1Q" name="baueLinienPunkte" incoming="_vLgXkIajEeSa05I2lvUacw" outgoing="_Ue1y8FYXEeS5ZuK8eQfm1Q"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_CSdv0FYcEeS5ZuK8eQfm1Q" name="BaueMastschussStruktur" incoming="_BCNY8FYIEeScEcDh5PADsQ" outgoing="_GBI5oFYfEeS5ZuK8eQfm1Q"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_ipqj0FYgEeS5ZuK8eQfm1Q" name="bauePfostenanMittelteil" incoming="_wYJbsF3kEeSde9ijzxWZIw" outgoing="_SOMBIFYmEeS6Ffcov0CqJA"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_QPPoMFYmEeS6Ffcov0CqJA" name="bauePfostenanEnde" incoming="_SOMBIFYmEeS6Ffcov0CqJA" outgoing="_bGXRoIHqEeS2OeVAndhXnQ"/>
@@ -4432,9 +4564,9 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_qsXYIFrEEeSb0OiVQ0FT7A" name="baueDiagonalen2anMittelteil" incoming="_14OMkFrEEeSb0OiVQ0FT7A"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_H0QHwIHqEeS2OeVAndhXnQ" name="BaueDiagonalen2anMittelteil" incoming="_bQe28IHqEeS2OeVAndhXnQ" outgoing="_4M62EIaVEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_MkotkIHqEeS2OeVAndhXnQ" name="BaueDiagonalen1anMittelteil" incoming="_bGXRoIHqEeS2OeVAndhXnQ" outgoing="_bQe28IHqEeS2OeVAndhXnQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_XQVgQIaVEeSDdbVg-MD9Ew" name="connectDiag8" incoming="_4M62EIaVEeSDdbVg-MD9Ew" outgoing="_4Up1wIaVEeSDdbVg-MD9Ew"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_5hl4EIaXEeSDdbVg-MD9Ew" name="connectDiag7" incoming="_4Up1wIaVEeSDdbVg-MD9Ew" outgoing="_GJpIQIaZEeSDdbVg-MD9Ew"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_6xyUoIaXEeSDdbVg-MD9Ew" name="connectDiag6" incoming="_GJpIQIaZEeSDdbVg-MD9Ew" outgoing="_GN9AgIaZEeSDdbVg-MD9Ew"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_XQVgQIaVEeSDdbVg-MD9Ew" name="connectDiag8" incoming="_4M62EIaVEeSDdbVg-MD9Ew" outgoing="_PpVfYIalEeSa05I2lvUacw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_5hl4EIaXEeSDdbVg-MD9Ew" name="connectDiag7" incoming="_PpVfYIalEeSa05I2lvUacw" outgoing="_dXFo0IalEeSa05I2lvUacw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_6xyUoIaXEeSDdbVg-MD9Ew" name="connectDiag6" incoming="_dXFo0IalEeSa05I2lvUacw" outgoing="_GN9AgIaZEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_8vNqoIaXEeSDdbVg-MD9Ew" name="connectDiag5" incoming="_GN9AgIaZEeSDdbVg-MD9Ew" outgoing="_GStksIaZEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_HPKbUIaYEeSDdbVg-MD9Ew" name="connectDiag4" incoming="_GStksIaZEeSDdbVg-MD9Ew" outgoing="_GY9WoIaZEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_Kp41wIaYEeSDdbVg-MD9Ew" name="connectDiag3" incoming="_GY9WoIaZEeSDdbVg-MD9Ew" outgoing="_GeBc0IaZEeSDdbVg-MD9Ew"/>
@@ -4450,6 +4582,7 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_RDct8IaaEeSDdbVg-MD9Ew" name="connectHolm4" incoming="_ZZogUIabEeSDdbVg-MD9Ew" outgoing="_ZiHG4IabEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_MOP8wIaeEeSDdbVg-MD9Ew" name="baueSchussEbenenVorne" incoming="_YNpuAIaeEeSDdbVg-MD9Ew" outgoing="_bpimEIaeEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_Y5sUoIaeEeSDdbVg-MD9Ew" name="connectSchussEbenen" incoming="_bpimEIaeEeSDdbVg-MD9Ew" outgoing="_bzDucIaeEeSDdbVg-MD9Ew"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_dnMzUIajEeSa05I2lvUacw" name="setTeilmastschussExpanded" incoming="_ZiHG4IabEeSDdbVg-MD9Ew" outgoing="_vLgXkIajEeSa05I2lvUacw"/>
         </packagedElement>
         <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__oM5EVYHEeScEcDh5PADsQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__oM5ElYHEeScEcDh5PADsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -4585,4 +4718,6 @@
   <_43Utilities:Rule xmi:id="_MOP8wYaeEeSDdbVg-MD9Ew" rule="_OfHMIIaeEeSDdbVg-MD9Ew" base_OpaqueAction="_MOP8wIaeEeSDdbVg-MD9Ew"/>
   <_43Utilities:NOT xmi:id="_TJBWgoaeEeSDdbVg-MD9Ew" base_Element="_RIkhsIaeEeSDdbVg-MD9Ew"/>
   <_43Utilities:javaRule xmi:id="_Y51ekIaeEeSDdbVg-MD9Ew" rule="connectSchussEbenen" base_OpaqueAction="_Y5sUoIaeEeSDdbVg-MD9Ew"/>
+  <_43Utilities:Rule xmi:id="_dnfuQIajEeSa05I2lvUacw" rule="_e_kUcIajEeSa05I2lvUacw" base_OpaqueAction="_dnMzUIajEeSa05I2lvUacw"/>
+  <_43Utilities:Stop xmi:id="__YtJgIakEeSa05I2lvUacw"/>
 </xmi:XMI>

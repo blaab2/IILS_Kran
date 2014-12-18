@@ -32,6 +32,7 @@ public class BaueMastschutz extends JavaRule {
 				// an
 				AnfangsTeilMastschuss anfangsTeil = InstanceWrapperExtensions.createInstance(AnfangsTeilMastschuss.class, mastschuss
 						.umlInstance().getName() + "AnfangsTeil");
+				anfangsTeil.setExpanded(0.0);
 				mastschuss.setAnfangsTeilMastschuss(anfangsTeil);
 
 				// Erzeugt n Mittelteile und fügt diese dem Mastschuss an
@@ -40,6 +41,7 @@ public class BaueMastschutz extends JavaRule {
 					// erzeuge neues MittelTeil
 					MittelTeilMastschuss mittelteil = InstanceWrapperExtensions.createInstance(MittelTeilMastschuss.class, mastschuss
 							.umlInstance().getName() + "MittelTeil_" + i);
+					mittelteil.setExpanded(0.0);
 
 					// Verbinde neues Teil mit Mastschuss
 					mastschuss.mittelTeilMastschuss_add_(mittelteil);
@@ -60,6 +62,7 @@ public class BaueMastschutz extends JavaRule {
 				}
 				EndTeilMastschuss endTeil = InstanceWrapperExtensions.createInstance(EndTeilMastschuss.class, mastschuss.umlInstance()
 						.getName() + "EndTeil");
+				endTeil.setExpanded(0.0);
 				mastschuss.endTeilMastschuss_(endTeil);
 				lastItem.nextteil_(endTeil);
 			}
