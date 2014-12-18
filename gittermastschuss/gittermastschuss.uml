@@ -306,18 +306,6 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_-YzDgFYDEeScEcDh5PADsQ" name="TeilMastschuss">
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_4XqLAFYEEeScEcDh5PADsQ" name="{{ebenevorne.xposition,ebenevorne.breite,ebenevorne.hoehe}} = {{xposition,breite0,hoehe0}}*1000" constrainedElement="_-YzDgFYDEeScEcDh5PADsQ">
-          <specification xmi:type="uml:OpaqueExpression" xmi:id="_4XqLAVYEEeScEcDh5PADsQ">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GC4moFj_EeShbsHi_USVLg" source="@0" references="_n6MTBFYEEeScEcDh5PADsQ _HKTf8FYFEeScEcDh5PADsQ"/>
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GC4moVj_EeShbsHi_USVLg" source="@1" references="_n6MTBFYEEeScEcDh5PADsQ _t44CgFYFEeScEcDh5PADsQ"/>
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GC4molj_EeShbsHi_USVLg" source="@2" references="_n6MTBFYEEeScEcDh5PADsQ _t44ChVYFEeScEcDh5PADsQ"/>
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GC4mo1j_EeShbsHi_USVLg" source="@3" references="_5qFcMFYEEeScEcDh5PADsQ"/>
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GC4mpFj_EeShbsHi_USVLg" source="@4" references="_ChzDxVYFEeScEcDh5PADsQ"/>
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GC4mpVj_EeShbsHi_USVLg" source="@5" references="_PbWJEFYFEeScEcDh5PADsQ"/>
-            <language>spg</language>
-            <body>{{@0,@1,@2}} = {{@3,@4,@5}} * 1000</body>
-          </specification>
-        </ownedRule>
         <ownedRule xmi:type="uml:Constraint" xmi:id="_U3UpkFYFEeScEcDh5PADsQ" name="{{ebenehinten.xposition,ebenehinten.breite,ebenehinten.hoehe}} = {{(xposition + laenge),breite1,hoehe1}}*1000" constrainedElement="_-YzDgFYDEeScEcDh5PADsQ">
           <specification xmi:type="uml:OpaqueExpression" xmi:id="_U3UpkVYFEeScEcDh5PADsQ">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EAZxgFj_EeShbsHi_USVLg" source="@0" references="_ngKCZFYEEeScEcDh5PADsQ _HKTf8FYFEeScEcDh5PADsQ"/>
@@ -811,6 +799,18 @@
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9yZbwVYMEeSDibyCbZcn9g" source="@1" references="_ksh1cFYKEeSDibyCbZcn9g"/>
             <language>spg</language>
             <body>@0 = @1</body>
+          </specification>
+        </ownedRule>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_5tIK8IadEeSDdbVg-MD9Ew" name="{{ebenevorne.xposition,ebenevorne.breite,ebenevorne.hoehe}} = {{xposition,breite0,hoehe0}} * 1000" constrainedElement="_JMQesFYHEeScEcDh5PADsQ">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_5tIK8YadEeSDdbVg-MD9Ew">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_54vlEIadEeSDdbVg-MD9Ew" source="@0" references="_n6MTBFYEEeScEcDh5PADsQ _HKTf8FYFEeScEcDh5PADsQ"/>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_54vlEYadEeSDdbVg-MD9Ew" source="@1" references="_n6MTBFYEEeScEcDh5PADsQ _t44CgFYFEeScEcDh5PADsQ"/>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_54vlEoadEeSDdbVg-MD9Ew" source="@2" references="_n6MTBFYEEeScEcDh5PADsQ _t44ChVYFEeScEcDh5PADsQ"/>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_54vlE4adEeSDdbVg-MD9Ew" source="@3" references="_5qFcMFYEEeScEcDh5PADsQ"/>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_54vlFIadEeSDdbVg-MD9Ew" source="@4" references="_ChzDxVYFEeScEcDh5PADsQ"/>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_54vlFYadEeSDdbVg-MD9Ew" source="@5" references="_PbWJEFYFEeScEcDh5PADsQ"/>
+            <language>spg</language>
+            <body>{{@0,@1,@2}} = {{@3,@4,@5}} * 1000</body>
           </specification>
         </ownedRule>
         <generalization xmi:type="uml:Generalization" xmi:id="_MgtSAFYHEeScEcDh5PADsQ" general="_-YzDgFYDEeScEcDh5PADsQ"/>
@@ -1962,7 +1962,7 @@
           </profileApplication>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_OMQ_cFYIEeScEcDh5PADsQ" name="baueSchussEbenen">
+      <packagedElement xmi:type="uml:Package" xmi:id="_OMQ_cFYIEeScEcDh5PADsQ" name="baueSchussEbenenHinten">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jYyAgFYIEeScEcDh5PADsQ" source="mapping">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jYyAglYIEeScEcDh5PADsQ" key="_Oh1m0FYIEeScEcDh5PADsQ" value="_jYyAgVYIEeScEcDh5PADsQ"/>
         </eAnnotations>
@@ -1986,15 +1986,13 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_OMQ_clYIEeScEcDh5PADsQ" name="RHS">
           <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_jYyAgVYIEeScEcDh5PADsQ" classifier="_-YzDgFYDEeScEcDh5PADsQ">
             <name xsi:nil="true"/>
-            <slot xmi:type="uml:Slot" xmi:id="_l39_wFYIEeScEcDh5PADsQ" definingFeature="_n6MTBFYEEeScEcDh5PADsQ">
-              <value xmi:type="uml:InstanceValue" xmi:id="_l39_wVYIEeScEcDh5PADsQ" instance="_jvP_wFYIEeScEcDh5PADsQ"/>
-            </slot>
             <slot xmi:type="uml:Slot" xmi:id="_mNPsMFYIEeScEcDh5PADsQ" definingFeature="_ngKCZFYEEeScEcDh5PADsQ">
               <value xmi:type="uml:InstanceValue" xmi:id="_mNPsMVYIEeScEcDh5PADsQ" instance="_lQskYFYIEeScEcDh5PADsQ"/>
             </slot>
           </packagedElement>
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_jvP_wFYIEeScEcDh5PADsQ" name="ebenevorne" classifier="_C5y3kFYGEeScEcDh5PADsQ"/>
-          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_lQskYFYIEeScEcDh5PADsQ" name="ebenehinten" classifier="_C5y3kFYGEeScEcDh5PADsQ"/>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_lQskYFYIEeScEcDh5PADsQ" classifier="_C5y3kFYGEeScEcDh5PADsQ">
+            <name xsi:nil="true"/>
+          </packagedElement>
           <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OMQ_c1YIEeScEcDh5PADsQ">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OMQ_dFYIEeScEcDh5PADsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
               <references xmi:type="ecore:EPackage" href="pathmap://SPG_PROFILE/spg.profile.uml#_O5tTocqCEeGzEenZhMh9ww"/>
@@ -4207,6 +4205,50 @@
           </profileApplication>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OfHMIIaeEeSDdbVg-MD9Ew" name="baueSchussEbenenVorne">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TjMxEoaeEeSDdbVg-MD9Ew" source="mapping">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TjMxFIaeEeSDdbVg-MD9Ew" key="_Ot_VoIaeEeSDdbVg-MD9Ew" value="_TjMxE4aeEeSDdbVg-MD9Ew"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_OfHMIYaeEeSDdbVg-MD9Ew" name="LHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Ot_VoIaeEeSDdbVg-MD9Ew" classifier="_JMQesFYHEeScEcDh5PADsQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_SPK9YIaeEeSDdbVg-MD9Ew" definingFeature="_n6MTBFYEEeScEcDh5PADsQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_SPK9YYaeEeSDdbVg-MD9Ew" instance="_RIkhsIaeEeSDdbVg-MD9Ew"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_RIkhsIaeEeSDdbVg-MD9Ew" classifier="_C5y3kFYGEeScEcDh5PADsQ">
+            <name xsi:nil="true"/>
+          </packagedElement>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TJBWgIaeEeSDdbVg-MD9Ew">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TJBWgYaeEeSDdbVg-MD9Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="pathmap://UTILITY_PROFILE/43Utilities.profile.uml#_s7U0gQg6EeSs5q8A4YUJOA"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="pathmap://UTILITY_PROFILE/43Utilities.profile.uml#_U1HE8Fy0Ed6NvKf1SxOu9A"/>
+          </profileApplication>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_OfHMIoaeEeSDdbVg-MD9Ew" name="RHS">
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_TjMxE4aeEeSDdbVg-MD9Ew" classifier="_JMQesFYHEeScEcDh5PADsQ">
+            <name xsi:nil="true"/>
+            <slot xmi:type="uml:Slot" xmi:id="_UceicIaeEeSDdbVg-MD9Ew" definingFeature="_n6MTBFYEEeScEcDh5PADsQ">
+              <value xmi:type="uml:InstanceValue" xmi:id="_UceicYaeEeSDdbVg-MD9Ew" instance="_TxVTsIaeEeSDdbVg-MD9Ew"/>
+            </slot>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_TxVTsIaeEeSDdbVg-MD9Ew" name="ebenevorne" classifier="_C5y3kFYGEeScEcDh5PADsQ"/>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_OfHMI4aeEeSDdbVg-MD9Ew">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OfHMJIaeEeSDdbVg-MD9Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="pathmap://SPG_PROFILE/spg.profile.uml#_O5tTocqCEeGzEenZhMh9ww"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="pathmap://SPG_PROFILE/spg.profile.uml#_YZov0P0bEdqcdNCdjj7aKQ"/>
+          </profileApplication>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TjMxEIaeEeSDdbVg-MD9Ew">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TjMxEYaeEeSDdbVg-MD9Ew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="pathmap://UTILITY_PROFILE/43Utilities.profile.uml#_s7U0gQg6EeSs5q8A4YUJOA"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="pathmap://UTILITY_PROFILE/43Utilities.profile.uml#_U1HE8Fy0Ed6NvKf1SxOu9A"/>
+          </profileApplication>
+        </packagedElement>
+        <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_Q4znYIaeEeSDdbVg-MD9Ew" name="Object"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_uRC81FYDEeScEcDh5PADsQ" name="Programs">
       <packagedElement xmi:type="uml:Package" xmi:id="_uRC81VYDEeScEcDh5PADsQ" name="RootProgram">
@@ -4247,15 +4289,11 @@
         </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_-2g9cFYHEeScEcDh5PADsQ" name="baueGittermastschuss">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_-2g9cVYHEeScEcDh5PADsQ" name="expandGittermastschusse" node="_-2g9clYHEeScEcDh5PADsQ _-2g9c1YHEeScEcDh5PADsQ __oM5EFYHEeScEcDh5PADsQ _GKaB0FYIEeScEcDh5PADsQ _tzSQgFYIEeScEcDh5PADsQ _agM1QFYTEeS72uhOrKaBtw _69Zq8FYUEeS72uhOrKaBtw _NI9nAFYWEeS72uhOrKaBtw _D1LSAFYXEeS5ZuK8eQfm1Q _CSdv0FYcEeS5ZuK8eQfm1Q _ipqj0FYgEeS5ZuK8eQfm1Q _QPPoMFYmEeS6Ffcov0CqJA _It3E8FYnEeS6Ffcov0CqJA _fXo-gFj2EeSRvZYm9gtmzA _qsXYIFrEEeSb0OiVQ0FT7A _H0QHwIHqEeS2OeVAndhXnQ _MkotkIHqEeS2OeVAndhXnQ _XQVgQIaVEeSDdbVg-MD9Ew _5hl4EIaXEeSDdbVg-MD9Ew _6xyUoIaXEeSDdbVg-MD9Ew _8vNqoIaXEeSDdbVg-MD9Ew _HPKbUIaYEeSDdbVg-MD9Ew _Kp41wIaYEeSDdbVg-MD9Ew _LUvwoIaYEeSDdbVg-MD9Ew _L1zPQIaYEeSDdbVg-MD9Ew _DAUKYIaaEeSDdbVg-MD9Ew _Id0U4IaaEeSDdbVg-MD9Ew _JqoGQIaaEeSDdbVg-MD9Ew _KSJZQIaaEeSDdbVg-MD9Ew _OCcbEIaaEeSDdbVg-MD9Ew _PlQRoIaaEeSDdbVg-MD9Ew _QVKroIaaEeSDdbVg-MD9Ew _RDct8IaaEeSDdbVg-MD9Ew">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_-2g9cVYHEeScEcDh5PADsQ" name="expandGittermastschusse" node="_-2g9clYHEeScEcDh5PADsQ _-2g9c1YHEeScEcDh5PADsQ __oM5EFYHEeScEcDh5PADsQ _GKaB0FYIEeScEcDh5PADsQ _tzSQgFYIEeScEcDh5PADsQ _agM1QFYTEeS72uhOrKaBtw _69Zq8FYUEeS72uhOrKaBtw _NI9nAFYWEeS72uhOrKaBtw _D1LSAFYXEeS5ZuK8eQfm1Q _CSdv0FYcEeS5ZuK8eQfm1Q _ipqj0FYgEeS5ZuK8eQfm1Q _QPPoMFYmEeS6Ffcov0CqJA _It3E8FYnEeS6Ffcov0CqJA _fXo-gFj2EeSRvZYm9gtmzA _qsXYIFrEEeSb0OiVQ0FT7A _H0QHwIHqEeS2OeVAndhXnQ _MkotkIHqEeS2OeVAndhXnQ _XQVgQIaVEeSDdbVg-MD9Ew _5hl4EIaXEeSDdbVg-MD9Ew _6xyUoIaXEeSDdbVg-MD9Ew _8vNqoIaXEeSDdbVg-MD9Ew _HPKbUIaYEeSDdbVg-MD9Ew _Kp41wIaYEeSDdbVg-MD9Ew _LUvwoIaYEeSDdbVg-MD9Ew _L1zPQIaYEeSDdbVg-MD9Ew _DAUKYIaaEeSDdbVg-MD9Ew _Id0U4IaaEeSDdbVg-MD9Ew _JqoGQIaaEeSDdbVg-MD9Ew _KSJZQIaaEeSDdbVg-MD9Ew _OCcbEIaaEeSDdbVg-MD9Ew _PlQRoIaaEeSDdbVg-MD9Ew _QVKroIaaEeSDdbVg-MD9Ew _RDct8IaaEeSDdbVg-MD9Ew _MOP8wIaeEeSDdbVg-MD9Ew _Y5sUoIaeEeSDdbVg-MD9Ew">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sHfvAIH4EeS_AcYWpcaShg" source="Counter"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_BCNY8FYIEeScEcDh5PADsQ" target="_CSdv0FYcEeS5ZuK8eQfm1Q" source="_-2g9clYHEeScEcDh5PADsQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_BCNY8VYIEeScEcDh5PADsQ" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_BCNY8lYIEeScEcDh5PADsQ"/>
-          </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_vvNxsFYIEeScEcDh5PADsQ" target="_tzSQgFYIEeScEcDh5PADsQ" source="_GKaB0FYIEeScEcDh5PADsQ">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_vvNxsVYIEeScEcDh5PADsQ" value="true"/>
-            <weight xmi:type="uml:LiteralInteger" xmi:id="_vvNxslYIEeScEcDh5PADsQ"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_o52bYFYTEeS72uhOrKaBtw" target="_agM1QFYTEeS72uhOrKaBtw" source="_tzSQgFYIEeScEcDh5PADsQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_o52bYVYTEeS72uhOrKaBtw" value="true"/>
@@ -4365,11 +4403,23 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_ZiHG4YabEeSDdbVg-MD9Ew" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_ZiHG4oabEeSDdbVg-MD9Ew"/>
           </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_YNpuAIaeEeSDdbVg-MD9Ew" target="_MOP8wIaeEeSDdbVg-MD9Ew" source="_GKaB0FYIEeScEcDh5PADsQ">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_YNpuAYaeEeSDdbVg-MD9Ew" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_YNpuAoaeEeSDdbVg-MD9Ew"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_bpimEIaeEeSDdbVg-MD9Ew" target="_Y5sUoIaeEeSDdbVg-MD9Ew" source="_MOP8wIaeEeSDdbVg-MD9Ew">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_bpimEYaeEeSDdbVg-MD9Ew" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_bpimEoaeEeSDdbVg-MD9Ew"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_bzDucIaeEeSDdbVg-MD9Ew" target="_tzSQgFYIEeScEcDh5PADsQ" source="_Y5sUoIaeEeSDdbVg-MD9Ew">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_bzDucYaeEeSDdbVg-MD9Ew" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_bzDucoaeEeSDdbVg-MD9Ew"/>
+          </edge>
           <node xmi:type="uml:InitialNode" xmi:id="_-2g9clYHEeScEcDh5PADsQ" name="start" outgoing="_BCNY8FYIEeScEcDh5PADsQ"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_-2g9c1YHEeScEcDh5PADsQ" name="final" incoming="_zuLZwF6cEeSwHdgqWQIWdQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="__oM5EFYHEeScEcDh5PADsQ" name="baueAnfangsteil"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_GKaB0FYIEeScEcDh5PADsQ" name="baueSchussEbenen" incoming="_GBI5oFYfEeS5ZuK8eQfm1Q" outgoing="_vvNxsFYIEeScEcDh5PADsQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_tzSQgFYIEeScEcDh5PADsQ" name="baueEbenenPunkte" incoming="_vvNxsFYIEeScEcDh5PADsQ" outgoing="_o52bYFYTEeS72uhOrKaBtw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_GKaB0FYIEeScEcDh5PADsQ" name="baueSchussEbenenHinten" incoming="_GBI5oFYfEeS5ZuK8eQfm1Q" outgoing="_YNpuAIaeEeSDdbVg-MD9Ew"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_tzSQgFYIEeScEcDh5PADsQ" name="baueEbenenPunkte" incoming="_bzDucIaeEeSDdbVg-MD9Ew" outgoing="_o52bYFYTEeS72uhOrKaBtw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_agM1QFYTEeS72uhOrKaBtw" name="baueHolme" incoming="_o52bYFYTEeS72uhOrKaBtw" outgoing="_wYJbsF3kEeSde9ijzxWZIw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_69Zq8FYUEeS72uhOrKaBtw" name="baueG" incoming="_Ue1y8FYXEeS5ZuK8eQfm1Q" outgoing="_OG2yoFYWEeS72uhOrKaBtw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_NI9nAFYWEeS72uhOrKaBtw" name="VerbindeG"/>
@@ -4398,6 +4448,8 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_PlQRoIaaEeSDdbVg-MD9Ew" name="connectHolm2" incoming="_ZPXxEIabEeSDdbVg-MD9Ew" outgoing="_ZT-kQIabEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_QVKroIaaEeSDdbVg-MD9Ew" name="connectHolm3" incoming="_ZT-kQIabEeSDdbVg-MD9Ew" outgoing="_ZZogUIabEeSDdbVg-MD9Ew"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_RDct8IaaEeSDdbVg-MD9Ew" name="connectHolm4" incoming="_ZZogUIabEeSDdbVg-MD9Ew" outgoing="_ZiHG4IabEeSDdbVg-MD9Ew"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_MOP8wIaeEeSDdbVg-MD9Ew" name="baueSchussEbenenVorne" incoming="_YNpuAIaeEeSDdbVg-MD9Ew" outgoing="_bpimEIaeEeSDdbVg-MD9Ew"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_Y5sUoIaeEeSDdbVg-MD9Ew" name="connectSchussEbenen" incoming="_bpimEIaeEeSDdbVg-MD9Ew" outgoing="_bzDucIaeEeSDdbVg-MD9Ew"/>
         </packagedElement>
         <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__oM5EVYHEeScEcDh5PADsQ">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__oM5ElYHEeScEcDh5PADsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -4530,4 +4582,7 @@
   <_43Utilities:Rule xmi:id="_PlQRoYaaEeSDdbVg-MD9Ew" rule="_KX4YYIabEeSDdbVg-MD9Ew" base_OpaqueAction="_PlQRoIaaEeSDdbVg-MD9Ew"/>
   <_43Utilities:Rule xmi:id="_QVKroYaaEeSDdbVg-MD9Ew" rule="_P4NNYIabEeSDdbVg-MD9Ew" base_OpaqueAction="_QVKroIaaEeSDdbVg-MD9Ew"/>
   <_43Utilities:Rule xmi:id="_RDct8YaaEeSDdbVg-MD9Ew" rule="_QiAYUIabEeSDdbVg-MD9Ew" base_OpaqueAction="_RDct8IaaEeSDdbVg-MD9Ew"/>
+  <_43Utilities:Rule xmi:id="_MOP8wYaeEeSDdbVg-MD9Ew" rule="_OfHMIIaeEeSDdbVg-MD9Ew" base_OpaqueAction="_MOP8wIaeEeSDdbVg-MD9Ew"/>
+  <_43Utilities:NOT xmi:id="_TJBWgoaeEeSDdbVg-MD9Ew" base_Element="_RIkhsIaeEeSDdbVg-MD9Ew"/>
+  <_43Utilities:javaRule xmi:id="_Y51ekIaeEeSDdbVg-MD9Ew" rule="connectSchussEbenen" base_OpaqueAction="_Y5sUoIaeEeSDdbVg-MD9Ew"/>
 </xmi:XMI>
