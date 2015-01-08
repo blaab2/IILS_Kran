@@ -27,7 +27,7 @@ public class BaueDiagonalen1anMittelteil extends JavaRule {
 				// Add Diagonale2
 				Diagonale diagonale2 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
 						.getName() + "_diagonale2");
-				mittelTeilMastschuss.setDiagonale2(diagonale2);
+				mittelTeilMastschuss.setDiagonale6(diagonale2);
 
 				// Add Diagonale3
 				Diagonale diagonale3 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
