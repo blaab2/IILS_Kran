@@ -315,7 +315,6 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_YlM5RW5eEeSZbqAEkGjCoQ" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_YlM5QG5eEeSZbqAEkGjCoQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YlM5Rm5eEeSZbqAEkGjCoQ" points="[8, 1, -72, -4]$[58, 1, -22, -4]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YlM5SW5eEeSZbqAEkGjCoQ" id="(0.18461538461538463,0.55)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_o0Ydo25eEeSZbqAEkGjCoQ" type="4001" source="_JuLz8W5ZEeSZbqAEkGjCoQ" target="_gT-i0W5eEeSZbqAEkGjCoQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_o0rYkG5eEeSZbqAEkGjCoQ" type="6003">
@@ -622,7 +621,7 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tN9r1oauEeSqo4qXCRIWnw" points="[1, 20, 0, -182]$[1, 190, 0, -12]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tN9r2YauEeSqo4qXCRIWnw" id="(0.35714285714285715,0.12)"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_teVDE4auEeSqo4qXCRIWnw" type="4001" source="_yEoiAG5TEeSZbqAEkGjCoQ" target="_fz0WYXSQEeSBR-efoyvvwA">
+    <edges xmi:type="notation:Edge" xmi:id="_teVDE4auEeSqo4qXCRIWnw" type="4001" source="_yEoiAG5TEeSZbqAEkGjCoQ" target="_jyQh4HSQEeSBR-efoyvvwA">
       <children xmi:type="notation:DecorationNode" xmi:id="_teVDF4auEeSqo4qXCRIWnw" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_teVDGIauEeSqo4qXCRIWnw" y="40"/>
       </children>
