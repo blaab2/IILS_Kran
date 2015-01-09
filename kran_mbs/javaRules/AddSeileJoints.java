@@ -5,6 +5,7 @@ import kran_mbs.classes.Seil1MBSBodyElement;
 import kran_mbs.classes.Seil2MBSBodyElement;
 import kran_v2.classes.Mast;
 import multibody.profile.uml.classes.GeneralJoint;
+import multibody.profile.uml.classes.InternalDynamicMeasure;
 import multibody.profile.uml.classes.MBSModel;
 import de.iils.dc43.scriptrule.InstanceWrapperExtensions;
 import de.iils.dc43.transformationengine.javarule.JavaRule;
@@ -51,8 +52,8 @@ public class AddSeileJoints extends JavaRule {
 			System.out.println("Bodies Found");
 			// erzeuge neue Joints
 			// <> joint1 -- joint2 -- joint3 <>
-			System.out.println("seil1mbsbody " + seil1MBSBody.umlInstance().getName());
-			System.out.println("seil2mbsbody " + seil2MBSBody.umlInstance().getName());
+			System.out.println("seil1_" + seil1MBSBody.umlInstance().getName());
+			System.out.println("seil2_" + seil2MBSBody.umlInstance().getName());
 			GeneralJoint joint1 = InstanceWrapperExtensions.createInstance(GeneralJoint.class, seil1MBSBody.umlInstance().getName() + "_Joint1");
 			GeneralJoint joint2 = InstanceWrapperExtensions.createInstance(GeneralJoint.class, seil1MBSBody.umlInstance().getName()
 					+ mast1.umlInstance().getName() + mast2.umlInstance().getName() + "_Joint2");
@@ -98,6 +99,13 @@ public class AddSeileJoints extends JavaRule {
 			joint3.setBody1(mast2MBSBody);
 			joint3.setBody2(seil2MBSBody);
 
+			// Add Measures
+			InternalDynamicMeasure measure1 = InstanceWrapperExtensions.createInstance(InternalDynamicMeasure.class, mast1.umlInstance().getName()
+					+ mast2.umlInstance().getName());
+			measure1.setMeasuredElement(joint2);
+			measure1.setCoordinateSystem(seil1MBSBody);
+			measure1.setFx(true);
+			mbsModel.measure_add_(measure1);
 		}
 
 	}
