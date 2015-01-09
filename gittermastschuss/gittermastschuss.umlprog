@@ -470,7 +470,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_bxKW4mNFEeS1vODGVvPBZA" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="gittermastschuss.uml#_wYJbsF3kEeSde9ijzxWZIw"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bxKW42NFEeS1vODGVvPBZA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BSZe4Id9EeSavKaXot9ruw" id="(0.325,0.1)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n0b_kJgLEeSmta95Dh6Bxg" id="(0.4083333333333333,0.1625)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_bGXRo4HqEeS2OeVAndhXnQ" type="4001" source="_QPb1cFYmEeS6Ffcov0CqJA" target="_MkotkoHqEeS2OeVAndhXnQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_bGXRp4HqEeS2OeVAndhXnQ" type="6003">
@@ -480,7 +480,6 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_bGXRpYHqEeS2OeVAndhXnQ" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="gittermastschuss.uml#_bGXRoIHqEeS2OeVAndhXnQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bGXRpoHqEeS2OeVAndhXnQ" points="[60, 5, -216, 7]$[116, 5, -160, 7]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yonAcIUKEeS47ZeflD9LOg" id="(0.9876543209876543,0.325)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_bQe284HqEeS2OeVAndhXnQ" type="4001" source="_MkotkoHqEeS2OeVAndhXnQ" target="_H0Z4wYHqEeS2OeVAndhXnQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_bQe294HqEeS2OeVAndhXnQ" type="6003">

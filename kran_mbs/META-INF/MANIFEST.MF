@@ -20,4 +20,5 @@ Require-Bundle: org.eclipse.uml2.uml,
  de.iils.dc43.geometry.catia;bundle-version="1.0.0",
  seil
 Export-Package: kran_mbs.classes
+Import-Package: gegengewichte.classes
 
