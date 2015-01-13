@@ -225,7 +225,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_ipqj1lYgEeS5ZuK8eQfm1Q" type="5110"/>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_ipqj01YgEeS5ZuK8eQfm1Q" diagramLink="_klv2AFYgEeS5ZuK8eQfm1Q"/>
           <element xmi:type="uml:OpaqueAction" href="gittermastschuss.uml#_ipqj0FYgEeS5ZuK8eQfm1Q"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipqj1FYgEeS5ZuK8eQfm1Q" x="269" y="225"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipqj1FYgEeS5ZuK8eQfm1Q" x="260" y="229"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_QPb1cFYmEeS6Ffcov0CqJA" type="3029" fontName="Segoe UI" fillColor="12560536" lineColor="0">
           <children xmi:type="notation:DecorationNode" xmi:id="_QPb1c1YmEeS6Ffcov0CqJA" type="5023"/>
@@ -451,6 +451,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_SOMBJVYmEeS6Ffcov0CqJA" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="gittermastschuss.uml#_SOMBIFYmEeS6Ffcov0CqJA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SOMBJlYmEeS6Ffcov0CqJA" points="[68, -1, -153, 0]$[161, -1, -60, 0]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ti7Z4JsgEeSMscmXlHaVTw" id="(0.20833333333333334,0.4875)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_zuMn4F6cEeSwHdgqWQIWdQ" type="4001" source="_It9LkVYnEeS6Ffcov0CqJA" target="_-4c3JVYHEeScEcDh5PADsQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_zuNO8F6cEeSwHdgqWQIWdQ" type="6003">
@@ -470,7 +471,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_bxKW4mNFEeS1vODGVvPBZA" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="gittermastschuss.uml#_wYJbsF3kEeSde9ijzxWZIw"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bxKW42NFEeS1vODGVvPBZA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n0b_kJgLEeSmta95Dh6Bxg" id="(0.4083333333333333,0.1625)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UgsOAJssEeSuIMfcH37Whg" id="(0.3333333333333333,0.1375)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_bGXRo4HqEeS2OeVAndhXnQ" type="4001" source="_QPb1cFYmEeS6Ffcov0CqJA" target="_MkotkoHqEeS2OeVAndhXnQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_bGXRp4HqEeS2OeVAndhXnQ" type="6003">

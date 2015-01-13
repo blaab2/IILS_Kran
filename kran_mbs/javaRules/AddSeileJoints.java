@@ -105,6 +105,7 @@ public class AddSeileJoints extends JavaRule {
 			measure1.setMeasuredElement(joint2);
 			measure1.setCoordinateSystem(seil1MBSBody);
 			measure1.setFx(true);
+			measure1.setExportToFile(true);
 			mbsModel.measure_add_(measure1);
 		}
 

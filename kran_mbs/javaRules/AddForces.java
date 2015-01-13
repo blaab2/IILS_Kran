@@ -2,6 +2,7 @@ import java.util.Collection;
 
 import kran_mbs.classes.MastMBSBodyElement;
 import kran_v2.classes.Abspannbock;
+import kran_v2.classes.Hauptausleger;
 import kran_v2.classes.Kran;
 import kran_v2.classes.Nebenausleger;
 import kran_v2.classes.Spitzenausleger;
@@ -39,16 +40,11 @@ public class AddForces extends JavaRule {
 				for (MastMBSBodyElement mastMBSBodyElement : mastMBS) {
 					if (mastMBSBodyElement.getMast().equals(spitzenausleger)) {
 
-						Marker marker = InstanceWrapperExtensions.createInstance(Marker.class, "Last1Marker");
-						mastMBSBodyElement.marker_add_(marker);
-						marker.setPositionReference(mastMBSBodyElement);
-						marker.setLocalX(spitzenausleger.getLaenge() * 1000);
-
 						Force force1 = InstanceWrapperExtensions.createInstance(Force.class, "Last1");
 
 						mbs.load_add_(force1);
 						// force1.setActionElement(mastMBSBodyElement);
-						force1.setActionElement(marker);
+						force1.setActionElement(mastMBSBodyElement.getEndemarker());
 						force1.setCoordinateSystem(mbs.getGround());
 						force1.setFz("-" + kran.getLast() * 9.81 / 1000);
 
@@ -61,6 +57,26 @@ public class AddForces extends JavaRule {
 			}
 		}
 
+		if (spitzenauslegerlist.size() == 0) {
+			Hauptausleger hauptausleger = InstanceWrapperExtensions.allInstances(Hauptausleger.class).iterator().next();
+			for (MastMBSBodyElement mastMBSBodyElement : mastMBS) {
+				if (mastMBSBodyElement.getMast().equals(hauptausleger)) {
+
+					Force force1 = InstanceWrapperExtensions.createInstance(Force.class, "Last1");
+
+					mbs.load_add_(force1);
+					// force1.setActionElement(mastMBSBodyElement);
+					force1.setActionElement(mastMBSBodyElement.getEndemarker());
+					force1.setCoordinateSystem(mbs.getGround());
+					force1.setFz("-" + kran.getLast() * 9.81 / 1000);
+
+					break;
+
+				}
+			}
+
+		}
+
 		// GEwichtestapel 1
 
 		Abspannbock abspannbock = InstanceWrapperExtensions.allInstances(Abspannbock.class).iterator().next();
@@ -68,15 +84,11 @@ public class AddForces extends JavaRule {
 		for (MastMBSBodyElement mastMBSBodyElement : mastMBS) {
 			if (mastMBSBodyElement.getMast().equals(abspannbock)) {
 
-				Marker marker = InstanceWrapperExtensions.createInstance(Marker.class, "Gewichte1Marker");
-				mastMBSBodyElement.marker_add_(marker);
-				marker.setPositionReference(mastMBSBodyElement);
-				marker.setLocalX(abspannbock.getLaenge() * 1000);
 				Force force1 = InstanceWrapperExtensions.createInstance(Force.class, "Gewichte1");
 
 				mbs.load_add_(force1);
 
-				force1.setActionElement(marker);
+				force1.setActionElement(mastMBSBodyElement.getEndemarker());
 				force1.setCoordinateSystem(mbs.getGround());
 				force1.setFz("-" + kran.getUnterbau().getGewichte().getGesamtmassesoll() * 9.81 / 1000);
 

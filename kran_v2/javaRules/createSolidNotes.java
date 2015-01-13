@@ -40,8 +40,8 @@ public class createSolidNotes extends JavaRule {
 				List<TeilMastschuss> teilMastschusse = new ArrayList<TeilMastschuss>();
 
 				// lines des AnfangsTeils
-				lines.addAll(mastschuss.getAnfangsTeilMastschuss().getLine());
-				lines.addAll(mastschuss.getEndTeilMastschuss().getLine());
+				// lines.addAll(mastschuss.getAnfangsTeilMastschuss().getLine());
+				// lines.addAll(mastschuss.getEndTeilMastschuss().getLine());
 
 				// ################### Holme ############################
 
