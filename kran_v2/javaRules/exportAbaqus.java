@@ -92,10 +92,15 @@ public class exportAbaqus extends JavaRule {
 			
 			TransformationMatrix trafomatrix = api.getLoc2GlobTrans(emptyGraph, startPoint.umlInstance());
 			Matrix startPointMatrix = trafomatrix.times(new Matrix(startpointData.getHomogeneousCoordinates(), 4));
-				
+			
+			trafomatrix = api.getLoc2GlobTrans(emptyGraph, startPoint.umlInstance());
+			Matrix endPointMatrix = trafomatrix.times(new Matrix(endpointData.getHomogeneousCoordinates(), 4));	
+			
 			startPointMatrix.print(4, 4);
+			endPointMatrix.print(4,4);
 			
-			
+			startPointMatrix.getMatrix(new int[] {1,2,3},new int [] {1}).print(4,4);
+			 
 			FEMPunkt p1 = findSame(startPoint, points);
 			if (p1 == null) {
 				p1 = new FEMPunkt(startPoint.getX(), startPoint.getY(), startPoint.getZ());

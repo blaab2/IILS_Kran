@@ -1015,1049 +1015,1049 @@
       </profileApplication>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Mx0donP3EeSLbvxijkqXSg" name="Instances">
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nDaIwHTAEeSMxsmSt8GSWQ" name="verbindungsstueck0" classifier="_RloK4HP3EeSLbvxijkqXSg">
-        <slot xmi:type="uml:Slot" xmi:id="_nDaIwXTAEeSMxsmSt8GSWQ" definingFeature="_UrV-oHP3EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaIwnTAEeSMxsmSt8GSWQ" value="0.3"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s8_tYJtDEeSU4v8LZLv2AQ" name="verbindungsstueck0" classifier="_RloK4HP3EeSLbvxijkqXSg">
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tYZtDEeSU4v8LZLv2AQ" definingFeature="_UrV-oHP3EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tYptDEeSU4v8LZLv2AQ" value="0.3"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaIw3TAEeSMxsmSt8GSWQ" definingFeature="_ZBjJ4HP3EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaIxHTAEeSMxsmSt8GSWQ" value="0.1"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tY5tDEeSU4v8LZLv2AQ" definingFeature="_ZBjJ4HP3EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tZJtDEeSU4v8LZLv2AQ" value="0.1"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaIxXTAEeSMxsmSt8GSWQ" definingFeature="_ZBjJ5XP3EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaIxnTAEeSMxsmSt8GSWQ" value="0.1"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tZZtDEeSU4v8LZLv2AQ" definingFeature="_ZBjJ5XP3EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tZptDEeSU4v8LZLv2AQ" value="0.1"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaIx3TAEeSMxsmSt8GSWQ" definingFeature="_5zCqAHP3EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaIyHTAEeSMxsmSt8GSWQ" value="50"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tZ5tDEeSU4v8LZLv2AQ" definingFeature="_5zCqAHP3EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_taJtDEeSU4v8LZLv2AQ" value="50"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaIyXTAEeSMxsmSt8GSWQ" definingFeature="_CCi8cHSEEeS8iv9eZAqj8A">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaIynTAEeSMxsmSt8GSWQ" value="100"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_taZtDEeSU4v8LZLv2AQ" definingFeature="_CCi8cHSEEeS8iv9eZAqj8A">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_taptDEeSU4v8LZLv2AQ" value="100"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaIy3TAEeSMxsmSt8GSWQ" definingFeature="_a5RwAHSFEeS8iv9eZAqj8A">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaIzHTAEeSMxsmSt8GSWQ" value="0.9"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_ta5tDEeSU4v8LZLv2AQ" definingFeature="_a5RwAHSFEeS8iv9eZAqj8A">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tbJtDEeSU4v8LZLv2AQ" value="0.9"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaIz3TAEeSMxsmSt8GSWQ" definingFeature="_IDduUHSKEeS8iv9eZAqj8A">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI0HTAEeSMxsmSt8GSWQ" value="1.1"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tb5tDEeSU4v8LZLv2AQ" definingFeature="_IDduUHSKEeS8iv9eZAqj8A">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tcJtDEeSU4v8LZLv2AQ" value="1.1"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaI0XTAEeSMxsmSt8GSWQ" definingFeature="__FtTsHSKEeS8iv9eZAqj8A">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI0nTAEeSMxsmSt8GSWQ" value="300.0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tcZtDEeSU4v8LZLv2AQ" definingFeature="__FtTsHSKEeS8iv9eZAqj8A">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tcptDEeSU4v8LZLv2AQ" value="300.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaI03TAEeSMxsmSt8GSWQ" definingFeature="__FtTtXSKEeS8iv9eZAqj8A">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI1HTAEeSMxsmSt8GSWQ" value="770.83333333334"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tc5tDEeSU4v8LZLv2AQ" definingFeature="__FtTtXSKEeS8iv9eZAqj8A">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tdJtDEeSU4v8LZLv2AQ" value="770.83333333334"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaI1XTAEeSMxsmSt8GSWQ" definingFeature="__FtTunSKEeS8iv9eZAqj8A">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI1nTAEeSMxsmSt8GSWQ" value="41.66666"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tdZtDEeSU4v8LZLv2AQ" definingFeature="__FtTunSKEeS8iv9eZAqj8A">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tdptDEeSU4v8LZLv2AQ" value="41.66666"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaI13TAEeSMxsmSt8GSWQ" definingFeature="_ma-aIHScEeSP-rpQtBJLiw">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI2HTAEeSMxsmSt8GSWQ" value="3.972495"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_td5tDEeSU4v8LZLv2AQ" definingFeature="_ma-aIHScEeSP-rpQtBJLiw">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_teJtDEeSU4v8LZLv2AQ" value="3.972495"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaI2XTAEeSMxsmSt8GSWQ" definingFeature="_mbILInScEeSP-rpQtBJLiw">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI2nTAEeSMxsmSt8GSWQ" value="172.092837297"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_teZtDEeSU4v8LZLv2AQ" definingFeature="_mbILInScEeSP-rpQtBJLiw">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_teptDEeSU4v8LZLv2AQ" value="172.092837297"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaI23TAEeSMxsmSt8GSWQ" definingFeature="_mbRVEnScEeSP-rpQtBJLiw">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI3HTAEeSMxsmSt8GSWQ" value="0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_te5tDEeSU4v8LZLv2AQ" definingFeature="_mbRVEnScEeSP-rpQtBJLiw">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tfJtDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nDaI3XTAEeSMxsmSt8GSWQ" definingFeature="_mbbGEHScEeSP-rpQtBJLiw">
-          <value xmi:type="uml:LiteralString" xmi:id="_nDaI3nTAEeSMxsmSt8GSWQ" value="1.0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s8_tfZtDEeSU4v8LZLv2AQ" definingFeature="_mbbGEHScEeSP-rpQtBJLiw">
+          <value xmi:type="uml:LiteralString" xmi:id="_s8_tfptDEeSU4v8LZLv2AQ" value="1.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgrHTAEeSMxsmSt8GSWQ" definingFeature="_jg6kYXP6EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCuHTAEeSMxsmSt8GSWQ" instance="_nETguXTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxnJtDEeSU4v8LZLv2AQ" definingFeature="_jg6kYXP6EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-ydLJtDEeSU4v8LZLv2AQ" instance="_s9mxhZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThAXTAEeSMxsmSt8GSWQ" definingFeature="_iANNUXP_EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCuXTAEeSMxsmSt8GSWQ" instance="_nEThA3TAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s95scJtDEeSU4v8LZLv2AQ" definingFeature="_iANNUXP_EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-ydLZtDEeSU4v8LZLv2AQ" instance="_s95sXJtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH5nTAEeSMxsmSt8GSWQ" definingFeature="_yIu5NHSFEeS8iv9eZAqj8A">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCwHTAEeSMxsmSt8GSWQ" instance="_nEUH2XTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiMJtDEeSU4v8LZLv2AQ" definingFeature="_yIu5NHSFEeS8iv9eZAqj8A">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_F_JptDEeSU4v8LZLv2AQ" instance="_s-fiMptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH8nTAEeSMxsmSt8GSWQ" definingFeature="_tUgDRHSHEeS8iv9eZAqj8A">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUH83TAEeSMxsmSt8GSWQ" instance="_nEUH6XTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiSZtDEeSU4v8LZLv2AQ" definingFeature="_tUgDRHSHEeS8iv9eZAqj8A">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-fiSptDEeSU4v8LZLv2AQ" instance="_s-fiQJtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCr3TAEeSMxsmSt8GSWQ" definingFeature="_z1VsVHSCEeS8iv9eZAqj8A">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCsHTAEeSMxsmSt8GSWQ" instance="_nEUHsHTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s-ydJZtDEeSU4v8LZLv2AQ" definingFeature="_z1VsVHSCEeS8iv9eZAqj8A">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-ydJptDEeSU4v8LZLv2AQ" instance="_s-WYT5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCvnTAEeSMxsmSt8GSWQ" definingFeature="_8ZeB0HSIEeS8iv9eZAqj8A">
-          <value xmi:type="uml:LiteralString" xmi:id="_nEnCv3TAEeSMxsmSt8GSWQ" value="1.0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s_F_IptDEeSU4v8LZLv2AQ" definingFeature="_8ZeB0HSIEeS8iv9eZAqj8A">
+          <value xmi:type="uml:LiteralString" xmi:id="_s_F_I5tDEeSU4v8LZLv2AQ" value="1.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEwMkHTAEeSMxsmSt8GSWQ" definingFeature="_7ROiZHS_EeSMxsmSt8GSWQ">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEwMkXTAEeSMxsmSt8GSWQ" instance="_nEwMmXTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s_PJEJtDEeSU4v8LZLv2AQ" definingFeature="_7j-fRHS_EeSMxsmSt8GSWQ">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_PJEZtDEeSU4v8LZLv2AQ" instance="_s_PJGZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEwMknTAEeSMxsmSt8GSWQ" definingFeature="_7j-fRHS_EeSMxsmSt8GSWQ">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEwMk3TAEeSMxsmSt8GSWQ" instance="_nEwMlHTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s_PJEptDEeSU4v8LZLv2AQ" definingFeature="_OUSAlHSUEeSBR-efoyvvwA">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_PJE5tDEeSU4v8LZLv2AQ" instance="_s_PJHptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEwMl3TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s_PJF5tDEeSU4v8LZLv2AQ" definingFeature="_7ROiZHS_EeSMxsmSt8GSWQ">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_PJGJtDEeSU4v8LZLv2AQ" instance="_s_PJFJtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s_PJHJtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_jyjn1JdSEeCFQYEzkEv2mw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEwMmHTAEeSMxsmSt8GSWQ" instance="_nEwMlHTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEwMn3TAEeSMxsmSt8GSWQ" definingFeature="_OUSAlHSUEeSBR-efoyvvwA">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEwMoHTAEeSMxsmSt8GSWQ" instance="_nEwMnHTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_PJHZtDEeSU4v8LZLv2AQ" instance="_s_PJHptDEeSU4v8LZLv2AQ"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETgoHTAEeSMxsmSt8GSWQ" name="point0">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TsHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TsXTAEeSMxsmSt8GSWQ" value="0.0"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxYJtDEeSU4v8LZLv2AQ" name="xzprofil0" classifier="_gXOW8HP3EeSLbvxijkqXSg">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxYZtDEeSU4v8LZLv2AQ" definingFeature="_LJBo8nP5EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxYptDEeSU4v8LZLv2AQ" instance="_s9mxhZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TtHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TtXTAEeSMxsmSt8GSWQ" value="-50.0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxY5tDEeSU4v8LZLv2AQ" definingFeature="_BNb_BHP4EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxZJtDEeSU4v8LZLv2AQ" instance="_s9mxd5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TtnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tt3TAEeSMxsmSt8GSWQ" value="300.0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxZZtDEeSU4v8LZLv2AQ" definingFeature="_CehMZHP4EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxZptDEeSU4v8LZLv2AQ" instance="_s9mxsptDEeSU4v8LZLv2AQ"/>
         </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETgoXTAEeSMxsmSt8GSWQ" name="arc0">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_dcSmAL11EeCstrPozmuiGw"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgonTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_iGYKY73UEeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgo3TAEeSMxsmSt8GSWQ" instance="_nETgrnTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxZ5tDEeSU4v8LZLv2AQ" definingFeature="_CMXsdHP4EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxaJtDEeSU4v8LZLv2AQ" instance="_s9mxlZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgpHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_uiiJE73UEeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgpXTAEeSMxsmSt8GSWQ" instance="_nETgoHTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxaZtDEeSU4v8LZLv2AQ" definingFeature="_B2MoJHP4EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxaptDEeSU4v8LZLv2AQ" instance="_s9mxlptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgpnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_j_zKIL3UEeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgp3TAEeSMxsmSt8GSWQ" instance="_nETg7XTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxa5tDEeSU4v8LZLv2AQ" definingFeature="_BeQCNHP4EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxbJtDEeSU4v8LZLv2AQ" instance="_s9mxmZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgqHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_uxR0g_WfEeC7fpg4uCkW4w"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgqXTAEeSMxsmSt8GSWQ" instance="_nETg4HTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxbZtDEeSU4v8LZLv2AQ" definingFeature="__3wlhHP3EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxbptDEeSU4v8LZLv2AQ" instance="_s9mxpZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgqnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_u6lU8pRlEeGdLu1JIRWcmg"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgq3TAEeSMxsmSt8GSWQ" instance="_nETgsnTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxb5tDEeSU4v8LZLv2AQ" definingFeature="_9maN83P3EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxcJtDEeSU4v8LZLv2AQ" instance="_s9mxeptDEeSU4v8LZLv2AQ"/>
         </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETgrnTAEeSMxsmSt8GSWQ" name="point1">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TcnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tc3TAEeSMxsmSt8GSWQ" value="-50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TdnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Td3TAEeSMxsmSt8GSWQ" value="-50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TeHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TeXTAEeSMxsmSt8GSWQ" value="330.0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETgr3TAEeSMxsmSt8GSWQ" name="point3">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgsHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WYgaMr11EeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgsXTAEeSMxsmSt8GSWQ" instance="_nETg8HTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TbXTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TbnTAEeSMxsmSt8GSWQ" value="50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4Tb3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TcHTAEeSMxsmSt8GSWQ" value="-50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TdHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TdXTAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETgsnTAEeSMxsmSt8GSWQ" name="direction0">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VooJYN7HEeCDII9DPNaxpg"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgs3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WWswUN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETgtHTAEeSMxsmSt8GSWQ" value="0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgtXTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Wd1TEN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETgtnTAEeSMxsmSt8GSWQ" value="-1"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgt3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WhsfYN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETguHTAEeSMxsmSt8GSWQ" value="0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETguXTAEeSMxsmSt8GSWQ" name="grundkoerper0" classifier="_aoJe0HP4EeSLbvxijkqXSg">
-        <slot xmi:type="uml:Slot" xmi:id="_nETgunTAEeSMxsmSt8GSWQ" definingFeature="_K3a7knP5EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgu3TAEeSMxsmSt8GSWQ" instance="_nDaIwHTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgvHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_MTuslAZFEeGiOfQSQ1ihVg"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgvXTAEeSMxsmSt8GSWQ" instance="_nETg2XTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgvnTAEeSMxsmSt8GSWQ" definingFeature="_jxTw03P6EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgv3TAEeSMxsmSt8GSWQ" instance="_nETgwnTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgwHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_b9g4g85YEeC0PubT6a6Rmg"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgwXTAEeSMxsmSt8GSWQ" instance="_nETgwnTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4ThHTAEeSMxsmSt8GSWQ" definingFeature="_W70hkHP5EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4ThXTAEeSMxsmSt8GSWQ" value="100.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TiHTAEeSMxsmSt8GSWQ" definingFeature="_tx1QAHP5EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TiXTAEeSMxsmSt8GSWQ" value="300.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TjXTAEeSMxsmSt8GSWQ" definingFeature="_hGCS0HP5EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TjnTAEeSMxsmSt8GSWQ" value="100.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TuHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_plnPUIuQEeCEWoFMtp_PLg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TuXTAEeSMxsmSt8GSWQ" value="100.0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETgwnTAEeSMxsmSt8GSWQ" name="xzprofil0" classifier="_gXOW8HP3EeSLbvxijkqXSg">
-        <slot xmi:type="uml:Slot" xmi:id="_nETgw3TAEeSMxsmSt8GSWQ" definingFeature="_LJBo8nP5EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgxHTAEeSMxsmSt8GSWQ" instance="_nETguXTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgxXTAEeSMxsmSt8GSWQ" definingFeature="_BNb_BHP4EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgxnTAEeSMxsmSt8GSWQ" instance="_nETg8HTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgx3TAEeSMxsmSt8GSWQ" definingFeature="_CehMZHP4EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgyHTAEeSMxsmSt8GSWQ" instance="_nETgrnTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgyXTAEeSMxsmSt8GSWQ" definingFeature="_CMXsdHP4EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgynTAEeSMxsmSt8GSWQ" instance="_nETgoHTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgy3TAEeSMxsmSt8GSWQ" definingFeature="_B2MoJHP4EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgzHTAEeSMxsmSt8GSWQ" instance="_nETg7XTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgzXTAEeSMxsmSt8GSWQ" definingFeature="_BeQCNHP4EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETgznTAEeSMxsmSt8GSWQ" instance="_nETgr3TAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETgz3TAEeSMxsmSt8GSWQ" definingFeature="__3wlhHP3EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg0HTAEeSMxsmSt8GSWQ" instance="_nETg4HTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg0XTAEeSMxsmSt8GSWQ" definingFeature="_9maN83P3EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg0nTAEeSMxsmSt8GSWQ" instance="_nETgoXTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg03TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxcZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CFLU0r1-EeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg1HTAEeSMxsmSt8GSWQ" instance="_nETgoXTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxcptDEeSU4v8LZLv2AQ" instance="_s9mxeptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg1XTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxc5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_exLJIL3UEeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg1nTAEeSMxsmSt8GSWQ" instance="_nETgoXTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxdJtDEeSU4v8LZLv2AQ" instance="_s9mxeptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg13TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxdZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_exLJIL3UEeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg2HTAEeSMxsmSt8GSWQ" instance="_nETg4HTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxdptDEeSU4v8LZLv2AQ" instance="_s9mxpZtDEeSU4v8LZLv2AQ"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETg2XTAEeSMxsmSt8GSWQ" name="direction1">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VooJYN7HEeCDII9DPNaxpg"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg2nTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WWswUN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETg23TAEeSMxsmSt8GSWQ" value="0"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxd5tDEeSU4v8LZLv2AQ" name="point1">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxeJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WYgaMr11EeCstrPozmuiGw"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxeZtDEeSU4v8LZLv2AQ" instance="_s9mxsptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg3HTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Wd1TEN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETg3XTAEeSMxsmSt8GSWQ" value="1"/>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD7ptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD75tDEeSU4v8LZLv2AQ" value="-50.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg3nTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WhsfYN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETg33TAEeSMxsmSt8GSWQ" value="0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD8ptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD85tDEeSU4v8LZLv2AQ" value="-50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD9JtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD9ZtDEeSU4v8LZLv2AQ" value="0.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETg4HTAEeSMxsmSt8GSWQ" name="polyline0">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_xgGY4JcxEeCFQYEzkEv2mw"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg4XTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg4nTAEeSMxsmSt8GSWQ" instance="_nETg8HTAEeSMxsmSt8GSWQ"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxeptDEeSU4v8LZLv2AQ" name="arc0">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_dcSmAL11EeCstrPozmuiGw"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxe5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_iGYKY73UEeCstrPozmuiGw"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxfJtDEeSU4v8LZLv2AQ" instance="_s9mxsptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg43TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg5HTAEeSMxsmSt8GSWQ" instance="_nETgrnTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxfZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_uiiJE73UEeCstrPozmuiGw"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxfptDEeSU4v8LZLv2AQ" instance="_s9mxlZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg5XTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg5nTAEeSMxsmSt8GSWQ" instance="_nETg7XTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxf5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_j_zKIL3UEeCstrPozmuiGw"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxgJtDEeSU4v8LZLv2AQ" instance="_s9mxlptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg53TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg6HTAEeSMxsmSt8GSWQ" instance="_nETgr3TAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg6XTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_adC8xBBuEeGKwrW0mgr_SQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg6nTAEeSMxsmSt8GSWQ" instance="_nETg7XTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg63TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxgZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_uxR0g_WfEeC7fpg4uCkW4w"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg7HTAEeSMxsmSt8GSWQ" instance="_nETgoXTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxgptDEeSU4v8LZLv2AQ" instance="_s9mxpZtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxg5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_u6lU8pRlEeGdLu1JIRWcmg"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxhJtDEeSU4v8LZLv2AQ" instance="_s9mxnptDEeSU4v8LZLv2AQ"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETg7XTAEeSMxsmSt8GSWQ" name="point2">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg7nTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WYgaMr11EeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg73TAEeSMxsmSt8GSWQ" instance="_nETgr3TAEeSMxsmSt8GSWQ"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxhZtDEeSU4v8LZLv2AQ" name="grundkoerper0" classifier="_aoJe0HP4EeSLbvxijkqXSg">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxhptDEeSU4v8LZLv2AQ" definingFeature="_K3a7knP5EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxh5tDEeSU4v8LZLv2AQ" instance="_s8_tYJtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TrHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TrXTAEeSMxsmSt8GSWQ" value="50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TrnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tr3TAEeSMxsmSt8GSWQ" value="-50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TsnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Ts3TAEeSMxsmSt8GSWQ" value="330.0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETg8HTAEeSMxsmSt8GSWQ" name="point4">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg8XTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WYgaMr11EeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nETg8nTAEeSMxsmSt8GSWQ" instance="_nETgrnTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TqHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TqXTAEeSMxsmSt8GSWQ" value="-50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TqnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tq3TAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TvXTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TvnTAEeSMxsmSt8GSWQ" value="-50.0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETg83TAEeSMxsmSt8GSWQ" name="point5">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg9HTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TbHTAEeSMxsmSt8GSWQ" value="300.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg9nTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TgXTAEeSMxsmSt8GSWQ" value="-50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg-HTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TgHTAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nETg-nTAEeSMxsmSt8GSWQ" name="direction2">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VooJYN7HEeCDII9DPNaxpg"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg-3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WWswUN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETg_HTAEeSMxsmSt8GSWQ" value="0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg_XTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Wd1TEN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nETg_nTAEeSMxsmSt8GSWQ" value="1"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nETg_3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WhsfYN7HEeCDII9DPNaxpg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEThAHTAEeSMxsmSt8GSWQ" value="0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEThA3TAEeSMxsmSt8GSWQ" name="bohrloch0" classifier="_GNnsoHP-EeSLbvxijkqXSg">
-        <slot xmi:type="uml:Slot" xmi:id="_nEThBHTAEeSMxsmSt8GSWQ" definingFeature="_tArGk3P-EeSLbvxijkqXSg">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEThBXTAEeSMxsmSt8GSWQ" instance="_nEThEHTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThBnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_b9g4g85YEeC0PubT6a6Rmg"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEThB3TAEeSMxsmSt8GSWQ" instance="_nEThEHTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThCHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxiJtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_MTuslAZFEeGiOfQSQ1ihVg"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEThCXTAEeSMxsmSt8GSWQ" instance="_nETg-nTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxiZtDEeSU4v8LZLv2AQ" instance="_s9mxjptDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThCnTAEeSMxsmSt8GSWQ" definingFeature="_K4s7sHP-EeSLbvxijkqXSg">
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TcXTAEeSMxsmSt8GSWQ" value="50.0"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxiptDEeSU4v8LZLv2AQ" definingFeature="_jxTw03P6EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxi5tDEeSU4v8LZLv2AQ" instance="_s9mxYJtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThDHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxjJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_b9g4g85YEeC0PubT6a6Rmg"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxjZtDEeSU4v8LZLv2AQ" instance="_s9mxYJtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN2JtDEeSU4v8LZLv2AQ" definingFeature="_W70hkHP5EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN2ZtDEeSU4v8LZLv2AQ" value="100.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN3ptDEeSU4v8LZLv2AQ" definingFeature="_tx1QAHP5EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN35tDEeSU4v8LZLv2AQ" value="300.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN6ZtDEeSU4v8LZLv2AQ" definingFeature="_hGCS0HP5EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN6ptDEeSU4v8LZLv2AQ" value="100.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOD5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_plnPUIuQEeCEWoFMtp_PLg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TunTAEeSMxsmSt8GSWQ" value="100.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThDnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WHXkgM5YEeC0PubT6a6Rmg"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEThD3TAEeSMxsmSt8GSWQ" value="false"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOEJtDEeSU4v8LZLv2AQ" value="100.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEThEHTAEeSMxsmSt8GSWQ" name="circle0">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxjptDEeSU4v8LZLv2AQ" name="direction0">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VooJYN7HEeCDII9DPNaxpg"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxj5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WWswUN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s9mxkJtDEeSU4v8LZLv2AQ" value="0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxkZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Wd1TEN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s9mxkptDEeSU4v8LZLv2AQ" value="1"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxk5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WhsfYN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s9mxlJtDEeSU4v8LZLv2AQ" value="0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxlZtDEeSU4v8LZLv2AQ" name="point2">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOAZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOAptDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOBZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOBptDEeSU4v8LZLv2AQ" value="-50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOB5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOCJtDEeSU4v8LZLv2AQ" value="300.0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxlptDEeSU4v8LZLv2AQ" name="point3">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxl5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WYgaMr11EeCstrPozmuiGw"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxmJtDEeSU4v8LZLv2AQ" instance="_s9mxmZtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD6ZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD6ptDEeSU4v8LZLv2AQ" value="50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD65tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD7JtDEeSU4v8LZLv2AQ" value="-50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD8JtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD8ZtDEeSU4v8LZLv2AQ" value="330.0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxmZtDEeSU4v8LZLv2AQ" name="point0">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxmptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WYgaMr11EeCstrPozmuiGw"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxm5tDEeSU4v8LZLv2AQ" instance="_s9mxd5tDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOCZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOCptDEeSU4v8LZLv2AQ" value="50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOC5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrODJtDEeSU4v8LZLv2AQ" value="-50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrODZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrODptDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxnptDEeSU4v8LZLv2AQ" name="direction1">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VooJYN7HEeCDII9DPNaxpg"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxn5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WWswUN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s9mxoJtDEeSU4v8LZLv2AQ" value="0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxoZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Wd1TEN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s9mxoptDEeSU4v8LZLv2AQ" value="-1"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxo5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WhsfYN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s9mxpJtDEeSU4v8LZLv2AQ" value="0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxpZtDEeSU4v8LZLv2AQ" name="polyline0">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_xgGY4JcxEeCFQYEzkEv2mw"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxpptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxp5tDEeSU4v8LZLv2AQ" instance="_s9mxd5tDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxqJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxqZtDEeSU4v8LZLv2AQ" instance="_s9mxsptDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxqptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxq5tDEeSU4v8LZLv2AQ" instance="_s9mxlptDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxrJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_CryNoBJIEeGjMsruY9cZnA"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxrZtDEeSU4v8LZLv2AQ" instance="_s9mxmZtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxrptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_adC8xBBuEeGKwrW0mgr_SQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxr5tDEeSU4v8LZLv2AQ" instance="_s9mxlptDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s9mxsJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_uxR0g_WfEeC7fpg4uCkW4w"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s9mxsZtDEeSU4v8LZLv2AQ" instance="_s9mxeptDEeSU4v8LZLv2AQ"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s9mxsptDEeSU4v8LZLv2AQ" name="point4">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN_5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOAJtDEeSU4v8LZLv2AQ" value="-50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOA5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOBJtDEeSU4v8LZLv2AQ" value="330.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOFJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOFZtDEeSU4v8LZLv2AQ" value="-50.0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s95sUJtDEeSU4v8LZLv2AQ" name="direction2">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VooJYN7HEeCDII9DPNaxpg"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sUZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WWswUN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s95sUptDEeSU4v8LZLv2AQ" value="0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sU5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Wd1TEN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s95sVJtDEeSU4v8LZLv2AQ" value="1"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sVZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WhsfYN7HEeCDII9DPNaxpg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s95sVptDEeSU4v8LZLv2AQ" value="0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s95sV5tDEeSU4v8LZLv2AQ" name="circle0">
         <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VQc6wIuVEeCEWoFMtp_PLg"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThEXTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s95sWJtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_PG5YUr12EeCstrPozmuiGw"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEThEnTAEeSMxsmSt8GSWQ" instance="_nETg83TAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s95sWZtDEeSU4v8LZLv2AQ" instance="_s95saZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEThE3TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s95sWptDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_LkpZBAZFEeGiOfQSQ1ihVg"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEThFHTAEeSMxsmSt8GSWQ" instance="_nETg-nTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s95sW5tDEeSU4v8LZLv2AQ" instance="_s95sUJtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TkXTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN7ZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_IUfWsJcyEeCFQYEzkEv2mw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TknTAEeSMxsmSt8GSWQ" value="25.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN7ptDEeSU4v8LZLv2AQ" value="25.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEUHsHTAEeSMxsmSt8GSWQ" name="verrundung0" classifier="_lM_i4HSCEeS8iv9eZAqj8A">
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHs3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUHtHTAEeSMxsmSt8GSWQ" instance="_nEUHynTAEeSMxsmSt8GSWQ"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s95sXJtDEeSU4v8LZLv2AQ" name="bohrloch0" classifier="_GNnsoHP-EeSLbvxijkqXSg">
+        <slot xmi:type="uml:Slot" xmi:id="_s95sXZtDEeSU4v8LZLv2AQ" definingFeature="_tArGk3P-EeSLbvxijkqXSg">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s95sXptDEeSU4v8LZLv2AQ" instance="_s95sV5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHtXTAEeSMxsmSt8GSWQ" definingFeature="_8yLPBHSDEeS8iv9eZAqj8A">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUHtnTAEeSMxsmSt8GSWQ" instance="_nEUHuXTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sX5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_b9g4g85YEeC0PubT6a6Rmg"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s95sYJtDEeSU4v8LZLv2AQ" instance="_s95sV5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHt3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUHuHTAEeSMxsmSt8GSWQ" instance="_nEUHuXTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sYZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_MTuslAZFEeGiOfQSQ1ihVg"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s95sYptDEeSU4v8LZLv2AQ" instance="_s95sUJtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCoHTAEeSMxsmSt8GSWQ" definingFeature="_sIUWQHSCEeS8iv9eZAqj8A">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCoXTAEeSMxsmSt8GSWQ" instance="_nEUHynTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sY5tDEeSU4v8LZLv2AQ" definingFeature="_K4s7sHP-EeSLbvxijkqXSg">
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD7ZtDEeSU4v8LZLv2AQ" value="50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sZZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_plnPUIuQEeCEWoFMtp_PLg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOEZtDEeSU4v8LZLv2AQ" value="100.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sZ5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WHXkgM5YEeC0PubT6a6Rmg"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s95saJtDEeSU4v8LZLv2AQ" value="false"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEUHuXTAEeSMxsmSt8GSWQ" name="cylinder0">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s95saZtDEeSU4v8LZLv2AQ" name="point5">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_h-kNYIYJEeCH7d3hUaUf_Q"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s95saptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yEr8YIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD6JtDEeSU4v8LZLv2AQ" value="300.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sbJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_yXducIYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN1ZtDEeSU4v8LZLv2AQ" value="-50.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s95sbptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ybVh0IYJEeCH7d3hUaUf_Q"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN1JtDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-WYQJtDEeSU4v8LZLv2AQ" name="cylinder1">
         <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_rX3VUEjPEeCZmbgsBKi5qQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHunTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYQZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Z5X6cL3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHu3TAEeSMxsmSt8GSWQ" value="1"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYQptDEeSU4v8LZLv2AQ" value="1"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHvHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYQ5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Z9kd8L3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHvXTAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYRJtDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHvnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYRZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_aBswAL3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHv3TAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYRptDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHwHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYR5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_aIt-AL3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHwXTAEeSMxsmSt8GSWQ" value="360"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYSJtDEeSU4v8LZLv2AQ" value="360"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHwnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYSZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_22X0AE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tn3TAEeSMxsmSt8GSWQ" value="99.99999999999999"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOI5tDEeSU4v8LZLv2AQ" value="99.99999999999999"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHxHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYS5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3L-3oE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHxXTAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYTJtDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHxnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYTZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3WHEAE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHx3TAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYTptDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TZHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_SFwicEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TZXTAEeSMxsmSt8GSWQ" value="270.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4Tl3TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN75tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Rzu-UEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TmHTAEeSMxsmSt8GSWQ" value="63.63961030678928"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN8JtDEeSU4v8LZLv2AQ" value="63.63961030678928"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN-ZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_SFwicEjQEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN-ptDEeSU4v8LZLv2AQ" value="270.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEUHynTAEeSMxsmSt8GSWQ" name="cylinder1">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-WYT5tDEeSU4v8LZLv2AQ" name="verrundung0" classifier="_lM_i4HSCEeS8iv9eZAqj8A">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYUptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-WYU5tDEeSU4v8LZLv2AQ" instance="_s-WYWptDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYVJtDEeSU4v8LZLv2AQ" definingFeature="_8yLPBHSDEeS8iv9eZAqj8A">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-WYVZtDEeSU4v8LZLv2AQ" instance="_s-WYQJtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYVptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-WYV5tDEeSU4v8LZLv2AQ" instance="_s-WYQJtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s-pTMJtDEeSU4v8LZLv2AQ" definingFeature="_sIUWQHSCEeS8iv9eZAqj8A">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-pTMZtDEeSU4v8LZLv2AQ" instance="_s-WYWptDEeSU4v8LZLv2AQ"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-WYWptDEeSU4v8LZLv2AQ" name="cylinder0">
         <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_rX3VUEjPEeCZmbgsBKi5qQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHy3TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYW5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Z5X6cL3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHzHTAEeSMxsmSt8GSWQ" value="1"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYXJtDEeSU4v8LZLv2AQ" value="1"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHzXTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYXZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Z9kd8L3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUHznTAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYXptDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUHz3TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYX5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_aBswAL3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUH0HTAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYYJtDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH0XTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYYZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_aIt-AL3ZEeCstrPozmuiGw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUH0nTAEeSMxsmSt8GSWQ" value="360"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYYptDEeSU4v8LZLv2AQ" value="360"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH03TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYY5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_22X0AE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUH1HTAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYZJtDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH1XTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYZZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3L-3oE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUH1nTAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYZptDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH13TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-WYZ5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3WHEAE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nEUH2HTAEeSMxsmSt8GSWQ" value="0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_s-WYaJtDEeSU4v8LZLv2AQ" value="0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4Tk3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Rzu-UEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TlHTAEeSMxsmSt8GSWQ" value="50.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4ToHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD4JtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_SFwicEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4ToXTAEeSMxsmSt8GSWQ" value="99.99999999999999"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD4ZtDEeSU4v8LZLv2AQ" value="99.99999999999999"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN8ZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Rzu-UEjQEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN8ptDEeSU4v8LZLv2AQ" value="50.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEUH2XTAEeSMxsmSt8GSWQ" name="spalt0" classifier="_susSYHSFEeS8iv9eZAqj8A">
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH2nTAEeSMxsmSt8GSWQ">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-fiMptDEeSU4v8LZLv2AQ" name="spalt0" classifier="_susSYHSFEeS8iv9eZAqj8A">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiM5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_22X0AE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tu3TAEeSMxsmSt8GSWQ" value="220.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOEptDEeSU4v8LZLv2AQ" value="220.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH3HTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiNZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3L-3oE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TvHTAEeSMxsmSt8GSWQ" value="-25.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOE5tDEeSU4v8LZLv2AQ" value="-25.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH3nTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiN5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3WHEAE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tv3TAEeSMxsmSt8GSWQ" value="-50.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOFptDEeSU4v8LZLv2AQ" value="-50.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH4HTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiOZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VUH74EjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Ti3TAEeSMxsmSt8GSWQ" value="150.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN4ZtDEeSU4v8LZLv2AQ" value="150.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH4nTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiO5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WEZiQEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TjHTAEeSMxsmSt8GSWQ" value="50.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN4ptDEeSU4v8LZLv2AQ" value="50.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH5HTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiPZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WIkQkEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TinTAEeSMxsmSt8GSWQ" value="100.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN4JtDEeSU4v8LZLv2AQ" value="100.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEUH6HTAEeSMxsmSt8GSWQ" name="cuboid0">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-fiP5tDEeSU4v8LZLv2AQ" name="cuboid0">
         <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_qn6fEEjPEeCZmbgsBKi5qQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TmXTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN85tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_22X0AE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TmnTAEeSMxsmSt8GSWQ" value="220.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN9JtDEeSU4v8LZLv2AQ" value="220.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4Tm3TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN9ZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3L-3oE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TnHTAEeSMxsmSt8GSWQ" value="25.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN9ptDEeSU4v8LZLv2AQ" value="-50.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TnXTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN95tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3WHEAE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TnnTAEeSMxsmSt8GSWQ" value="-50.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN-JtDEeSU4v8LZLv2AQ" value="-50.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TwnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOGZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WIkQkEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tw3TAEeSMxsmSt8GSWQ" value="100.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOGptDEeSU4v8LZLv2AQ" value="100.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TxnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOG5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WEZiQEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tx3TAEeSMxsmSt8GSWQ" value="25.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOHJtDEeSU4v8LZLv2AQ" value="25.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TynTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOH5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VUH74EjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Ty3TAEeSMxsmSt8GSWQ" value="150.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOIJtDEeSU4v8LZLv2AQ" value="150.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEUH6XTAEeSMxsmSt8GSWQ" name="stecker0" classifier="_qesTwHSHEeS8iv9eZAqj8A">
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH6nTAEeSMxsmSt8GSWQ" definingFeature="_vOo0tHSHEeS8iv9eZAqj8A">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUH63TAEeSMxsmSt8GSWQ" instance="_nEUH9HTAEeSMxsmSt8GSWQ"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-fiQJtDEeSU4v8LZLv2AQ" name="stecker0" classifier="_qesTwHSHEeS8iv9eZAqj8A">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiQZtDEeSU4v8LZLv2AQ" definingFeature="_vOo0tHSHEeS8iv9eZAqj8A">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-fiQptDEeSU4v8LZLv2AQ" instance="_s-fiP5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH7HTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiQ5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUH7XTAEeSMxsmSt8GSWQ" instance="_nEUH9HTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-fiRJtDEeSU4v8LZLv2AQ" instance="_s-fiP5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH7nTAEeSMxsmSt8GSWQ" definingFeature="_utnLRHSHEeS8iv9eZAqj8A">
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUH73TAEeSMxsmSt8GSWQ" instance="_nEUH6HTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiRZtDEeSU4v8LZLv2AQ" definingFeature="_utnLRHSHEeS8iv9eZAqj8A">
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-fiRptDEeSU4v8LZLv2AQ" instance="_s-fiS5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEUH8HTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-fiR5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEUH8XTAEeSMxsmSt8GSWQ" instance="_nEUH6HTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-fiSJtDEeSU4v8LZLv2AQ" instance="_s-fiS5tDEeSU4v8LZLv2AQ"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEUH9HTAEeSMxsmSt8GSWQ" name="cuboid1">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-fiS5tDEeSU4v8LZLv2AQ" name="cuboid1">
         <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_qn6fEEjPEeCZmbgsBKi5qQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TenTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD9ptDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WEZiQEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Te3TAEeSMxsmSt8GSWQ" value="25.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD95tDEeSU4v8LZLv2AQ" value="25.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TfHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN0ptDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_WIkQkEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TfXTAEeSMxsmSt8GSWQ" value="100.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN05tDEeSU4v8LZLv2AQ" value="100.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TgnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN1ptDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_VUH74EjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tg3TAEeSMxsmSt8GSWQ" value="150.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN15tDEeSU4v8LZLv2AQ" value="150.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TwHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOF5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_22X0AE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TwXTAEeSMxsmSt8GSWQ" value="220.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOGJtDEeSU4v8LZLv2AQ" value="220.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TxHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOHZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3WHEAE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TxXTAEeSMxsmSt8GSWQ" value="-50.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOHptDEeSU4v8LZLv2AQ" value="-50.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TyHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrOIZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3L-3oE41EeCSed0mrL4RAw"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TyXTAEeSMxsmSt8GSWQ" value="-50.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrOIptDEeSU4v8LZLv2AQ" value="25.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEnConTAEeSMxsmSt8GSWQ" name="common0">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_lpRicFlEEeCnaqyi9vBN0Q"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCo3TAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_vn1WZKvPEeColvqP_6iQ3A"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCpHTAEeSMxsmSt8GSWQ" instance="_nEUHsHTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCpXTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_vn1WZKvPEeColvqP_6iQ3A"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCpnTAEeSMxsmSt8GSWQ" instance="_nEnCp3TAEeSMxsmSt8GSWQ"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEnCp3TAEeSMxsmSt8GSWQ" name="cut0">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_0xU_EEjPEeCZmbgsBKi5qQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCqHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_33xypEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCqXTAEeSMxsmSt8GSWQ" instance="_nEThA3TAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCqnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3OgMJEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCq3TAEeSMxsmSt8GSWQ" instance="_nETguXTAEeSMxsmSt8GSWQ"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEnCrHTAEeSMxsmSt8GSWQ" name="cut1">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_0xU_EEjPEeCZmbgsBKi5qQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCrXTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3OgMJEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCrnTAEeSMxsmSt8GSWQ" instance="_nEnCs3TAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCvHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_33xypEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCvXTAEeSMxsmSt8GSWQ" instance="_nEUH2XTAEeSMxsmSt8GSWQ"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEnCs3TAEeSMxsmSt8GSWQ" name="add0">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-pTMptDEeSU4v8LZLv2AQ" name="add0">
         <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_0SDCEEjPEeCZmbgsBKi5qQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCtHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-pTM5tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCtXTAEeSMxsmSt8GSWQ" instance="_nEnConTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-pTNJtDEeSU4v8LZLv2AQ" instance="_s-ydJ5tDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nEnCtnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s-pTNZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_21LtNEjPEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEnCt3TAEeSMxsmSt8GSWQ" instance="_nEUHynTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-pTNptDEeSU4v8LZLv2AQ" instance="_s-WYWptDEeSU4v8LZLv2AQ"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEwMlHTAEeSMxsmSt8GSWQ" name="transform2">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-pTN5tDEeSU4v8LZLv2AQ" name="cut0">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_0xU_EEjPEeCZmbgsBKi5qQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s-pTOJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_33xypEjPEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-pTOZtDEeSU4v8LZLv2AQ" instance="_s95sXJtDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s-pTOptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3OgMJEjPEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-pTO5tDEeSU4v8LZLv2AQ" instance="_s9mxhZtDEeSU4v8LZLv2AQ"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-ydIptDEeSU4v8LZLv2AQ" name="cut1">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_0xU_EEjPEeCZmbgsBKi5qQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s-ydI5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_3OgMJEjPEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-ydJJtDEeSU4v8LZLv2AQ" instance="_s-pTMptDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s_F_IJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_33xypEjPEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_F_IZtDEeSU4v8LZLv2AQ" instance="_s-fiMptDEeSU4v8LZLv2AQ"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s-ydJ5tDEeSU4v8LZLv2AQ" name="common0">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_lpRicFlEEeCnaqyi9vBN0Q"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s-ydKJtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_vn1WZKvPEeColvqP_6iQ3A"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-ydKZtDEeSU4v8LZLv2AQ" instance="_s-WYT5tDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_s-ydKptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_vn1WZKvPEeColvqP_6iQ3A"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s-ydK5tDEeSU4v8LZLv2AQ" instance="_s-pTN5tDEeSU4v8LZLv2AQ"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s_PJFJtDEeSU4v8LZLv2AQ" name="transform1">
         <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_RiJ7kHcyEeCKiJ7mgIS1yQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEwMlXTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_s_PJFZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ekJyRHcyEeCKiJ7mgIS1yQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEwMlnTAEeSMxsmSt8GSWQ" instance="_nEwMmXTAEeSMxsmSt8GSWQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_PJFptDEeSU4v8LZLv2AQ" instance="_s_PJGZtDEeSU4v8LZLv2AQ"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TZnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G8f2wLISEeCczIgiMKnSow"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TZ3TAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TaHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_GfvCQLISEeCczIgiMKnSow"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TaXTAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TanTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G1yx0LISEeCczIgiMKnSow"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Ta3TAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TfnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN3JtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_sArzYEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tf3TAEeSMxsmSt8GSWQ" value="0.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN3ZtDEeSU4v8LZLv2AQ" value="0.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4ThnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_svLREEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Th3TAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEwMmXTAEeSMxsmSt8GSWQ" name="transform0">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_RiJ7kHcyEeCKiJ7mgIS1yQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEwMmnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ekJyRHcyEeCKiJ7mgIS1yQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEwMm3TAEeSMxsmSt8GSWQ" instance="_nEwMnHTAEeSMxsmSt8GSWQ"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TYHTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_sArzYEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TYXTAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TYnTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G8f2wLISEeCczIgiMKnSow"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TY3TAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TlXTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_tHm_MEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TlnTAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TonTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G1yx0LISEeCczIgiMKnSow"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4To3TAEeSMxsmSt8GSWQ" value="0.0"/>
-        </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TpHTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN45tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_GfvCQLISEeCczIgiMKnSow"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TpXTAEeSMxsmSt8GSWQ" value="0.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN5JtDEeSU4v8LZLv2AQ" value="0.0"/>
         </slot>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nEwMnHTAEeSMxsmSt8GSWQ" name="transform1">
-        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_RiJ7kHcyEeCKiJ7mgIS1yQ"/>
-        <slot xmi:type="uml:Slot" xmi:id="_nEwMnXTAEeSMxsmSt8GSWQ">
-          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ekJyRHcyEeCKiJ7mgIS1yQ"/>
-          <value xmi:type="uml:InstanceValue" xmi:id="_nEwMnnTAEeSMxsmSt8GSWQ" instance="_nEnCrHTAEeSMxsmSt8GSWQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN5ZtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G8f2wLISEeCczIgiMKnSow"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN5ptDEeSU4v8LZLv2AQ" value="0.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4Tj3TAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN55tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G1yx0LISEeCczIgiMKnSow"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN6JtDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN65tDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_svLREEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4TkHTAEeSMxsmSt8GSWQ" value="0.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN7JtDEeSU4v8LZLv2AQ" value="0.0"/>
         </slot>
-        <slot xmi:type="uml:Slot" xmi:id="_nN4TpnTAEeSMxsmSt8GSWQ">
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN_ZtDEeSU4v8LZLv2AQ">
           <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_tHm_MEjQEeCZmbgsBKi5qQ"/>
-          <value xmi:type="uml:LiteralString" xmi:id="_nN4Tp3TAEeSMxsmSt8GSWQ" value="0.0"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN_ptDEeSU4v8LZLv2AQ" value="0.0"/>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_nN4TzHTAEeSMxsmSt8GSWQ" name="SolutionSteps">
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4TzXTAEeSMxsmSt8GSWQ" name="Step0" constrainedElement="_nN4TanTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4TznTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.dy"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s_PJGZtDEeSU4v8LZLv2AQ" name="transform2">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_RiJ7kHcyEeCKiJ7mgIS1yQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s_PJGptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ekJyRHcyEeCKiJ7mgIS1yQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_PJG5tDEeSU4v8LZLv2AQ" instance="_s-ydIptDEeSU4v8LZLv2AQ"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD4ptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G8f2wLISEeCczIgiMKnSow"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD45tDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD5JtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_GfvCQLISEeCczIgiMKnSow"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD5ZtDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGiD5ptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_G1yx0LISEeCczIgiMKnSow"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGiD55tDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN0JtDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_sArzYEjQEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN0ZtDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN2ptDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_svLREEjQEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN25tDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+        <slot xmi:type="uml:Slot" xmi:id="_tGrN-5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_tHm_MEjQEeCZmbgsBKi5qQ"/>
+          <value xmi:type="uml:LiteralString" xmi:id="_tGrN_JtDEeSU4v8LZLv2AQ" value="0.0"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_s_PJHptDEeSU4v8LZLv2AQ" name="transform0">
+        <classifier xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_RiJ7kHcyEeCKiJ7mgIS1yQ"/>
+        <slot xmi:type="uml:Slot" xmi:id="_s_PJH5tDEeSU4v8LZLv2AQ">
+          <definingFeature xmi:type="uml:Property" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_ekJyRHcyEeCKiJ7mgIS1yQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_s_PJIJtDEeSU4v8LZLv2AQ" instance="_s-ydIptDEeSU4v8LZLv2AQ"/>
+        </slot>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tGrOJJtDEeSU4v8LZLv2AQ" name="SolutionSteps">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tGrOJZtDEeSU4v8LZLv2AQ" name="Step0" constrainedElement="_tGrN_ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tGrOJptDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.phi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4Tz3TAEeSMxsmSt8GSWQ" name="Step1" constrainedElement="_nN4TsHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T0HTAEeSMxsmSt8GSWQ" name="Equation" value="point0.z = 0"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tGrOJ5tDEeSU4v8LZLv2AQ" name="Step1" constrainedElement="_tGrN8ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tGrOKJtDEeSU4v8LZLv2AQ" name="Equation" value="cylinder0.radius = verbindungsstueck0.anschlussdurchmesser / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T0XTAEeSMxsmSt8GSWQ" name="Step2" constrainedElement="_nEThDHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T0nTAEeSMxsmSt8GSWQ" name="Equation" value="bohrloch0.height = verbindungsstueck0.breite * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tGrOKZtDEeSU4v8LZLv2AQ" name="Step2" constrainedElement="_s95sZZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tGrOKptDEeSU4v8LZLv2AQ" name="Equation" value="bohrloch0.height = verbindungsstueck0.breite * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T03TAEeSMxsmSt8GSWQ" name="Step3" constrainedElement="_nN4TdHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T1HTAEeSMxsmSt8GSWQ" name="Equation" value="point3.x = 0"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tGrOK5tDEeSU4v8LZLv2AQ" name="Step3" constrainedElement="_tGrN0JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tGrOLJtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.psi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T1XTAEeSMxsmSt8GSWQ" name="Step4" constrainedElement="_nEThCnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T1nTAEeSMxsmSt8GSWQ" name="Equation" value="bohrloch0.durchmesser = verbindungsstueck0.lochdurchmesser"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tGrOLZtDEeSU4v8LZLv2AQ" name="Step4" constrainedElement="_s-fiM5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tGrOLptDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lx = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T13TAEeSMxsmSt8GSWQ" name="Step5" constrainedElement="_nN4Tl3TAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T2HTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder0.radius = verbindungsstueck0.verrundungpro * ((verbindungsstueck0.breite * 1000)^2 + (verbindungsstueck0.hoehe * 1000)^2)^(1 / 2) / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tGrOL5tDEeSU4v8LZLv2AQ" name="Step5" constrainedElement="_s-fiO5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tGrOMJtDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lengthY = verbindungsstueck0.breite / 2 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T2XTAEeSMxsmSt8GSWQ" name="Step6" constrainedElement="_nN4TpHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T2nTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.dx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tGrOMZtDEeSU4v8LZLv2AQ" name="Step6" constrainedElement="_tGrN2ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-0JtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.theta"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T23TAEeSMxsmSt8GSWQ" name="Step7" constrainedElement="_nN4TaHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T3HTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.dx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-0ZtDEeSU4v8LZLv2AQ" name="Step7" constrainedElement="_tGiD5ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-0ptDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.dy"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T3XTAEeSMxsmSt8GSWQ" name="Step8" constrainedElement="_nN4TpnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T3nTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform1.phi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-05tDEeSU4v8LZLv2AQ" name="Step8" constrainedElement="_tGrOAZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-1JtDEeSU4v8LZLv2AQ" name="Equation" value="point2.z = 0"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T33TAEeSMxsmSt8GSWQ" name="Step9" constrainedElement="_nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T4HTAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.laenge = 1000 * verbindungsstueck0.laenge"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-1ZtDEeSU4v8LZLv2AQ" name="Step9" constrainedElement="_tGrN45tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-1ptDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.dx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T4XTAEeSMxsmSt8GSWQ" name="Step10" constrainedElement="_nEUH4HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T4nTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lengthX = verbindungsstueck0.laenge * 1 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-15tDEeSU4v8LZLv2AQ" name="Step10" constrainedElement="_s-WYSZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-2JtDEeSU4v8LZLv2AQ" name="Equation" value="cylinder1.lx = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T43TAEeSMxsmSt8GSWQ" name="Step11" constrainedElement="_nN4Tk3TAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T5HTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder1.radius = verbindungsstueck0.anschlussdurchmesser / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-2ZtDEeSU4v8LZLv2AQ" name="Step11" constrainedElement="_tGrN-ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-2ptDEeSU4v8LZLv2AQ" name="Equation" value="cylinder1.height = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T5XTAEeSMxsmSt8GSWQ" name="Step12" constrainedElement="_nN4TonTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T5nTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.dy"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-25tDEeSU4v8LZLv2AQ" name="Step12" constrainedElement="_tGrN-5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-3JtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.phi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T53TAEeSMxsmSt8GSWQ" name="Step13" constrainedElement="_nN4TZHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T6HTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder0.height = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-3ZtDEeSU4v8LZLv2AQ" name="Step13" constrainedElement="_tGrN55tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-3ptDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.dy"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T6XTAEeSMxsmSt8GSWQ" name="Step14" constrainedElement="_nN4TfnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T6nTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.psi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-35tDEeSU4v8LZLv2AQ" name="Step14" constrainedElement="_tGiD5JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-4JtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.dx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T63TAEeSMxsmSt8GSWQ" name="Step15" constrainedElement="_nN4TqnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T7HTAEeSMxsmSt8GSWQ" name="Equation" value="point4.x = 0"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-4ZtDEeSU4v8LZLv2AQ" name="Step15" constrainedElement="_tGrN75tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-4ptDEeSU4v8LZLv2AQ" name="Equation" value="cylinder1.radius = verbindungsstueck0.verrundungpro * ((verbindungsstueck0.breite * 1000)^2 + (verbindungsstueck0.hoehe * 1000)^2)^(1 / 2) / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T7XTAEeSMxsmSt8GSWQ" name="Step16" constrainedElement="_nEUHwnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T7nTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder0.lx = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-45tDEeSU4v8LZLv2AQ" name="Step16" constrainedElement="_tGiD4ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-5JtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.dz"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T73TAEeSMxsmSt8GSWQ" name="Step17" constrainedElement="_nN4TYnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T8HTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.dz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-5ZtDEeSU4v8LZLv2AQ" name="Step17" constrainedElement="_tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-5ptDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.breite = 1000 * verbindungsstueck0.breite"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T8XTAEeSMxsmSt8GSWQ" name="Step18" constrainedElement="_nN4Tj3TAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T8nTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform1.theta"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-55tDEeSU4v8LZLv2AQ" name="Step18" constrainedElement="_tGrN3JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-6JtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.psi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T83TAEeSMxsmSt8GSWQ" name="Step19" constrainedElement="_nEUH2nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T9HTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lx = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-6ZtDEeSU4v8LZLv2AQ" name="Step19" constrainedElement="_s-fiPZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-6ptDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lengthZ = verbindungsstueck0.hoehe * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T9XTAEeSMxsmSt8GSWQ" name="Step20" constrainedElement="_nN4ToHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T9nTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder1.height = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-65tDEeSU4v8LZLv2AQ" name="Step20" constrainedElement="_tGrN65tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-7JtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.theta"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T93TAEeSMxsmSt8GSWQ" name="Step21" constrainedElement="_nN4TZnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T-HTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.dz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-7ZtDEeSU4v8LZLv2AQ" name="Step21" constrainedElement="_tGrODZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-7ptDEeSU4v8LZLv2AQ" name="Equation" value="point0.x = 0"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T-XTAEeSMxsmSt8GSWQ" name="Step22" constrainedElement="_nN4ThnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T-nTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.theta"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-75tDEeSU4v8LZLv2AQ" name="Step22" constrainedElement="_s95sY5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-8JtDEeSU4v8LZLv2AQ" name="Equation" value="bohrloch0.durchmesser = verbindungsstueck0.lochdurchmesser"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T-3TAEeSMxsmSt8GSWQ" name="Step23" constrainedElement="_nN4TlXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T_HTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.phi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-8ZtDEeSU4v8LZLv2AQ" name="Step23" constrainedElement="_tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-8ptDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.laenge = 1000 * verbindungsstueck0.laenge"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T_XTAEeSMxsmSt8GSWQ" name="Step24" constrainedElement="_nEUH4nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4T_nTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lengthY = verbindungsstueck0.breite / 2 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-85tDEeSU4v8LZLv2AQ" name="Step24" constrainedElement="_tGiD9JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-9JtDEeSU4v8LZLv2AQ" name="Equation" value="point1.x = 0"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4T_3TAEeSMxsmSt8GSWQ" name="Step25" constrainedElement="_nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UAHTAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.hoehe = 1000 * verbindungsstueck0.hoehe"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-9ZtDEeSU4v8LZLv2AQ" name="Step25" constrainedElement="_tGrN5ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-9ptDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.dz"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UAXTAEeSMxsmSt8GSWQ" name="Step26" constrainedElement="_nN4TYHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UAnTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.psi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-95tDEeSU4v8LZLv2AQ" name="Step26" constrainedElement="_tGiD4JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0--JtDEeSU4v8LZLv2AQ" name="Equation" value="cylinder0.height = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UA3TAEeSMxsmSt8GSWQ" name="Step27" constrainedElement="_nEUH5HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UBHTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lengthZ = verbindungsstueck0.hoehe * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0--ZtDEeSU4v8LZLv2AQ" name="Step27" constrainedElement="_s-fiOZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0--ptDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lengthX = verbindungsstueck0.laenge * 1 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UBXTAEeSMxsmSt8GSWQ" name="Step28" constrainedElement="_nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UBnTAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.breite = 1000 * verbindungsstueck0.breite"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0--5tDEeSU4v8LZLv2AQ" name="Step28" constrainedElement="_tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-_JtDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.hoehe = 1000 * verbindungsstueck0.hoehe"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UB3TAEeSMxsmSt8GSWQ" name="Step29" constrainedElement="_nN4TgnTAEeSMxsmSt8GSWQ _nEUH4HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UCHTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthX = spalt0.lengthX"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-_ZtDEeSU4v8LZLv2AQ" name="Step29" constrainedElement="_tGiD6ZtDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0-_ptDEeSU4v8LZLv2AQ" name="Equation" value="point3.z = grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UCXTAEeSMxsmSt8GSWQ" name="Step30" constrainedElement="_nN4TwHTAEeSMxsmSt8GSWQ _nEUH2nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UCnTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lx = spalt0.lx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0-_5tDEeSU4v8LZLv2AQ" name="Step30" constrainedElement="_tGiD8ptDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_AJtDEeSU4v8LZLv2AQ" name="Equation" value="point1.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UC3TAEeSMxsmSt8GSWQ" name="Step31" constrainedElement="_nN4Tb3TAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UDHTAEeSMxsmSt8GSWQ" name="Equation" value="point3.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_AZtDEeSU4v8LZLv2AQ" name="Step31" constrainedElement="_tGrOCZtDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_AptDEeSU4v8LZLv2AQ" name="Equation" value="point0.z = grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UDXTAEeSMxsmSt8GSWQ" name="Step32" constrainedElement="_nN4TdnTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UDnTAEeSMxsmSt8GSWQ" name="Equation" value="point1.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_A5tDEeSU4v8LZLv2AQ" name="Step32" constrainedElement="_tGiD8JtDEeSU4v8LZLv2AQ _tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_BJtDEeSU4v8LZLv2AQ" name="Equation" value="point3.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UD3TAEeSMxsmSt8GSWQ" name="Step33" constrainedElement="_nN4TcnTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UEHTAEeSMxsmSt8GSWQ" name="Equation" value="point1.z = -grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_BZtDEeSU4v8LZLv2AQ" name="Step33" constrainedElement="_tGiD65tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_BptDEeSU4v8LZLv2AQ" name="Equation" value="point3.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UEXTAEeSMxsmSt8GSWQ" name="Step34" constrainedElement="_nN4TeHTAEeSMxsmSt8GSWQ _nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UEnTAEeSMxsmSt8GSWQ" name="Equation" value="point1.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_B5tDEeSU4v8LZLv2AQ" name="Step34" constrainedElement="_tGrOD5tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_CJtDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.breite = grundkoerper0.height"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UE3TAEeSMxsmSt8GSWQ" name="Step35" constrainedElement="_nN4TenTAEeSMxsmSt8GSWQ _nEUH4nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UFHTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthY = spalt0.lengthY / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_CZtDEeSU4v8LZLv2AQ" name="Step35" constrainedElement="_s95sbptDEeSU4v8LZLv2AQ _tGrOAZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_CptDEeSU4v8LZLv2AQ" name="Equation" value="point5.z = point2.z"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UFXTAEeSMxsmSt8GSWQ" name="Step36" constrainedElement="_nEUH3nTAEeSMxsmSt8GSWQ _nEUH5HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UFnTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lz = -spalt0.lengthZ / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_C5tDEeSU4v8LZLv2AQ" name="Step36" constrainedElement="_tGrOA5tDEeSU4v8LZLv2AQ _tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_DJtDEeSU4v8LZLv2AQ" name="Equation" value="point4.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UF3TAEeSMxsmSt8GSWQ" name="Step37" constrainedElement="_nETg-HTAEeSMxsmSt8GSWQ _nN4TsHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UGHTAEeSMxsmSt8GSWQ" name="Equation" value="point5.z = point0.z"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_DZtDEeSU4v8LZLv2AQ" name="Step37" constrainedElement="_tGrOC5tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_DptDEeSU4v8LZLv2AQ" name="Equation" value="point0.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UGXTAEeSMxsmSt8GSWQ" name="Step38" constrainedElement="_nN4TbXTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UGnTAEeSMxsmSt8GSWQ" name="Equation" value="point3.z = grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_D5tDEeSU4v8LZLv2AQ" name="Step38" constrainedElement="_tGiD7ptDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_EJtDEeSU4v8LZLv2AQ" name="Equation" value="point1.z = -grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UG3TAEeSMxsmSt8GSWQ" name="Step39" constrainedElement="_nN4TrnTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UHHTAEeSMxsmSt8GSWQ" name="Equation" value="point2.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_EZtDEeSU4v8LZLv2AQ" name="Step39" constrainedElement="_tGrN7ZtDEeSU4v8LZLv2AQ _s95sY5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_EptDEeSU4v8LZLv2AQ" name="Equation" value="bohrloch0.durchmesser = circle0.radius * 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UHXTAEeSMxsmSt8GSWQ" name="Step40" constrainedElement="_nN4TrHTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UHnTAEeSMxsmSt8GSWQ" name="Equation" value="point2.z = grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_E5tDEeSU4v8LZLv2AQ" name="Step40" constrainedElement="_tGrOBZtDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_FJtDEeSU4v8LZLv2AQ" name="Equation" value="point2.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UH3TAEeSMxsmSt8GSWQ" name="Step41" constrainedElement="_nN4TkXTAEeSMxsmSt8GSWQ _nEThCnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UIHTAEeSMxsmSt8GSWQ" name="Equation" value="bohrloch0.durchmesser = circle0.radius * 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_FZtDEeSU4v8LZLv2AQ" name="Step41" constrainedElement="_s-fiN5tDEeSU4v8LZLv2AQ _s-fiPZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_FptDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lz = -spalt0.lengthZ / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UIXTAEeSMxsmSt8GSWQ" name="Step42" constrainedElement="_nN4TfHTAEeSMxsmSt8GSWQ _nEUH5HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UInTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthZ = spalt0.lengthZ"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_F5tDEeSU4v8LZLv2AQ" name="Step42" constrainedElement="_tGrOB5tDEeSU4v8LZLv2AQ _tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_GJtDEeSU4v8LZLv2AQ" name="Equation" value="point2.x = grundkoerper0.laenge"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UI3TAEeSMxsmSt8GSWQ" name="Step43" constrainedElement="_nN4TuHTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UJHTAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.breite = grundkoerper0.height"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_GZtDEeSU4v8LZLv2AQ" name="Step43" constrainedElement="_tGrOG5tDEeSU4v8LZLv2AQ _s-fiO5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_GptDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthY = spalt0.lengthY / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UJXTAEeSMxsmSt8GSWQ" name="Step44" constrainedElement="_nEUH3HTAEeSMxsmSt8GSWQ _nEUH4nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UJnTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.ly = -spalt0.lengthY / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_G5tDEeSU4v8LZLv2AQ" name="Step44" constrainedElement="_tGrOH5tDEeSU4v8LZLv2AQ _s-fiOZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_HJtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthX = spalt0.lengthX"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UJ3TAEeSMxsmSt8GSWQ" name="Step45" constrainedElement="_nN4TtHTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UKHTAEeSMxsmSt8GSWQ" name="Equation" value="point0.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_HZtDEeSU4v8LZLv2AQ" name="Step45" constrainedElement="_tGrN_5tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_HptDEeSU4v8LZLv2AQ" name="Equation" value="point4.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UKXTAEeSMxsmSt8GSWQ" name="Step46" constrainedElement="_nN4TqHTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UKnTAEeSMxsmSt8GSWQ" name="Equation" value="point4.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_H5tDEeSU4v8LZLv2AQ" name="Step46" constrainedElement="_s-fiNZtDEeSU4v8LZLv2AQ _s-fiO5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_IJtDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.ly = -spalt0.lengthY / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UK3TAEeSMxsmSt8GSWQ" name="Step47" constrainedElement="_nN4TsnTAEeSMxsmSt8GSWQ _nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4ULHTAEeSMxsmSt8GSWQ" name="Equation" value="point2.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_IZtDEeSU4v8LZLv2AQ" name="Step47" constrainedElement="_tGrOFJtDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_IptDEeSU4v8LZLv2AQ" name="Equation" value="point4.z = -grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4ULXTAEeSMxsmSt8GSWQ" name="Step48" constrainedElement="_nN4TtnTAEeSMxsmSt8GSWQ _nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4ULnTAEeSMxsmSt8GSWQ" name="Equation" value="point0.x = grundkoerper0.laenge"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_I5tDEeSU4v8LZLv2AQ" name="Step48" constrainedElement="_tGrN85tDEeSU4v8LZLv2AQ _s-fiM5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_JJtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lx = spalt0.lx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UL3TAEeSMxsmSt8GSWQ" name="Step49" constrainedElement="_nN4TvXTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UMHTAEeSMxsmSt8GSWQ" name="Equation" value="point4.z = -grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_JZtDEeSU4v8LZLv2AQ" name="Step49" constrainedElement="_tGrOGZtDEeSU4v8LZLv2AQ _s-fiPZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_JptDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthZ = spalt0.lengthZ"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UMXTAEeSMxsmSt8GSWQ" name="Step50" constrainedElement="_nN4TyHTAEeSMxsmSt8GSWQ _nEUH3HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UMnTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.ly = spalt0.ly * 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_J5tDEeSU4v8LZLv2AQ" name="Step50" constrainedElement="_s95sbJtDEeSU4v8LZLv2AQ _tGrOBZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_KJtDEeSU4v8LZLv2AQ" name="Equation" value="point5.y = point2.y"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UM3TAEeSMxsmSt8GSWQ" name="Step51" constrainedElement="_nN4TxnTAEeSMxsmSt8GSWQ _nN4TenTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UNHTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthY = cuboid0.lengthY"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_KZtDEeSU4v8LZLv2AQ" name="Step51" constrainedElement="_tGiD9ptDEeSU4v8LZLv2AQ _tGrOG5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_KptDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthY = cuboid1.lengthY"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UNXTAEeSMxsmSt8GSWQ" name="Step52" constrainedElement="_nN4TwnTAEeSMxsmSt8GSWQ _nN4TfHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UNnTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthZ = cuboid0.lengthZ"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_K5tDEeSU4v8LZLv2AQ" name="Step52" constrainedElement="_tGrN95tDEeSU4v8LZLv2AQ _s-fiN5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_LJtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lz = spalt0.lz"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UN3TAEeSMxsmSt8GSWQ" name="Step53" constrainedElement="_nN4TxHTAEeSMxsmSt8GSWQ _nEUH3nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UOHTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lz = spalt0.lz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_LZtDEeSU4v8LZLv2AQ" name="Step53" constrainedElement="_tGrN1ptDEeSU4v8LZLv2AQ _tGrOH5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_LptDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthX = cuboid1.lengthX"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UOXTAEeSMxsmSt8GSWQ" name="Step54" constrainedElement="_nN4TynTAEeSMxsmSt8GSWQ _nN4TgnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UOnTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthX = cuboid0.lengthX"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_L5tDEeSU4v8LZLv2AQ" name="Step54" constrainedElement="_s95saptDEeSU4v8LZLv2AQ _tGrOB5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_MJtDEeSU4v8LZLv2AQ" name="Equation" value="point5.x = point2.x"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UO3TAEeSMxsmSt8GSWQ" name="Step55" constrainedElement="_nETg9HTAEeSMxsmSt8GSWQ _nN4TtnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UPHTAEeSMxsmSt8GSWQ" name="Equation" value="point5.x = point0.x"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_MZtDEeSU4v8LZLv2AQ" name="Step55" constrainedElement="_tGrOF5tDEeSU4v8LZLv2AQ _tGrN85tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_MptDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lx = cuboid1.lx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UPXTAEeSMxsmSt8GSWQ" name="Step56" constrainedElement="_nN4TmXTAEeSMxsmSt8GSWQ _nN4TwHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UPnTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lx = cuboid0.lx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_M5tDEeSU4v8LZLv2AQ" name="Step56" constrainedElement="_tGrN0ptDEeSU4v8LZLv2AQ _tGrOGZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_NJtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthZ = cuboid1.lengthZ"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UP3TAEeSMxsmSt8GSWQ" name="Step57" constrainedElement="_nETg9nTAEeSMxsmSt8GSWQ _nN4TtHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UQHTAEeSMxsmSt8GSWQ" name="Equation" value="point5.y = point0.y"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_NZtDEeSU4v8LZLv2AQ" name="Step57" constrainedElement="_tGrN9ZtDEeSU4v8LZLv2AQ _s-fiNZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_NptDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.ly = spalt0.ly * 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UQXTAEeSMxsmSt8GSWQ" name="Step58" constrainedElement="_nN4Tm3TAEeSMxsmSt8GSWQ _nN4TyHTAEeSMxsmSt8GSWQ _nN4TxnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UQnTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.ly = -cuboid0.ly - cuboid0.lengthY"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_N5tDEeSU4v8LZLv2AQ" name="Step58" constrainedElement="_tGrOIZtDEeSU4v8LZLv2AQ _tGrN9ZtDEeSU4v8LZLv2AQ _tGiD9ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_OJtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.ly = -cuboid1.ly - cuboid1.lengthY"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UQ3TAEeSMxsmSt8GSWQ" name="Step59" constrainedElement="_nN4TnXTAEeSMxsmSt8GSWQ _nN4TxHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4URHTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lz = cuboid0.lz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_OZtDEeSU4v8LZLv2AQ" name="Step59" constrainedElement="_tGrOHZtDEeSU4v8LZLv2AQ _tGrN95tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_OptDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lz = cuboid1.lz"/>
         </ownedRule>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_nN4URXTAEeSMxsmSt8GSWQ" name="SolutionStepsParallel">
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4URnTAEeSMxsmSt8GSWQ" name="Step1.0" constrainedElement="_nN4TanTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UR3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.dy"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tG0_O5tDEeSU4v8LZLv2AQ" name="SolutionStepsParallel">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_PJtDEeSU4v8LZLv2AQ" name="Step1.0" constrainedElement="_tGrN_ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_PZtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.phi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4USHTAEeSMxsmSt8GSWQ" name="Step1.1" constrainedElement="_nN4TsHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4USXTAEeSMxsmSt8GSWQ" name="Equation" value="point0.z = 0"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_PptDEeSU4v8LZLv2AQ" name="Step1.1" constrainedElement="_tGrN8ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_P5tDEeSU4v8LZLv2AQ" name="Equation" value="cylinder0.radius = verbindungsstueck0.anschlussdurchmesser / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4USnTAEeSMxsmSt8GSWQ" name="Step1.2" constrainedElement="_nEThDHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4US3TAEeSMxsmSt8GSWQ" name="Equation" value="bohrloch0.height = verbindungsstueck0.breite * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_QJtDEeSU4v8LZLv2AQ" name="Step1.2" constrainedElement="_s95sZZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_QZtDEeSU4v8LZLv2AQ" name="Equation" value="bohrloch0.height = verbindungsstueck0.breite * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UTHTAEeSMxsmSt8GSWQ" name="Step1.3" constrainedElement="_nN4TdHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UTXTAEeSMxsmSt8GSWQ" name="Equation" value="point3.x = 0"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_QptDEeSU4v8LZLv2AQ" name="Step1.3" constrainedElement="_tGrN0JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_Q5tDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.psi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UTnTAEeSMxsmSt8GSWQ" name="Step1.4" constrainedElement="_nEThCnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UT3TAEeSMxsmSt8GSWQ" name="Equation" value="bohrloch0.durchmesser = verbindungsstueck0.lochdurchmesser"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_RJtDEeSU4v8LZLv2AQ" name="Step1.4" constrainedElement="_s-fiM5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_RZtDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lx = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UUHTAEeSMxsmSt8GSWQ" name="Step1.5" constrainedElement="_nN4Tl3TAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UUXTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder0.radius = verbindungsstueck0.verrundungpro * ((verbindungsstueck0.breite * 1000)^2 + (verbindungsstueck0.hoehe * 1000)^2)^(1 / 2) / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_RptDEeSU4v8LZLv2AQ" name="Step1.5" constrainedElement="_s-fiO5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_R5tDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lengthY = verbindungsstueck0.breite / 2 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UUnTAEeSMxsmSt8GSWQ" name="Step1.6" constrainedElement="_nN4TpHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UU3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.dx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_SJtDEeSU4v8LZLv2AQ" name="Step1.6" constrainedElement="_tGrN2ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_SZtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.theta"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UVHTAEeSMxsmSt8GSWQ" name="Step1.7" constrainedElement="_nN4TaHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UVXTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.dx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_SptDEeSU4v8LZLv2AQ" name="Step1.7" constrainedElement="_tGiD5ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_S5tDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.dy"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UVnTAEeSMxsmSt8GSWQ" name="Step1.8" constrainedElement="_nN4TpnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UV3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform1.phi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_TJtDEeSU4v8LZLv2AQ" name="Step1.8" constrainedElement="_tGrOAZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_TZtDEeSU4v8LZLv2AQ" name="Equation" value="point2.z = 0"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UWHTAEeSMxsmSt8GSWQ" name="Step1.9" constrainedElement="_nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UWXTAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.laenge = 1000 * verbindungsstueck0.laenge"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_TptDEeSU4v8LZLv2AQ" name="Step1.9" constrainedElement="_tGrN45tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_T5tDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.dx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UWnTAEeSMxsmSt8GSWQ" name="Step1.10" constrainedElement="_nEUH4HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UW3TAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lengthX = verbindungsstueck0.laenge * 1 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_UJtDEeSU4v8LZLv2AQ" name="Step1.10" constrainedElement="_s-WYSZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_UZtDEeSU4v8LZLv2AQ" name="Equation" value="cylinder1.lx = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UXHTAEeSMxsmSt8GSWQ" name="Step1.11" constrainedElement="_nN4Tk3TAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UXXTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder1.radius = verbindungsstueck0.anschlussdurchmesser / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_UptDEeSU4v8LZLv2AQ" name="Step1.11" constrainedElement="_tGrN-ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_U5tDEeSU4v8LZLv2AQ" name="Equation" value="cylinder1.height = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UXnTAEeSMxsmSt8GSWQ" name="Step1.12" constrainedElement="_nN4TonTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UX3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.dy"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_VJtDEeSU4v8LZLv2AQ" name="Step1.12" constrainedElement="_tGrN-5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_VZtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.phi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UYHTAEeSMxsmSt8GSWQ" name="Step1.13" constrainedElement="_nN4TZHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UYXTAEeSMxsmSt8GSWQ" name="Equation" value="cylinder0.height = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_VptDEeSU4v8LZLv2AQ" name="Step1.13" constrainedElement="_tGrN55tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_V5tDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.dy"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UYnTAEeSMxsmSt8GSWQ" name="Step1.14" constrainedElement="_nN4TfnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UY3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.psi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_WJtDEeSU4v8LZLv2AQ" name="Step1.14" constrainedElement="_tGiD5JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_WZtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.dx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UZHTAEeSMxsmSt8GSWQ" name="Step1.15" constrainedElement="_nN4TqnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UZXTAEeSMxsmSt8GSWQ" name="Equation" value="point4.x = 0"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_WptDEeSU4v8LZLv2AQ" name="Step1.15" constrainedElement="_tGrN75tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_W5tDEeSU4v8LZLv2AQ" name="Equation" value="cylinder1.radius = verbindungsstueck0.verrundungpro * ((verbindungsstueck0.breite * 1000)^2 + (verbindungsstueck0.hoehe * 1000)^2)^(1 / 2) / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UZnTAEeSMxsmSt8GSWQ" name="Step1.16" constrainedElement="_nEUHwnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UZ3TAEeSMxsmSt8GSWQ" name="Equation" value="cylinder0.lx = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_XJtDEeSU4v8LZLv2AQ" name="Step1.16" constrainedElement="_tGiD4ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_XZtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform2.dz"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UaHTAEeSMxsmSt8GSWQ" name="Step1.17" constrainedElement="_nN4TYnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UaXTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.dz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_XptDEeSU4v8LZLv2AQ" name="Step1.17" constrainedElement="_tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_X5tDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.breite = 1000 * verbindungsstueck0.breite"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UanTAEeSMxsmSt8GSWQ" name="Step1.18" constrainedElement="_nN4Tj3TAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ua3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform1.theta"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_YJtDEeSU4v8LZLv2AQ" name="Step1.18" constrainedElement="_tGrN3JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_YZtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.psi"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UbHTAEeSMxsmSt8GSWQ" name="Step1.19" constrainedElement="_nEUH2nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UbXTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lx = verbindungsstueck0.laenge * verbindungsstueck0.uberstand * 2 / 3 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_YptDEeSU4v8LZLv2AQ" name="Step1.19" constrainedElement="_s-fiPZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_Y5tDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lengthZ = verbindungsstueck0.hoehe * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UbnTAEeSMxsmSt8GSWQ" name="Step1.20" constrainedElement="_nN4ToHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ub3TAEeSMxsmSt8GSWQ" name="Equation" value="cylinder1.height = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_ZJtDEeSU4v8LZLv2AQ" name="Step1.20" constrainedElement="_tGrN65tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_ZZtDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.theta"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UcHTAEeSMxsmSt8GSWQ" name="Step1.21" constrainedElement="_nN4TZnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UcXTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.dz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_ZptDEeSU4v8LZLv2AQ" name="Step1.21" constrainedElement="_tGrODZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_Z5tDEeSU4v8LZLv2AQ" name="Equation" value="point0.x = 0"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UcnTAEeSMxsmSt8GSWQ" name="Step1.22" constrainedElement="_nN4ThnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uc3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform2.theta"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_aJtDEeSU4v8LZLv2AQ" name="Step1.22" constrainedElement="_s95sY5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_aZtDEeSU4v8LZLv2AQ" name="Equation" value="bohrloch0.durchmesser = verbindungsstueck0.lochdurchmesser"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UdHTAEeSMxsmSt8GSWQ" name="Step1.23" constrainedElement="_nN4TlXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UdXTAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.phi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_aptDEeSU4v8LZLv2AQ" name="Step1.23" constrainedElement="_tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_a5tDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.laenge = 1000 * verbindungsstueck0.laenge"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UdnTAEeSMxsmSt8GSWQ" name="Step1.24" constrainedElement="_nEUH4nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ud3TAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lengthY = verbindungsstueck0.breite / 2 * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_bJtDEeSU4v8LZLv2AQ" name="Step1.24" constrainedElement="_tGiD9JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_bZtDEeSU4v8LZLv2AQ" name="Equation" value="point1.x = 0"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UeHTAEeSMxsmSt8GSWQ" name="Step1.25" constrainedElement="_nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UeXTAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.hoehe = 1000 * verbindungsstueck0.hoehe"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_bptDEeSU4v8LZLv2AQ" name="Step1.25" constrainedElement="_tGrN5ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_b5tDEeSU4v8LZLv2AQ" name="Equation" value="0 = transform1.dz"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UenTAEeSMxsmSt8GSWQ" name="Step1.26" constrainedElement="_nN4TYHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ue3TAEeSMxsmSt8GSWQ" name="Equation" value="0 = transform0.psi"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_cJtDEeSU4v8LZLv2AQ" name="Step1.26" constrainedElement="_tGiD4JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_cZtDEeSU4v8LZLv2AQ" name="Equation" value="cylinder0.height = verbindungsstueck0.laenge * 1 / 3 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UfHTAEeSMxsmSt8GSWQ" name="Step1.27" constrainedElement="_nEUH5HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UfXTAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lengthZ = verbindungsstueck0.hoehe * 1000"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_cptDEeSU4v8LZLv2AQ" name="Step1.27" constrainedElement="_s-fiOZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_c5tDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lengthX = verbindungsstueck0.laenge * 1 / 3 * 1000 + verbindungsstueck0.hoehe / 2 * 1000"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UfnTAEeSMxsmSt8GSWQ" name="Step1.28" constrainedElement="_nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uf3TAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.breite = 1000 * verbindungsstueck0.breite"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_dJtDEeSU4v8LZLv2AQ" name="Step1.28" constrainedElement="_tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_dZtDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.hoehe = 1000 * verbindungsstueck0.hoehe"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UgHTAEeSMxsmSt8GSWQ" name="Step2.0" constrainedElement="_nN4TgnTAEeSMxsmSt8GSWQ _nEUH4HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UgXTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthX = spalt0.lengthX"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_dptDEeSU4v8LZLv2AQ" name="Step2.0" constrainedElement="_tGiD6ZtDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_d5tDEeSU4v8LZLv2AQ" name="Equation" value="point3.z = grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UgnTAEeSMxsmSt8GSWQ" name="Step2.1" constrainedElement="_nN4TwHTAEeSMxsmSt8GSWQ _nEUH2nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ug3TAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lx = spalt0.lx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_eJtDEeSU4v8LZLv2AQ" name="Step2.1" constrainedElement="_tGiD8ptDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_eZtDEeSU4v8LZLv2AQ" name="Equation" value="point1.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UhHTAEeSMxsmSt8GSWQ" name="Step2.2" constrainedElement="_nN4Tb3TAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UhXTAEeSMxsmSt8GSWQ" name="Equation" value="point3.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_eptDEeSU4v8LZLv2AQ" name="Step2.2" constrainedElement="_tGrOCZtDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_e5tDEeSU4v8LZLv2AQ" name="Equation" value="point0.z = grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UhnTAEeSMxsmSt8GSWQ" name="Step2.3" constrainedElement="_nN4TdnTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uh3TAEeSMxsmSt8GSWQ" name="Equation" value="point1.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_fJtDEeSU4v8LZLv2AQ" name="Step2.3" constrainedElement="_tGiD8JtDEeSU4v8LZLv2AQ _tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_fZtDEeSU4v8LZLv2AQ" name="Equation" value="point3.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UiHTAEeSMxsmSt8GSWQ" name="Step2.4" constrainedElement="_nN4TcnTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UiXTAEeSMxsmSt8GSWQ" name="Equation" value="point1.z = -grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_fptDEeSU4v8LZLv2AQ" name="Step2.4" constrainedElement="_tGiD65tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_f5tDEeSU4v8LZLv2AQ" name="Equation" value="point3.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UinTAEeSMxsmSt8GSWQ" name="Step2.5" constrainedElement="_nN4TeHTAEeSMxsmSt8GSWQ _nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ui3TAEeSMxsmSt8GSWQ" name="Equation" value="point1.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_gJtDEeSU4v8LZLv2AQ" name="Step2.5" constrainedElement="_tGrOD5tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_gZtDEeSU4v8LZLv2AQ" name="Equation" value="grundkoerper0.breite = grundkoerper0.height"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UjHTAEeSMxsmSt8GSWQ" name="Step2.6" constrainedElement="_nN4TenTAEeSMxsmSt8GSWQ _nEUH4nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UjXTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthY = spalt0.lengthY / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_gptDEeSU4v8LZLv2AQ" name="Step2.6" constrainedElement="_s95sbptDEeSU4v8LZLv2AQ _tGrOAZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_g5tDEeSU4v8LZLv2AQ" name="Equation" value="point5.z = point2.z"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UjnTAEeSMxsmSt8GSWQ" name="Step2.7" constrainedElement="_nEUH3nTAEeSMxsmSt8GSWQ _nEUH5HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uj3TAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.lz = -spalt0.lengthZ / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_hJtDEeSU4v8LZLv2AQ" name="Step2.7" constrainedElement="_tGrOA5tDEeSU4v8LZLv2AQ _tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_hZtDEeSU4v8LZLv2AQ" name="Equation" value="point4.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UkHTAEeSMxsmSt8GSWQ" name="Step2.8" constrainedElement="_nETg-HTAEeSMxsmSt8GSWQ _nN4TsHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UkXTAEeSMxsmSt8GSWQ" name="Equation" value="point5.z = point0.z"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_hptDEeSU4v8LZLv2AQ" name="Step2.8" constrainedElement="_tGrOC5tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_h5tDEeSU4v8LZLv2AQ" name="Equation" value="point0.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UknTAEeSMxsmSt8GSWQ" name="Step2.9" constrainedElement="_nN4TbXTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uk3TAEeSMxsmSt8GSWQ" name="Equation" value="point3.z = grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_iJtDEeSU4v8LZLv2AQ" name="Step2.9" constrainedElement="_tGiD7ptDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_iZtDEeSU4v8LZLv2AQ" name="Equation" value="point1.z = -grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UlHTAEeSMxsmSt8GSWQ" name="Step2.10" constrainedElement="_nN4TrnTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UlXTAEeSMxsmSt8GSWQ" name="Equation" value="point2.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_iptDEeSU4v8LZLv2AQ" name="Step2.10" constrainedElement="_tGrN7ZtDEeSU4v8LZLv2AQ _s95sY5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_i5tDEeSU4v8LZLv2AQ" name="Equation" value="bohrloch0.durchmesser = circle0.radius * 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UlnTAEeSMxsmSt8GSWQ" name="Step2.11" constrainedElement="_nN4TrHTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ul3TAEeSMxsmSt8GSWQ" name="Equation" value="point2.z = grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_jJtDEeSU4v8LZLv2AQ" name="Step2.11" constrainedElement="_tGrOBZtDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_jZtDEeSU4v8LZLv2AQ" name="Equation" value="point2.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UmHTAEeSMxsmSt8GSWQ" name="Step2.12" constrainedElement="_nN4TkXTAEeSMxsmSt8GSWQ _nEThCnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UmXTAEeSMxsmSt8GSWQ" name="Equation" value="bohrloch0.durchmesser = circle0.radius * 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_jptDEeSU4v8LZLv2AQ" name="Step2.12" constrainedElement="_s-fiN5tDEeSU4v8LZLv2AQ _s-fiPZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_j5tDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.lz = -spalt0.lengthZ / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UmnTAEeSMxsmSt8GSWQ" name="Step2.13" constrainedElement="_nN4TfHTAEeSMxsmSt8GSWQ _nEUH5HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Um3TAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthZ = spalt0.lengthZ"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_kJtDEeSU4v8LZLv2AQ" name="Step2.13" constrainedElement="_tGrOB5tDEeSU4v8LZLv2AQ _tGrN3ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_kZtDEeSU4v8LZLv2AQ" name="Equation" value="point2.x = grundkoerper0.laenge"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UnHTAEeSMxsmSt8GSWQ" name="Step2.14" constrainedElement="_nN4TuHTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UnXTAEeSMxsmSt8GSWQ" name="Equation" value="grundkoerper0.breite = grundkoerper0.height"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_kptDEeSU4v8LZLv2AQ" name="Step2.14" constrainedElement="_tGrOG5tDEeSU4v8LZLv2AQ _s-fiO5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_k5tDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthY = spalt0.lengthY / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UnnTAEeSMxsmSt8GSWQ" name="Step2.15" constrainedElement="_nEUH3HTAEeSMxsmSt8GSWQ _nEUH4nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Un3TAEeSMxsmSt8GSWQ" name="Equation" value="spalt0.ly = -spalt0.lengthY / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_lJtDEeSU4v8LZLv2AQ" name="Step2.15" constrainedElement="_tGrOH5tDEeSU4v8LZLv2AQ _s-fiOZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_lZtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthX = spalt0.lengthX"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UoHTAEeSMxsmSt8GSWQ" name="Step2.16" constrainedElement="_nN4TtHTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UoXTAEeSMxsmSt8GSWQ" name="Equation" value="point0.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_lptDEeSU4v8LZLv2AQ" name="Step2.16" constrainedElement="_tGrN_5tDEeSU4v8LZLv2AQ _tGrN2JtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_l5tDEeSU4v8LZLv2AQ" name="Equation" value="point4.y = -grundkoerper0.breite / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UonTAEeSMxsmSt8GSWQ" name="Step2.17" constrainedElement="_nN4TqHTAEeSMxsmSt8GSWQ _nN4ThHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uo3TAEeSMxsmSt8GSWQ" name="Equation" value="point4.y = -grundkoerper0.breite / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_mJtDEeSU4v8LZLv2AQ" name="Step2.17" constrainedElement="_s-fiNZtDEeSU4v8LZLv2AQ _s-fiO5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_mZtDEeSU4v8LZLv2AQ" name="Equation" value="spalt0.ly = -spalt0.lengthY / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UpHTAEeSMxsmSt8GSWQ" name="Step2.18" constrainedElement="_nN4TsnTAEeSMxsmSt8GSWQ _nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UpXTAEeSMxsmSt8GSWQ" name="Equation" value="point2.x = grundkoerper0.laenge * verbindungsstueck0.uberstand"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_mptDEeSU4v8LZLv2AQ" name="Step2.18" constrainedElement="_tGrOFJtDEeSU4v8LZLv2AQ _tGrN6ZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_m5tDEeSU4v8LZLv2AQ" name="Equation" value="point4.z = -grundkoerper0.hoehe / 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UpnTAEeSMxsmSt8GSWQ" name="Step2.19" constrainedElement="_nN4TtnTAEeSMxsmSt8GSWQ _nN4TiHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Up3TAEeSMxsmSt8GSWQ" name="Equation" value="point0.x = grundkoerper0.laenge"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_nJtDEeSU4v8LZLv2AQ" name="Step2.19" constrainedElement="_tGrN85tDEeSU4v8LZLv2AQ _s-fiM5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_nZtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lx = spalt0.lx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UqHTAEeSMxsmSt8GSWQ" name="Step2.20" constrainedElement="_nN4TvXTAEeSMxsmSt8GSWQ _nN4TjXTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UqXTAEeSMxsmSt8GSWQ" name="Equation" value="point4.z = -grundkoerper0.hoehe / 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_nptDEeSU4v8LZLv2AQ" name="Step2.20" constrainedElement="_tGrOGZtDEeSU4v8LZLv2AQ _s-fiPZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_n5tDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthZ = spalt0.lengthZ"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UqnTAEeSMxsmSt8GSWQ" name="Step3.0" constrainedElement="_nN4TyHTAEeSMxsmSt8GSWQ _nEUH3HTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uq3TAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.ly = spalt0.ly * 2"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_oJtDEeSU4v8LZLv2AQ" name="Step3.0" constrainedElement="_s95sbJtDEeSU4v8LZLv2AQ _tGrOBZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_oZtDEeSU4v8LZLv2AQ" name="Equation" value="point5.y = point2.y"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UrHTAEeSMxsmSt8GSWQ" name="Step3.1" constrainedElement="_nN4TxnTAEeSMxsmSt8GSWQ _nN4TenTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UrXTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthY = cuboid0.lengthY"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_optDEeSU4v8LZLv2AQ" name="Step3.1" constrainedElement="_tGiD9ptDEeSU4v8LZLv2AQ _tGrOG5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_o5tDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthY = cuboid1.lengthY"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UrnTAEeSMxsmSt8GSWQ" name="Step3.2" constrainedElement="_nN4TwnTAEeSMxsmSt8GSWQ _nN4TfHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ur3TAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthZ = cuboid0.lengthZ"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_pJtDEeSU4v8LZLv2AQ" name="Step3.2" constrainedElement="_tGrN95tDEeSU4v8LZLv2AQ _s-fiN5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_pZtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lz = spalt0.lz"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UsHTAEeSMxsmSt8GSWQ" name="Step3.3" constrainedElement="_nN4TxHTAEeSMxsmSt8GSWQ _nEUH3nTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UsXTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lz = spalt0.lz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_pptDEeSU4v8LZLv2AQ" name="Step3.3" constrainedElement="_tGrN1ptDEeSU4v8LZLv2AQ _tGrOH5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_p5tDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthX = cuboid1.lengthX"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UsnTAEeSMxsmSt8GSWQ" name="Step3.4" constrainedElement="_nN4TynTAEeSMxsmSt8GSWQ _nN4TgnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Us3TAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lengthX = cuboid0.lengthX"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_qJtDEeSU4v8LZLv2AQ" name="Step3.4" constrainedElement="_s95saptDEeSU4v8LZLv2AQ _tGrOB5tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_qZtDEeSU4v8LZLv2AQ" name="Equation" value="point5.x = point2.x"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UtHTAEeSMxsmSt8GSWQ" name="Step3.5" constrainedElement="_nETg9HTAEeSMxsmSt8GSWQ _nN4TtnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UtXTAEeSMxsmSt8GSWQ" name="Equation" value="point5.x = point0.x"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_qptDEeSU4v8LZLv2AQ" name="Step3.5" constrainedElement="_tGrOF5tDEeSU4v8LZLv2AQ _tGrN85tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_q5tDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lx = cuboid1.lx"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UtnTAEeSMxsmSt8GSWQ" name="Step3.6" constrainedElement="_nN4TmXTAEeSMxsmSt8GSWQ _nN4TwHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Ut3TAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lx = cuboid0.lx"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_rJtDEeSU4v8LZLv2AQ" name="Step3.6" constrainedElement="_tGrN0ptDEeSU4v8LZLv2AQ _tGrOGZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_rZtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lengthZ = cuboid1.lengthZ"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UuHTAEeSMxsmSt8GSWQ" name="Step3.7" constrainedElement="_nETg9nTAEeSMxsmSt8GSWQ _nN4TtHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UuXTAEeSMxsmSt8GSWQ" name="Equation" value="point5.y = point0.y"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_rptDEeSU4v8LZLv2AQ" name="Step3.7" constrainedElement="_tGrN9ZtDEeSU4v8LZLv2AQ _s-fiNZtDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_r5tDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.ly = spalt0.ly * 2"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UunTAEeSMxsmSt8GSWQ" name="Step4.0" constrainedElement="_nN4Tm3TAEeSMxsmSt8GSWQ _nN4TyHTAEeSMxsmSt8GSWQ _nN4TxnTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4Uu3TAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.ly = -cuboid0.ly - cuboid0.lengthY"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_sJtDEeSU4v8LZLv2AQ" name="Step4.0" constrainedElement="_tGrOIZtDEeSU4v8LZLv2AQ _tGrN9ZtDEeSU4v8LZLv2AQ _tGiD9ptDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_sZtDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.ly = -cuboid1.ly - cuboid1.lengthY"/>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_nN4UvHTAEeSMxsmSt8GSWQ" name="Step4.1" constrainedElement="_nN4TnXTAEeSMxsmSt8GSWQ _nN4TxHTAEeSMxsmSt8GSWQ">
-          <specification xmi:type="uml:LiteralString" xmi:id="_nN4UvXTAEeSMxsmSt8GSWQ" name="Equation" value="cuboid1.lz = cuboid0.lz"/>
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_tG0_sptDEeSU4v8LZLv2AQ" name="Step4.1" constrainedElement="_tGrOHZtDEeSU4v8LZLv2AQ _tGrN95tDEeSU4v8LZLv2AQ">
+          <specification xmi:type="uml:LiteralString" xmi:id="_tG0_s5tDEeSU4v8LZLv2AQ" name="Equation" value="cuboid0.lz = cuboid1.lz"/>
         </ownedRule>
       </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_-6nD8HP7EeSLbvxijkqXSg">
@@ -3056,11 +3056,11 @@
   <spgprofile:spgconst xmi:id="_PwWhgHSKEeS8iv9eZAqj8A" base_Slot="_PaowMHSKEeS8iv9eZAqj8A"/>
   <spgprofile:spgconst xmi:id="__Lyz8HSSEeSBR-efoyvvwA" base_Slot="_g-yVsHSFEeS8iv9eZAqj8A"/>
   <_43Utilities:Rule xmi:id="_LMcB4HTAEeSMxsmSt8GSWQ" rule="_M8S18HTAEeSMxsmSt8GSWQ" base_OpaqueAction="_LL_V8HTAEeSMxsmSt8GSWQ"/>
-  <spgprofile:spgconst xmi:id="_nDaI33TAEeSMxsmSt8GSWQ" base_Slot="_nDaIwXTAEeSMxsmSt8GSWQ"/>
-  <spgprofile:spgconst xmi:id="_nDaI4HTAEeSMxsmSt8GSWQ" base_Slot="_nDaIyXTAEeSMxsmSt8GSWQ"/>
-  <spgprofile:spgconst xmi:id="_nDaI4XTAEeSMxsmSt8GSWQ" base_Slot="_nDaIx3TAEeSMxsmSt8GSWQ"/>
-  <spgprofile:spgconst xmi:id="_nDaI43TAEeSMxsmSt8GSWQ" base_Slot="_nDaIxXTAEeSMxsmSt8GSWQ"/>
-  <spgprofile:spgconst xmi:id="_nDaI5HTAEeSMxsmSt8GSWQ" base_Slot="_nDaIw3TAEeSMxsmSt8GSWQ"/>
-  <spgprofile:spgconst xmi:id="_nDaI5XTAEeSMxsmSt8GSWQ" base_Slot="_nDaIy3TAEeSMxsmSt8GSWQ"/>
-  <spgprofile:spgconst xmi:id="_nDaI5nTAEeSMxsmSt8GSWQ" base_Slot="_nDaIz3TAEeSMxsmSt8GSWQ"/>
+  <spgprofile:spgconst xmi:id="_s9JeYJtDEeSU4v8LZLv2AQ" base_Slot="_s8_tY5tDEeSU4v8LZLv2AQ"/>
+  <spgprofile:spgconst xmi:id="_s9JeYZtDEeSU4v8LZLv2AQ" base_Slot="_s8_tb5tDEeSU4v8LZLv2AQ"/>
+  <spgprofile:spgconst xmi:id="_s9JeY5tDEeSU4v8LZLv2AQ" base_Slot="_s8_taZtDEeSU4v8LZLv2AQ"/>
+  <spgprofile:spgconst xmi:id="_s9JeZJtDEeSU4v8LZLv2AQ" base_Slot="_s8_ta5tDEeSU4v8LZLv2AQ"/>
+  <spgprofile:spgconst xmi:id="_s9JeZZtDEeSU4v8LZLv2AQ" base_Slot="_s8_tYZtDEeSU4v8LZLv2AQ"/>
+  <spgprofile:spgconst xmi:id="_s9JeZptDEeSU4v8LZLv2AQ" base_Slot="_s8_tZ5tDEeSU4v8LZLv2AQ"/>
+  <spgprofile:spgconst xmi:id="_s9JeZ5tDEeSU4v8LZLv2AQ" base_Slot="_s8_tZZtDEeSU4v8LZLv2AQ"/>
 </xmi:XMI>
