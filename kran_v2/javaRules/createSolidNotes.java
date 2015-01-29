@@ -87,21 +87,33 @@ public class createSolidNotes extends JavaRule {
 				for (TeilMastschuss teilMastschuss : teilMastschusse) {
 					// lines.addAll(mittelteil.getLine());
 
-					if (teilMastschuss.getPfosten1() != null) {
-						lines.add(teilMastschuss.getPfosten1());
-						radius = teilMastschuss.getPfosten1().getDurchmesser() / 2;
+					if (teilMastschuss.getPfosten12() != null) {
+						lines.add(teilMastschuss.getPfosten12());
+						radius = teilMastschuss.getPfosten12().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getPfosten2() != null) {
-						lines.add(teilMastschuss.getPfosten2());
-						radius = teilMastschuss.getPfosten2().getDurchmesser() / 2;
+					if (teilMastschuss.getPfosten23() != null) {
+						lines.add(teilMastschuss.getPfosten23());
+						radius = teilMastschuss.getPfosten23().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getPfosten3() != null) {
-						lines.add(teilMastschuss.getPfosten3());
-						radius = teilMastschuss.getPfosten3().getDurchmesser() / 2;
+					if (teilMastschuss.getPfosten34() != null) {
+						lines.add(teilMastschuss.getPfosten34());
+						radius = teilMastschuss.getPfosten34().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getPfosten4() != null) {
-						lines.add(teilMastschuss.getPfosten4());
-						radius = teilMastschuss.getPfosten4().getDurchmesser() / 2;
+					if (teilMastschuss.getPfosten45() != null) {
+						lines.add(teilMastschuss.getPfosten45());
+						radius = teilMastschuss.getPfosten45().getDurchmesser() / 2;
+					}
+					if (teilMastschuss.getPfosten31() != null) {
+						lines.add(teilMastschuss.getPfosten31());
+						radius = teilMastschuss.getPfosten31().getDurchmesser() / 2;
+					}
+					if (teilMastschuss.getPfosten41() != null) {
+						lines.add(teilMastschuss.getPfosten51());
+						radius = teilMastschuss.getPfosten51().getDurchmesser() / 2;
+					}
+					if (teilMastschuss.getPfosten51() != null) {
+						lines.add(teilMastschuss.getPfosten51());
+						radius = teilMastschuss.getPfosten51().getDurchmesser() / 2;
 					}
 
 				}
@@ -120,37 +132,45 @@ public class createSolidNotes extends JavaRule {
 				for (TeilMastschuss teilMastschuss : teilMastschusse) {
 					// lines.addAll(mittelteil.getLine());
 
-					if (teilMastschuss.getDiagonale1() != null) {
-						lines.add(teilMastschuss.getDiagonale1());
-						radius = teilMastschuss.getDiagonale1().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale12() != null) {
+						lines.add(teilMastschuss.getDiagonale12());
+						radius = teilMastschuss.getDiagonale12().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getDiagonale2() != null) {
-						lines.add(teilMastschuss.getDiagonale2());
-						radius = teilMastschuss.getDiagonale2().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale23() != null) {
+						lines.add(teilMastschuss.getDiagonale23());
+						radius = teilMastschuss.getDiagonale23().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getDiagonale3() != null) {
-						lines.add(teilMastschuss.getDiagonale3());
-						radius = teilMastschuss.getDiagonale3().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale34() != null) {
+						lines.add(teilMastschuss.getDiagonale34());
+						radius = teilMastschuss.getDiagonale34().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getDiagonale4() != null) {
-						lines.add(teilMastschuss.getDiagonale4());
-						radius = teilMastschuss.getDiagonale4().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale41() != null) {
+						lines.add(teilMastschuss.getDiagonale41());
+						radius = teilMastschuss.getDiagonale41().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getDiagonale5() != null) {
-						lines.add(teilMastschuss.getDiagonale5());
-						radius = teilMastschuss.getDiagonale5().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale21() != null) {
+						lines.add(teilMastschuss.getDiagonale21());
+						radius = teilMastschuss.getDiagonale21().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getDiagonale6() != null) {
-						lines.add(teilMastschuss.getDiagonale6());
-						radius = teilMastschuss.getDiagonale6().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale31() != null) {
+						lines.add(teilMastschuss.getDiagonale31());
+						radius = teilMastschuss.getDiagonale31().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getDiagonale7() != null) {
-						lines.add(teilMastschuss.getDiagonale7());
-						radius = teilMastschuss.getDiagonale7().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale32() != null) {
+						lines.add(teilMastschuss.getDiagonale32());
+						radius = teilMastschuss.getDiagonale32().getDurchmesser() / 2;
 					}
-					if (teilMastschuss.getDiagonale8() != null) {
-						lines.add(teilMastschuss.getDiagonale8());
-						radius = teilMastschuss.getDiagonale8().getDurchmesser() / 2;
+					if (teilMastschuss.getDiagonale43() != null) {
+						lines.add(teilMastschuss.getDiagonale43());
+						radius = teilMastschuss.getDiagonale43().getDurchmesser() / 2;
+					}
+					if (teilMastschuss.getDiagonale14() != null) {
+						lines.add(teilMastschuss.getDiagonale14());
+						radius = teilMastschuss.getDiagonale14().getDurchmesser() / 2;
+					}
+					if (teilMastschuss.getDiagonale13() != null) {
+						lines.add(teilMastschuss.getDiagonale13());
+						radius = teilMastschuss.getDiagonale13().getDurchmesser() / 2;
 					}
 
 				}

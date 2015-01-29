@@ -22,49 +22,53 @@ public class BaueMastschutz extends JavaRule {
 		Collection<Mastschuss> Mastschuesse = InstanceWrapperExtensions.allInstances(Mastschuss.class);
 
 		for (Mastschuss mastschuss : Mastschuesse) {
+			if (mastschuss.getExpanded() == null)
+				mastschuss.setExpanded(0.);
+			if (mastschuss.getExpanded().doubleValue() != 1) {
+				mastschuss.setExpanded(0.5);
 
-			mastschuss.setExpanded(0.5);
+				// Expandiert Mastschuss wenn nicht bereits expandiert:
+				if (mastschuss.getAnfangsTeilMastschuss() == null) {
+					// Erzeugtt ein AnfangsTeilMastschuss und fügt dieses dem
+					// Mastschuss an
 
-			// Expandiert Mastschuss wenn nicht bereits expandiert:
-			if (mastschuss.getAnfangsTeilMastschuss() == null) {
-				// Erzeugtt ein AnfangsTeilMastschuss und fügt dieses dem
-				// Mastschuss an
+					AnfangsTeilMastschuss anfangsTeil = InstanceWrapperExtensions.createInstance(AnfangsTeilMastschuss.class, mastschuss
+							.umlInstance().getName() + "AnfangsTeil");
+					anfangsTeil.setExpanded(0.0);
+					mastschuss.setAnfangsTeilMastschuss(anfangsTeil);
 
-				AnfangsTeilMastschuss anfangsTeil = InstanceWrapperExtensions.createInstance(AnfangsTeilMastschuss.class, mastschuss
-						.umlInstance().getName() + "AnfangsTeil");
-				anfangsTeil.setExpanded(0.0);
-				mastschuss.setAnfangsTeilMastschuss(anfangsTeil);
+					// Erzeugt n Mittelteile und fügt diese dem Mastschuss an
+					TeilMastschuss lastItem = anfangsTeil;
+					for (int i = 0; i < mastschuss.getTeile(); i++) {
+						// erzeuge neues MittelTeil
+						MittelTeilMastschuss mittelteil = InstanceWrapperExtensions.createInstance(MittelTeilMastschuss.class, mastschuss
+								.umlInstance().getName() + "MittelTeil_" + i);
+						mittelteil.setExpanded(0.0);
 
-				// Erzeugt n Mittelteile und fügt diese dem Mastschuss an
-				TeilMastschuss lastItem = anfangsTeil;
-				for (int i = 0; i < mastschuss.getTeile(); i++) {
-					// erzeuge neues MittelTeil
-					MittelTeilMastschuss mittelteil = InstanceWrapperExtensions.createInstance(MittelTeilMastschuss.class, mastschuss
-							.umlInstance().getName() + "MittelTeil_" + i);
-					mittelteil.setExpanded(0.0);
+						// Verbinde neues Teil mit Mastschuss
+						mastschuss.mittelTeilMastschuss_add_(mittelteil);
 
-					// Verbinde neues Teil mit Mastschuss
-					mastschuss.mittelTeilMastschuss_add_(mittelteil);
+						// Verbinde neues Teil mit Vorgänger
+						lastItem.nextteil_(mittelteil);
 
-					// Verbinde neues Teil mit Vorgänger
-					lastItem.nextteil_(mittelteil);
+						// Unterscheiden von ungeraden und geraden Mittelteilen
+						// zur
+						// Variation der diagonalen Streben
+						if (i % 2 == 1) {
+							mittelteil.setVariation(2.);
+						} else {
+							mittelteil.setVariation(1.);
+						}
 
-					// Unterscheiden von ungeraden und geraden Mittelteilen zur
-					// Variation der diagonalen Streben
-					if (i % 2 == 1) {
-						mittelteil.setVariation(2.);
-					} else {
-						mittelteil.setVariation(1.);
+						lastItem = mittelteil;
+
 					}
-
-					lastItem = mittelteil;
-
+					EndTeilMastschuss endTeil = InstanceWrapperExtensions.createInstance(EndTeilMastschuss.class, mastschuss.umlInstance()
+							.getName() + "EndTeil");
+					endTeil.setExpanded(0.0);
+					mastschuss.endTeilMastschuss_(endTeil);
+					lastItem.nextteil_(endTeil);
 				}
-				EndTeilMastschuss endTeil = InstanceWrapperExtensions.createInstance(EndTeilMastschuss.class, mastschuss.umlInstance()
-						.getName() + "EndTeil");
-				endTeil.setExpanded(0.0);
-				mastschuss.endTeilMastschuss_(endTeil);
-				lastItem.nextteil_(endTeil);
 			}
 
 		}

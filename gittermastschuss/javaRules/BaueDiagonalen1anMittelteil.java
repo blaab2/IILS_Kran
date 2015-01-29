@@ -17,27 +17,36 @@ public class BaueDiagonalen1anMittelteil extends JavaRule {
 		for (MittelTeilMastschuss mittelTeilMastschuss : mittelTeilMastschusse) {
 
 			// Überprüfe ob Mittelteilmastschuss bereits Diagonalen hat
-			if (mittelTeilMastschuss.getVariation().equals(1.) && mittelTeilMastschuss.getDiagonale1() == null) {
+			if (mittelTeilMastschuss.getVariation().equals(1.) && mittelTeilMastschuss.getExpanded().doubleValue() == 0) {
 
 				// Add Diagonale1
 				Diagonale diagonale1 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
-						.getName() + "_Diagonale1");
-				mittelTeilMastschuss.setDiagonale1(diagonale1);
+						.getName() + "_Diagonale12");
+				mittelTeilMastschuss.setDiagonale12(diagonale1);
 
 				// Add Diagonale2
 				Diagonale diagonale2 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
 						.getName() + "_diagonale2");
-				mittelTeilMastschuss.setDiagonale6(diagonale2);
+				mittelTeilMastschuss.setDiagonale23(diagonale2);
 
 				// Add Diagonale3
 				Diagonale diagonale3 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
-						.getName() + "_diagonale3");
-				mittelTeilMastschuss.setDiagonale3(diagonale3);
+						.getName() + "_diagonale31");
+				mittelTeilMastschuss.setDiagonale31(diagonale3);
 
-				// Add Diagonale4
-				Diagonale diagonale4 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
-						.getName() + "_diagonale4");
-				mittelTeilMastschuss.setDiagonale4(diagonale4);
+				// // Add Diagonale3
+				// Diagonale diagonale3 =
+				// InstanceWrapperExtensions.createInstance(Diagonale.class,
+				// mittelTeilMastschuss.umlInstance()
+				// .getName() + "_diagonale34");
+				// mittelTeilMastschuss.setDiagonale34(diagonale3);
+				//
+				// // Add Diagonale4
+				// Diagonale diagonale4 =
+				// InstanceWrapperExtensions.createInstance(Diagonale.class,
+				// mittelTeilMastschuss.umlInstance()
+				// .getName() + "_diagonale41");
+				// mittelTeilMastschuss.setDiagonale41(diagonale4);
 
 			}
 		}

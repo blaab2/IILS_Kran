@@ -27,41 +27,56 @@ public class VerbindeGGittermastschuss extends JavaRule {
 		if (teilmastschuss.getHolm5() != null) {
 			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getHolm5());
 		}
-		if (teilmastschuss.getPfosten1() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten1());
+		if (teilmastschuss.getPfosten12() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten12());
 		}
-		if (teilmastschuss.getPfosten2() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten2());
+		if (teilmastschuss.getPfosten23() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten23());
 		}
-		if (teilmastschuss.getPfosten3() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten3());
+		if (teilmastschuss.getPfosten34() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten34());
 		}
-		if (teilmastschuss.getPfosten4() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten4());
+		if (teilmastschuss.getPfosten45() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten45());
 		}
-		if (teilmastschuss.getDiagonale1() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale1());
+		if (teilmastschuss.getPfosten51() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten51());
 		}
-		if (teilmastschuss.getDiagonale2() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale2());
+		if (teilmastschuss.getPfosten41() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten41());
 		}
-		if (teilmastschuss.getDiagonale3() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale3());
+		if (teilmastschuss.getPfosten31() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten31());
 		}
-		if (teilmastschuss.getDiagonale4() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale4());
+		if (teilmastschuss.getDiagonale12() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale12());
 		}
-		if (teilmastschuss.getDiagonale5() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale5());
+		if (teilmastschuss.getDiagonale23() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale23());
 		}
-		if (teilmastschuss.getDiagonale6() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale6());
+		if (teilmastschuss.getDiagonale34() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale34());
 		}
-		if (teilmastschuss.getDiagonale7() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale7());
+		if (teilmastschuss.getDiagonale41() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale41());
 		}
-		if (teilmastschuss.getDiagonale8() != null) {
-			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale8());
+		if (teilmastschuss.getDiagonale21() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale21());
+		}
+		if (teilmastschuss.getDiagonale32() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale32());
+		}
+		if (teilmastschuss.getDiagonale43() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale43());
+		}
+		if (teilmastschuss.getDiagonale14() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale14());
+		}
+		if (teilmastschuss.getDiagonale13() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale13());
+		}
+		if (teilmastschuss.getDiagonale31() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getDiagonale31());
 		}
 	}
 

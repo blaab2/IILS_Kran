@@ -16,16 +16,19 @@ public class connectSchussEbenen extends JavaRule {
 
 		Collection<Mastschuss> mastschuesse = InstanceWrapperExtensions.allInstances(Mastschuss.class);
 		for (Mastschuss mastschuss : mastschuesse) {
-			List<MittelTeilMastschuss> mittelTeilMastschuesse = mastschuss.getMittelTeilMastschuss();
-			TeilMastschuss previtem = mastschuss.getAnfangsTeilMastschuss();
 
-			for (MittelTeilMastschuss mittelTeilMastschuss : mittelTeilMastschuesse) {
-				mittelTeilMastschuss.setEbenevorne(previtem.getEbenehinten());
-				previtem = mittelTeilMastschuss;
+			if (mastschuss.getExpanded().doubleValue() == 0.5) {
+
+				List<MittelTeilMastschuss> mittelTeilMastschuesse = mastschuss.getMittelTeilMastschuss();
+				TeilMastschuss previtem = mastschuss.getAnfangsTeilMastschuss();
+
+				for (MittelTeilMastschuss mittelTeilMastschuss : mittelTeilMastschuesse) {
+					mittelTeilMastschuss.setEbenevorne(previtem.getEbenehinten());
+					previtem = mittelTeilMastschuss;
+				}
+
+				mastschuss.getEndTeilMastschuss().setEbenevorne(previtem.getEbenehinten());
 			}
-
-			mastschuss.getEndTeilMastschuss().setEbenevorne(previtem.getEbenehinten());
-
 		}
 	}
 
