@@ -754,6 +754,6 @@
     <styles xmi:type="notation:RoutingStyle" xmi:id="_3t6bMqL3EeSKH4HWQWGQew" routing="Rectilinear"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_3t6bM6L3EeSKH4HWQWGQew" fontName="Segoe UI"/>
     <element xmi:type="uml:Generalization" href="dossig_normverbindungen.uml#_3t6bMKL3EeSKH4HWQWGQew"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3t6bNKL3EeSKH4HWQWGQew" points="[39, -60, -58, 77]$[46, -130, -51, 7]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3t6bNKL3EeSKH4HWQWGQew" points="[41, -60, -67, 89]$[41, -85, -67, 64]$[116, -85, 8, 64]$[116, -113, 8, 36]"/>
   </edges>
 </notation:Diagram>

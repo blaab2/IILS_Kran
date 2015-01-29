@@ -107,7 +107,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_-liJa6LuEeSKH4HWQWGQew"/>
       <element xmi:type="uml:Package" href="dossig_normverbindungen.uml#_-kyigaLuEeSKH4HWQWGQew"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-liJbKLuEeSKH4HWQWGQew" x="2" y="2" width="630" height="595"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-liJbKLuEeSKH4HWQWGQew" x="2" y="2" width="630" height="548"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_-liJcKLuEeSKH4HWQWGQew" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_-liJc6LuEeSKH4HWQWGQew" type="5026"/>
@@ -128,7 +128,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_-liJcaLuEeSKH4HWQWGQew"/>
       <element xmi:type="uml:Package" href="dossig_normverbindungen.uml#_-kyigqLuEeSKH4HWQWGQew"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-liJcqLuEeSKH4HWQWGQew" x="634" y="2" width="628" height="595"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-liJcqLuEeSKH4HWQWGQew" x="634" y="2" width="628" height="548"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_-kyihqLuEeSKH4HWQWGQew"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_-kyih6LuEeSKH4HWQWGQew"/>
