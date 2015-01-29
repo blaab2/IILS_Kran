@@ -16,8 +16,12 @@ public class expandThreadTrack extends JavaRule {
 		Stereotype spgconstStereo = getProfile(get43Profiles().getSpg()).getOwnedStereotype("spgconst");
 
 		for (ThreadTrack threadTrack : allThreadTracks) {
+
+			if (threadTrack.getExpanded() == (null))
+				threadTrack.setExpanded(0.0);
 			if (threadTrack.getExpanded().doubleValue() == 0) {
 				ThreadTrackPoint prevpoint = null;
+
 				for (int i = 0; i < threadTrack.getPoints(); i++) {
 					ThreadTrackPoint point = InstanceWrapperExtensions
 							.createInstance(ThreadTrackPoint.class, threadTrack.umlInstance().getName() + "Point" + i);

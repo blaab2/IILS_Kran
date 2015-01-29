@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: dossig_normverbindungen
-Bundle-SymbolicName: dossig_normverbindungen
+Bundle-SymbolicName: dossig_normverbindungen;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-Vendor: DC43
 Require-Bundle: org.eclipse.uml2.uml,

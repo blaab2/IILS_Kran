@@ -1,10 +1,11 @@
-/NormelementImpl.java
-/ComponentImpl.java
+/NormElementImpl.java
+/PartImpl.java
 /ScrewImpl.java
 /ThreadClassImpl.java
 /ThreadTrackImpl.java
 /ThreadTrackPointImpl.java
-/Klasse1Impl.java
-/Klasse2Impl.java
 /ExpandableImpl.java
+/HeadImpl.java
+/HeadBaseImpl.java
+/HexagonImpl.java
 /ClassesFactoryImpl.java

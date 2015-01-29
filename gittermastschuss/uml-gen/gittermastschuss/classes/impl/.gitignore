@@ -11,4 +11,6 @@
 /DiagonaleImpl.java
 /SolidVerbindungImpl.java
 /StahlrohrImpl.java
+/DreikantEbeneTeilImpl.java
+/FuenfkantEbenTeilImpl.java
 /ClassesFactoryImpl.java

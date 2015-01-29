@@ -24,6 +24,9 @@ public class VerbindeGGittermastschuss extends JavaRule {
 		if (teilmastschuss.getHolm4() != null) {
 			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getHolm4());
 		}
+		if (teilmastschuss.getHolm5() != null) {
+			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getHolm5());
+		}
 		if (teilmastschuss.getPfosten1() != null) {
 			mastschuss.getMastschussGeometrie().geometric_add_(teilmastschuss.getPfosten1());
 		}
