@@ -3,11 +3,21 @@ package fem;
 public class FEMLine {
 	FEMPunkt p1;
 	FEMPunkt p2;
+	int ID;
 
-	public FEMLine(FEMPunkt p1, FEMPunkt p2) {
+	public int getID() {
+		return ID;
+	}
+
+	public void setID(int iD) {
+		ID = iD;
+	}
+
+	public FEMLine(FEMPunkt p1, FEMPunkt p2, int id) {
 		super();
 		this.p1 = p1;
 		this.p2 = p2;
+		this.ID = id;
 	}
 
 	public FEMPunkt getP1() {

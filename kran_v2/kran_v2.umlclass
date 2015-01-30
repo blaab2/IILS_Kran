@@ -349,6 +349,26 @@
         <element xmi:type="uml:Property" href="kran_v2.uml#_ij_18G5kEeSppMiHEwQTMw"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ikch4W5kEeSppMiHEwQTMw"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_GSnxuqhlEeSQU6bZp_bSOw" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_v3wYsG8tEeS9EOv-nBde_w"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GSnxu6hlEeSQU6bZp_bSOw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_GSnxvKhlEeSQU6bZp_bSOw" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_8rfaYKfXEeSXqJAYItWk1A"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GSnxvahlEeSQU6bZp_bSOw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_gMboQKhlEeSQU6bZp_bSOw" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_gMItUKhlEeSQU6bZp_bSOw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gMboQahlEeSQU6bZp_bSOw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_03zHRqhpEeSmfJxeco95dg" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_agQBMKhoEeSQU6bZp_bSOw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_03zHR6hpEeSmfJxeco95dg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_SITM4KhqEeSmfJxeco95dg" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_SIAR8KhqEeSmfJxeco95dg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SITM4ahqEeSmfJxeco95dg"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_FkKytljxEeSRvZYm9gtmzA" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_FkKyt1jxEeSRvZYm9gtmzA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_FkKyuFjxEeSRvZYm9gtmzA"/>

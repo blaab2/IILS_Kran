@@ -284,6 +284,22 @@
         <element xmi:type="uml:Property" href="raupe.uml#_0425AIEeEeS56uUUC6c8Jg"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_05AqAYEeEeS56uUUC6c8Jg"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_CeYZIKhnEeSQU6bZp_bSOw" type="3001">
+        <element xmi:type="uml:Property" href="raupe.uml#_72-ZgKhhEeSQU6bZp_bSOw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CeYZIahnEeSQU6bZp_bSOw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_CeYZIqhnEeSQU6bZp_bSOw" type="3001">
+        <element xmi:type="uml:Property" href="raupe.uml#_73RUcKhhEeSQU6bZp_bSOw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CeYZI6hnEeSQU6bZp_bSOw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_CeYZJKhnEeSQU6bZp_bSOw" type="3001">
+        <element xmi:type="uml:Property" href="raupe.uml#_73bFcKhhEeSQU6bZp_bSOw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CeYZJahnEeSQU6bZp_bSOw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_C0GKYKhnEeSQU6bZp_bSOw" type="3001">
+        <element xmi:type="uml:Property" href="raupe.uml#_Cz9AcKhnEeSQU6bZp_bSOw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_C0GKYahnEeSQU6bZp_bSOw"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_vUtuA1qdEeS77NvZsjw4Eg" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_vUtuBFqdEeS77NvZsjw4Eg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_vUtuBVqdEeS77NvZsjw4Eg"/>
@@ -303,7 +319,7 @@
     </children>
     <styles xmi:type="notation:CanonicalStyle" xmi:id="_vUtG8VqdEeS77NvZsjw4Eg"/>
     <element xmi:type="uml:Class" href="raupe.uml#_vUlyMFqdEeS77NvZsjw4Eg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vUtG8lqdEeS77NvZsjw4Eg" x="570" y="15"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vUtG8lqdEeS77NvZsjw4Eg" x="560" y="-15"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_2vsoN1n1EeSDNs9ejb-vGg"/>
   <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_2vsoOFn1EeSDNs9ejb-vGg"/>
