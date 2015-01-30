@@ -82,27 +82,34 @@ public class exportAbaqus extends JavaRule {
 		Collection<Stahlrohr> stahlrohre = InstanceWrapperExtensions.allInstances(Stahlrohr.class);
 		Hauptausleger hauptausleger = InstanceWrapperExtensions.allInstances(Hauptausleger.class).iterator().next();
 
+		ArrayList<FEMLine> femlines = new ArrayList<FEMLine>();
+		HashMap<double[], FEMPunkt> points = new HashMap<double[], FEMPunkt>();
+
+		GeometryAPI api = new GeometryAPI(trafoRunner.getUmlFileURI());
+		Graph<Object> emptyGraph = api.generateEmptyGeometryGraph();
+
 		stahlrohre.clear();
 		List<Mastschuss> mastschusse = hauptausleger.getMastschuss();
 		for (Mastschuss mastschuss : mastschusse) {
+
 			stahlrohre.addAll(mastschuss.getAnfangsTeilMastschuss().getStahlrohr());
 			stahlrohre.addAll(mastschuss.getEndTeilMastschuss().getStahlrohr());
 			for (MittelTeilMastschuss mittelteil : mastschuss.getMittelTeilMastschuss()) {
 				stahlrohre.addAll(mittelteil.getStahlrohr());
 			}
+
 		}
 
-		ArrayList<FEMLine> femlines = new ArrayList<FEMLine>();
-		HashMap<Point, FEMPunkt> points = new HashMap<Point, FEMPunkt>();
-
-		GeometryAPI api = new GeometryAPI(trafoRunner.getUmlFileURI());
-		Graph<Object> emptyGraph = api.generateEmptyGeometryGraph();
-
 		for (Stahlrohr stahlrohr : stahlrohre) {
+
+			System.out.println("Abaqus Export: " + stahlrohre.size() + " Stahlrohre");
+
 			Point startPoint = stahlrohr.getStartPoint();
 			Point endPoint = stahlrohr.getEndPoint();
 			if (startPoint == null || endPoint == null)
 				continue;
+
+			System.out.println(point_i);
 			de.iils.dc43.geometry.datastructure.geometrics.Point startpointData = (de.iils.dc43.geometry.datastructure.geometrics.Point) emptyGraph.getNode(
 					startPoint.umlInstance()).getData();
 			de.iils.dc43.geometry.datastructure.geometrics.Point endpointData = (de.iils.dc43.geometry.datastructure.geometrics.Point) emptyGraph.getNode(
@@ -114,26 +121,35 @@ public class exportAbaqus extends JavaRule {
 			trafomatrix = api.getLoc2GlobTrans(emptyGraph, endPoint.umlInstance());
 			double[] endPointMatrix = trafomatrix.times(new Matrix(endpointData.getHomogeneousCoordinates(), 4)).getRowPackedCopy();
 
-			FEMPunkt p1 = findSame(startPoint, points);
+			// startPointMatrix[0] = startPoint.getX();
+			// startPointMatrix[1] = startPoint.getY();
+			// startPointMatrix[2] = startPoint.getZ();
+			// endPointMatrix[0] = endPoint.getX();
+			// endPointMatrix[1] = endPoint.getY();
+			// endPointMatrix[2] = endPoint.getZ();
+
+			FEMPunkt p1 = findSame(startPointMatrix, points);
 			if (p1 == null) {
 				p1 = new FEMPunkt(startPointMatrix[0], startPointMatrix[1], startPointMatrix[2]);
 				p1.setIndex(point_i);
 				point_i++;
-				points.put(startPoint, p1);
+				points.put(startPointMatrix, p1);
 			}
 
-			FEMPunkt p2 = points.get(endPoint);
+			FEMPunkt p2 = findSame(endPointMatrix, points);
 			if (p2 == null) {
 				p2 = new FEMPunkt(endPointMatrix[0], endPointMatrix[1], endPointMatrix[2]);
 				p2.setIndex(point_i);
 				point_i++;
-				points.put(endPoint, p2);
+				points.put(endPointMatrix, p2);
 			}
 
 			FEMLine line = new FEMLine(p1, p2, line_i);
 			femlines.add(line);
 			line_i++;
 		}
+
+		System.out.println("Abaqus: " + points.size() + "FEM Punkte extrahiert");
 
 		// Punkteliste sortieren
 		ArrayList<FEMPunkt> fempoints = new ArrayList<FEMPunkt>(points.values());
@@ -176,17 +192,17 @@ public class exportAbaqus extends JavaRule {
 
 	}
 
-	private FEMPunkt findSame(Point np, HashMap<Point, FEMPunkt> points) {
-		for (Point p : points.keySet()) {
-			if (checkKoordinates(p, np)) {
+	private FEMPunkt findSame(double[] newPoint, HashMap<double[], FEMPunkt> points) {
+		for (double[] p : points.keySet()) {
+			if (checkKoordinates(p, newPoint)) {
 				return points.get(p);
 			}
 		}
 		return null;
 	}
 
-	private boolean checkKoordinates(Point p, Point np) {
-		if (p.getX() - np.getX() < 0.0001 && p.getY() - np.getY() < 0.0001 && p.getZ() - np.getZ() < 0.0001) {
+	private boolean checkKoordinates(double[] p1, double[] p2) {
+		if (Math.abs(p1[0] - p2[0]) < 0.0001 && Math.abs(p1[1] - p2[1]) < 0.0001 && Math.abs(p1[2] - p2[2]) < 0.0001) {
 			return true;
 		}
 		return false;
