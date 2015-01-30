@@ -2,7 +2,6 @@ import fem.FEMLine;
 import fem.FEMPunkt;
 import geometry.Point;
 import gittermastschuss.classes.Mastschuss;
-import gittermastschuss.classes.MittelTeilMastschuss;
 import gittermastschuss.classes.Stahlrohr;
 
 import java.io.BufferedWriter;
@@ -16,7 +15,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Locale;
 
 import kran_v2.classes.Hauptausleger;
@@ -76,29 +74,18 @@ public class exportAbaqus extends JavaRule {
 
 		// Punkte sammeln
 
-		int point_i = 1;
-		int line_i = 1;
+		int point_i = 0;
+		int line_i = 1000;
 
 		Collection<Stahlrohr> stahlrohre = InstanceWrapperExtensions.allInstances(Stahlrohr.class);
 		Hauptausleger hauptausleger = InstanceWrapperExtensions.allInstances(Hauptausleger.class).iterator().next();
 
 		ArrayList<FEMLine> femlines = new ArrayList<FEMLine>();
 		HashMap<double[], FEMPunkt> points = new HashMap<double[], FEMPunkt>();
+		HashMap<Stahlrohr, Mastschuss> stahlrohrmap = new HashMap<Stahlrohr, Mastschuss>();
 
 		GeometryAPI api = new GeometryAPI(trafoRunner.getUmlFileURI());
 		Graph<Object> emptyGraph = api.generateEmptyGeometryGraph();
-
-		stahlrohre.clear();
-		List<Mastschuss> mastschusse = hauptausleger.getMastschuss();
-		for (Mastschuss mastschuss : mastschusse) {
-
-			stahlrohre.addAll(mastschuss.getAnfangsTeilMastschuss().getStahlrohr());
-			stahlrohre.addAll(mastschuss.getEndTeilMastschuss().getStahlrohr());
-			for (MittelTeilMastschuss mittelteil : mastschuss.getMittelTeilMastschuss()) {
-				stahlrohre.addAll(mittelteil.getStahlrohr());
-			}
-
-		}
 
 		for (Stahlrohr stahlrohr : stahlrohre) {
 
@@ -110,6 +97,7 @@ public class exportAbaqus extends JavaRule {
 				continue;
 
 			System.out.println(point_i);
+
 			de.iils.dc43.geometry.datastructure.geometrics.Point startpointData = (de.iils.dc43.geometry.datastructure.geometrics.Point) emptyGraph.getNode(
 					startPoint.umlInstance()).getData();
 			de.iils.dc43.geometry.datastructure.geometrics.Point endpointData = (de.iils.dc43.geometry.datastructure.geometrics.Point) emptyGraph.getNode(
@@ -131,25 +119,24 @@ public class exportAbaqus extends JavaRule {
 			FEMPunkt p1 = findSame(startPointMatrix, points);
 			if (p1 == null) {
 				p1 = new FEMPunkt(startPointMatrix[0], startPointMatrix[1], startPointMatrix[2]);
-				p1.setIndex(point_i);
 				point_i++;
+				p1.setIndex(point_i);
 				points.put(startPointMatrix, p1);
 			}
 
 			FEMPunkt p2 = findSame(endPointMatrix, points);
 			if (p2 == null) {
 				p2 = new FEMPunkt(endPointMatrix[0], endPointMatrix[1], endPointMatrix[2]);
-				p2.setIndex(point_i);
 				point_i++;
+				p2.setIndex(point_i);
 				points.put(endPointMatrix, p2);
 			}
 
 			FEMLine line = new FEMLine(p1, p2, line_i);
 			femlines.add(line);
 			line_i++;
-		}
 
-		System.out.println("Abaqus: " + points.size() + "FEM Punkte extrahiert");
+		}
 
 		// Punkteliste sortieren
 		ArrayList<FEMPunkt> fempoints = new ArrayList<FEMPunkt>(points.values());
@@ -178,6 +165,9 @@ public class exportAbaqus extends JavaRule {
 
 		}
 
+		System.out.println("Abaqus: " + points.size() + "FEM Punkte extrahiert");
+
+		// Beam elemente ausgeben
 		bw.write("*Element, type=B31");
 		bw.newLine();
 
@@ -188,6 +178,41 @@ public class exportAbaqus extends JavaRule {
 
 		}
 
+		// Gruppieren
+		ArrayList<Point> fixpoints = new ArrayList<Point>();
+
+		fixpoints.add(hauptausleger.getAnfangMast().getAnfangsTeilMastschuss().getEbenevorne().getP1());
+		fixpoints.add(hauptausleger.getAnfangMast().getAnfangsTeilMastschuss().getEbenevorne().getP2());
+		fixpoints.add(hauptausleger.getAnfangMast().getAnfangsTeilMastschuss().getEbenevorne().getP3());
+
+		bw.write("*NSET,NSET=FIX");
+		bw.newLine();
+
+		int fixpointi = 0;
+
+		for (Point point : fixpoints) {
+			fixpointi++;
+			de.iils.dc43.geometry.datastructure.geometrics.Point pointData = (de.iils.dc43.geometry.datastructure.geometrics.Point) emptyGraph.getNode(
+					point.umlInstance()).getData();
+			TransformationMatrix trafomatrix = api.getLoc2GlobTrans(emptyGraph, point.umlInstance());
+			double[] pointMatrix = trafomatrix.times(new Matrix(pointData.getHomogeneousCoordinates(), 4)).getRowPackedCopy();
+			double[] pointdbl = { pointMatrix[0], pointMatrix[1], pointMatrix[2] };
+			FEMPunkt fixFEMPoint = findSame(pointdbl, points);
+			bw.write(fixFEMPoint.getIndex() + "");
+			if (fixpointi != fixpoints.size()) {
+				bw.write(",");
+			}
+		}
+
+		bw.write("*BOUNDARY");
+		bw.newLine();
+		bw.write("FIX,1,3");
+		bw.newLine();
+		bw.write("*NSET,NSET=Nall,GENERATE");
+		bw.newLine();
+		bw.write("1," + point_i);
+		bw.newLine();
+		// http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node7.html
 		bw.close();
 
 	}
