@@ -29,24 +29,22 @@ public class BaueDiagonalen2anMittelteil extends JavaRule {
 						.getName() + "_diagonale32");
 				mittelTeilMastschuss.setDiagonale32(diagonale6);
 
-				// Add Diagonale3
-				Diagonale diagonale3 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
-						.getName() + "_diagonale13");
-				mittelTeilMastschuss.setDiagonale13(diagonale3);
+				// // Add Diagonale13
+				// Diagonale diagonale3 =
+				// InstanceWrapperExtensions.createInstance(Diagonale.class,
+				// mittelTeilMastschuss.umlInstance()
+				// .getName() + "_diagonale13");
+				// mittelTeilMastschuss.setDiagonale13(diagonale3);
 
-				// // Add diagonale7
-				// Diagonale diagonale7 =
-				// InstanceWrapperExtensions.createInstance(Diagonale.class,
-				// mittelTeilMastschuss.umlInstance()
-				// .getName() + "_diagonale43");
-				// mittelTeilMastschuss.setDiagonale43(diagonale7);
-				//
-				// // Add diagonale8
-				// Diagonale diagonale8 =
-				// InstanceWrapperExtensions.createInstance(Diagonale.class,
-				// mittelTeilMastschuss.umlInstance()
-				// .getName() + "_diagonale14");
-				// mittelTeilMastschuss.setDiagonale14(diagonale8);
+				// Add diagonale7
+				Diagonale diagonale7 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
+						.getName() + "_diagonale43");
+				mittelTeilMastschuss.setDiagonale43(diagonale7);
+
+				// Add diagonale8
+				Diagonale diagonale8 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
+						.getName() + "_diagonale14");
+				mittelTeilMastschuss.setDiagonale14(diagonale8);
 
 			}
 		}

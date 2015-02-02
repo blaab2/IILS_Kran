@@ -29,24 +29,22 @@ public class BaueDiagonalen1anMittelteil extends JavaRule {
 						.getName() + "_diagonale2");
 				mittelTeilMastschuss.setDiagonale23(diagonale2);
 
-				// Add Diagonale3
-				Diagonale diagonale3 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
-						.getName() + "_diagonale31");
-				mittelTeilMastschuss.setDiagonale31(diagonale3);
-
-				// // Add Diagonale3
+				// Add Diagonale31
 				// Diagonale diagonale3 =
 				// InstanceWrapperExtensions.createInstance(Diagonale.class,
 				// mittelTeilMastschuss.umlInstance()
-				// .getName() + "_diagonale34");
-				// mittelTeilMastschuss.setDiagonale34(diagonale3);
-				//
-				// // Add Diagonale4
-				// Diagonale diagonale4 =
-				// InstanceWrapperExtensions.createInstance(Diagonale.class,
-				// mittelTeilMastschuss.umlInstance()
-				// .getName() + "_diagonale41");
-				// mittelTeilMastschuss.setDiagonale41(diagonale4);
+				// .getName() + "_diagonale31");
+				// mittelTeilMastschuss.setDiagonale31(diagonale3);
+
+				// Add Diagonale3
+				Diagonale diagonale3 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
+						.getName() + "_diagonale34");
+				mittelTeilMastschuss.setDiagonale34(diagonale3);
+
+				// Add Diagonale4
+				Diagonale diagonale4 = InstanceWrapperExtensions.createInstance(Diagonale.class, mittelTeilMastschuss.umlInstance()
+						.getName() + "_diagonale41");
+				mittelTeilMastschuss.setDiagonale41(diagonale4);
 
 			}
 		}

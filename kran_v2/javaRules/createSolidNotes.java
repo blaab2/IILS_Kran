@@ -108,8 +108,8 @@ public class createSolidNotes extends JavaRule {
 						radius = teilMastschuss.getPfosten31().getDurchmesser() / 2;
 					}
 					if (teilMastschuss.getPfosten41() != null) {
-						lines.add(teilMastschuss.getPfosten51());
-						radius = teilMastschuss.getPfosten51().getDurchmesser() / 2;
+						lines.add(teilMastschuss.getPfosten41());
+						radius = teilMastschuss.getPfosten41().getDurchmesser() / 2;
 					}
 					if (teilMastschuss.getPfosten51() != null) {
 						lines.add(teilMastschuss.getPfosten51());

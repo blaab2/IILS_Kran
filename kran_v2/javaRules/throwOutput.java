@@ -34,8 +34,11 @@ public class throwOutput extends JavaRule {
 		System.out.println("- Masse gesamt: " + formatter.format(kran.getMasse().doubleValue()) + "kg");
 		System.out.println("- Masse Oberwagen-Gewichte: "
 				+ formatter.format(kran.getUnterbau().getGewichte().getAnzahl() * kran.getUnterbau().getGewichte().getTeilmasse()) + "kg");
-		System.out.println("- Masse Zusatz-Gewichte: "
-				+ formatter.format(kran.getGewichtewagen().getGewichte().getAnzahl() * kran.getGewichtewagen().getGewichte().getTeilmasse()) + "kg");
+		if (kran.getGewichtewagen().getGewichte() != null) {
+			System.out.println("- Masse Zusatz-Gewichte: "
+					+ formatter.format(kran.getGewichtewagen().getGewichte().getAnzahl() * kran.getGewichtewagen().getGewichte().getTeilmasse()) + "kg");
+		}
+
 		if (kran.getMinlast().doubleValue() > 0 || kran.getMinlastseitlich().doubleValue() > 0)
 
 			System.out.println("*Minimale Last, sodass der Kran nicht nach hinten umkippt");

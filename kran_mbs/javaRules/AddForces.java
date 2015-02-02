@@ -1,3 +1,6 @@
+import geometry.Component;
+import geometry.Cuboid;
+
 import java.util.Collection;
 
 import kran_mbs.classes.MastMBSBodyElement;
@@ -6,7 +9,11 @@ import kran_v2.classes.Hauptausleger;
 import kran_v2.classes.Kran;
 import kran_v2.classes.Nebenausleger;
 import kran_v2.classes.Spitzenausleger;
+import multibody.profile.uml.classes.Body;
 import multibody.profile.uml.classes.Force;
+import multibody.profile.uml.classes.GeneralJoint;
+import multibody.profile.uml.classes.GeometryFrom43;
+import multibody.profile.uml.classes.ImplicitInertiaProperties;
 import multibody.profile.uml.classes.MBSModel;
 import multibody.profile.uml.classes.Marker;
 import de.iils.dc43.scriptrule.InstanceWrapperExtensions;
@@ -40,13 +47,7 @@ public class AddForces extends JavaRule {
 				for (MastMBSBodyElement mastMBSBodyElement : mastMBS) {
 					if (mastMBSBodyElement.getMast().equals(spitzenausleger)) {
 
-						Force force1 = InstanceWrapperExtensions.createInstance(Force.class, "Last1");
-
-						mbs.load_add_(force1);
-						// force1.setActionElement(mastMBSBodyElement);
-						force1.setActionElement(mastMBSBodyElement.getEndemarker());
-						force1.setCoordinateSystem(mbs.getGround());
-						force1.setFz("-" + kran.getLast() * 9.81 / 1000);
+						createLast(mbs, kran, mastMBSBodyElement);
 
 						break;
 
@@ -62,13 +63,7 @@ public class AddForces extends JavaRule {
 			for (MastMBSBodyElement mastMBSBodyElement : mastMBS) {
 				if (mastMBSBodyElement.getMast().equals(hauptausleger)) {
 
-					Force force1 = InstanceWrapperExtensions.createInstance(Force.class, "Last1");
-
-					mbs.load_add_(force1);
-					// force1.setActionElement(mastMBSBodyElement);
-					force1.setActionElement(mastMBSBodyElement.getEndemarker());
-					force1.setCoordinateSystem(mbs.getGround());
-					force1.setFz("-" + kran.getLast() * 9.81 / 1000);
+					createLast(mbs, kran, mastMBSBodyElement);
 
 					break;
 
@@ -90,7 +85,7 @@ public class AddForces extends JavaRule {
 
 				force1.setActionElement(mastMBSBodyElement.getEndemarker());
 				force1.setCoordinateSystem(mbs.getGround());
-				force1.setFz("-" + kran.getUnterbau().getGewichte().getGesamtmassesoll() * 9.81 / 1000);
+				force1.setFz("-" + kran.getUnterbau().getGewichte().getGesamtmassesoll() * 9.81);
 
 				break;
 
@@ -116,7 +111,7 @@ public class AddForces extends JavaRule {
 
 						force1.setActionElement(marker);
 						force1.setCoordinateSystem(mbs.getGround());
-						force1.setFz("-" + kran.getGewichtewagen().getGesamtmassesoll() * 9.81 / 1000);
+						force1.setFz("-" + kran.getGewichtewagen().getGesamtmassesoll() * 9.81);
 
 						break;
 
@@ -124,6 +119,58 @@ public class AddForces extends JavaRule {
 				}
 			}
 		}
+
+	}
+
+	private void createLast(MBSModel mbs, Kran kran, MastMBSBodyElement mastMBSBodyElement) {
+		// Gewichtskraft
+		Force force1 = InstanceWrapperExtensions.createInstance(Force.class, "Last1");
+
+		// Gewichtebody erstellen
+		Body lastBody = InstanceWrapperExtensions.createInstance(Body.class, "LastBody");
+		GeometryFrom43 geometry43 = InstanceWrapperExtensions.createInstance(GeometryFrom43.class, "LastBodyGeometry43");
+		Component geometryComponent = InstanceWrapperExtensions.createInstance(Component.class, "LastBodyGeometryComponent");
+		Cuboid cuboid = InstanceWrapperExtensions.createInstance(Cuboid.class, "LastCuboid");
+		ImplicitInertiaProperties lastInertia = InstanceWrapperExtensions.createInstance(ImplicitInertiaProperties.class, "LastBodyPropertries");
+		GeneralJoint generalJoint = InstanceWrapperExtensions.createInstance(GeneralJoint.class, "LastBodyJoint");
+
+		mbs.body_add_(lastBody);
+		mbs.joint_add_(generalJoint);
+
+		cuboid.setLengthX(1000.);
+		cuboid.setLengthY(1000.);
+		cuboid.setLengthZ(1000.);
+
+		lastBody.setPositionReference(mbs.getGround());
+		lastBody.setGeometry(geometry43);
+
+		lastBody.setLocalX(-cuboid.getLengthX() / 2);
+		lastBody.setLocalY(-cuboid.getLengthY() / 2);
+		lastBody.setLocalZ(5000.);
+		lastBody.setLocalX(kran.getArbeitsbereichx() * 1000);
+		lastBody.setInertiaProperties(lastInertia);
+
+		lastInertia.setDensity(kran.getLast() / (1000 * 1000 * 1000));
+
+		geometry43.setComponent(geometryComponent);
+
+		geometryComponent.setShape(cuboid);
+
+		generalJoint.setBody1(mastMBSBodyElement);
+		generalJoint.setBody2(lastBody);
+		generalJoint.setAppliedLocation(mastMBSBodyElement.getEndemarker());
+		generalJoint.setConstrainRotX(false);
+		generalJoint.setConstrainRotY(false);
+		generalJoint.setConstrainRotZ(false);
+		generalJoint.setConstrainX(true);
+		generalJoint.setConstrainY(true);
+		generalJoint.setConstrainZ(true);
+
+		// mbs.load_add_(force1);
+		// // force1.setActionElement(mastMBSBodyElement);
+		// force1.setActionElement(mastMBSBodyElement.getEndemarker());
+		// force1.setCoordinateSystem(mbs.getGround());
+		// force1.setFz("-" + kran.getLast() * 9.81 / 1000);
 
 	}
 }
