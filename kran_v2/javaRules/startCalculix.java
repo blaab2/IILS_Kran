@@ -44,11 +44,11 @@ public class startCalculix extends JavaRule {
 			String line;
 			while (s.hasNext()) {
 				line = s.next();
-				printCS(line);
+				// printCS(line);
 				if (line.matches("WARNING:.*")) {
 					printCS(line);
 				}
-				if (line.matches("Error\\s*:\\s*\\d+\\serrors")) {
+				if (line.matches("ERROR:.*")) {
 					printCS(line);
 				}
 			}
@@ -59,6 +59,97 @@ public class startCalculix extends JavaRule {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		printCS("starting Calculix Solver...");
+
+		// Start Solver
+		exportProcessBuilder = // new
+								// ProcessBuilder(Allgemein.findParentsPath+"findparents.exe"
+								// );
+		new ProcessBuilder(calculixBinPath + "ccx.bat", // elmergrid
+														// program
+				"abaqus_export" // gmsh input
+
+		);
+		exportProcessBuilder.directory(new File(outputfile_path));
+		exportProcessBuilder.redirectErrorStream(true);
+		//
+		try {
+			exportProcess = exportProcessBuilder.start();
+			// Scanner Delimiter: \\Z ^= end of input; \\r\\n ^= end of
+			// line;
+			Scanner s = new Scanner(exportProcess.getInputStream()).useDelimiter("\\r\\n");
+			String line;
+			while (s.hasNext()) {
+				line = s.next();
+				// printCS(line);
+
+				if (line.matches("WARNING:.*")) {
+					printCS(line);
+				}
+				if (line.matches("INFO:.*")) {
+					printCS(line);
+				}
+				if (line.matches("ERROR:.*")) {
+					printCS(line);
+				}
+			}
+			try {
+				exportProcess.waitFor();
+				long totalTimeInSec = (System.currentTimeMillis() - initialTime) / 1000;
+				printCS("Converting finished in " + totalTimeInSec + " seconds.");
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		printCS("starting Calculix Post Processor...");
+
+		// Start Solver
+		exportProcessBuilder = // new
+								// ProcessBuilder(Allgemein.findParentsPath+"findparents.exe"
+								// );
+		new ProcessBuilder(calculixBinPath + "cgx.bat", // elmergrid
+														// program
+				"-v", // gmsh input
+				"abaqus_export.frd" // elmergrid output
+
+		);
+		exportProcessBuilder.directory(new File(outputfile_path));
+		exportProcessBuilder.redirectErrorStream(true);
+		//
+		try {
+			exportProcess = exportProcessBuilder.start();
+			// Scanner Delimiter: \\Z ^= end of input; \\r\\n ^= end of
+			// line;
+			Scanner s = new Scanner(exportProcess.getInputStream()).useDelimiter("\\r\\n");
+			String line;
+			while (s.hasNext()) {
+				line = s.next();
+				// printCS(line);
+
+				if (line.matches("WARNING:.*")) {
+					printCS(line);
+				}
+				if (line.matches("INFO:.*")) {
+					printCS(line);
+				}
+				if (line.matches("ERROR:.*")) {
+					printCS(line);
+				}
+			}
+			// try {
+			// exportProcess.waitFor();
+			// long totalTimeInSec = (System.currentTimeMillis() - initialTime)
+			// / 1000;
+			// printCS("Converting finished in " + totalTimeInSec +
+			// " seconds.");
+			// } catch (InterruptedException e) {
+			// e.printStackTrace();
+			// }
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
