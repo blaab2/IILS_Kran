@@ -7,7 +7,7 @@
 /UnterbauModelImpl.java
 /HauptauslegerImpl.java
 /SpitzenauslegerImpl.java
-/SpitzenauslegeradapterImpl.java
+/SpitzenauslegerAbspannbockImpl.java
 /AuslegerPositionImpl.java
 /NebenauslegerImpl.java
 /InputImpl.java

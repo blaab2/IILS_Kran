@@ -4,7 +4,7 @@ import kran_mbs.classes.MastMBSBodyElement;
 import kran_v2.classes.Hauptausleger;
 import kran_v2.classes.Mast;
 import kran_v2.classes.Spitzenausleger;
-import kran_v2.classes.Spitzenauslegeradapter;
+import kran_v2.classes.SpitzenauslegerAbspannbock;
 import multibody.profile.uml.classes.GeneralJoint;
 import multibody.profile.uml.classes.MBSModel;
 import de.iils.dc43.scriptrule.InstanceWrapperExtensions;
@@ -28,8 +28,8 @@ public class AddSpitzenauslegerJoints extends JavaRule {
 			return;
 		}
 
-		Spitzenauslegeradapter spitzenauslegeradapter1 = spitzenausleger.getSpitzenauslegeradapter1();
-		Spitzenauslegeradapter spitzenauslegeradapter2 = spitzenausleger.getSpitzenauslegeradapter2();
+		SpitzenauslegerAbspannbock spitzenauslegeradapter1 = spitzenausleger.getSpitzenauslegeradapter1();
+		SpitzenauslegerAbspannbock spitzenauslegeradapter2 = spitzenausleger.getSpitzenauslegeradapter2();
 
 		builtjoint(hauptausleger, spitzenausleger, mbsmodel, mastMBSBodies);
 		builtjoint(hauptausleger, spitzenauslegeradapter1, mbsmodel, mastMBSBodies);

@@ -8,7 +8,7 @@
 /UnterbauModel.java
 /Hauptausleger.java
 /Spitzenausleger.java
-/Spitzenauslegeradapter.java
+/SpitzenauslegerAbspannbock.java
 /AuslegerPosition.java
 /Nebenausleger.java
 /Input.java

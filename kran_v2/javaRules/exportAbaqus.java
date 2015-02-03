@@ -33,11 +33,9 @@ public class exportAbaqus extends JavaRule {
 	@Override
 	public void execute(TransformationRunner trafoRunner) throws IOException {
 
-		String outputfile_path = getProjectDir() + "fem/";
+		String outputfile_path = getProjectDir() + "fem\\";
 
 		String outputfile_name = "abaqus_export.inp";
-
-		output(outputfile_path + outputfile_name);
 
 		if (new File(outputfile_path).exists() == false) {
 			boolean creationWasSuccessful = new File(outputfile_path).mkdirs();
@@ -99,17 +97,15 @@ public class exportAbaqus extends JavaRule {
 
 		GeometryAPI api = new GeometryAPI(trafoRunner.getUmlFileURI());
 		Graph<Object> emptyGraph = api.generateEmptyGeometryGraph();
+		output(outputfile_path + outputfile_name);
+		System.out.println("FEM Export: " + stahlrohre.size() + " Stahlrohre extrahiert");
 
 		for (Stahlrohr stahlrohr : stahlrohre) {
-
-			System.out.println("Abaqus Export: " + stahlrohre.size() + " Stahlrohre");
 
 			Point startPoint = stahlrohr.getStartPoint();
 			Point endPoint = stahlrohr.getEndPoint();
 			if (startPoint == null || endPoint == null)
 				continue;
-
-			System.out.println(point_i);
 
 			de.iils.dc43.geometry.datastructure.geometrics.Point startpointData = (de.iils.dc43.geometry.datastructure.geometrics.Point) emptyGraph.getNode(
 					startPoint.umlInstance()).getData();
@@ -178,7 +174,7 @@ public class exportAbaqus extends JavaRule {
 
 		}
 
-		System.out.println("Abaqus: " + points.size() + "FEM Punkte extrahiert");
+		System.out.println("FEM Export: " + points.size() + " FEM Punkte extrahiert");
 
 		// Beam elemente ausgeben
 		bw.write("*Element, type=B31, ELSET=Eall");
@@ -291,7 +287,7 @@ public class exportAbaqus extends JavaRule {
 
 		// http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node7.html
 		bw.close();
-
+		System.out.println("FEM Export: File exported");
 	}
 
 	private void writeLine(BufferedWriter bw, String text) throws IOException {
@@ -319,7 +315,7 @@ public class exportAbaqus extends JavaRule {
 	}
 
 	void output(String msg) {
-		System.out.println("exportAbaqus: " + msg);
+		System.out.println("FEM Export: " + msg);
 
 	}
 

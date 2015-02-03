@@ -7,7 +7,7 @@ import de.iils.dc43.scriptrule.*;
 import java.util.*;
 import javax.annotation.Generated;
 
-@Generated(value = { "de.iils.dc43.scriptrule.generator.JavaGenerator" }, date = "2015-01-29T15:47:57.982+0100")
+@Generated(value = { "de.iils.dc43.scriptrule.generator.JavaGenerator" }, date = "2015-02-03T10:33:54.723+0100")
 @SuppressWarnings("all")
 public class MBSBodyImpl extends InstanceWrapperImpl implements kran_mbs.classes.MBSBody {
 

@@ -55,7 +55,7 @@ public class startCalculix extends JavaRule {
 			try {
 				exportProcess.waitFor();
 				long totalTimeInSec = (System.currentTimeMillis() - initialTime) / 1000;
-				printCS("Converting finished in " + totalTimeInSec + " seconds.");
+
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -63,7 +63,8 @@ public class startCalculix extends JavaRule {
 			e.printStackTrace();
 		}
 		printCS("starting Calculix Solver...");
-
+		printCS("Solving...");
+		initialTime = System.currentTimeMillis();
 		// Start Solver
 		exportProcessBuilder = // new
 								// ProcessBuilder(Allgemein.findParentsPath+"findparents.exe"
@@ -99,7 +100,7 @@ public class startCalculix extends JavaRule {
 			try {
 				exportProcess.waitFor();
 				long totalTimeInSec = (System.currentTimeMillis() - initialTime) / 1000;
-				printCS("Converting finished in " + totalTimeInSec + " seconds.");
+				printCS("Solver finished after " + totalTimeInSec + " seconds.");
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -127,20 +128,20 @@ public class startCalculix extends JavaRule {
 			// line;
 			Scanner s = new Scanner(exportProcess.getInputStream()).useDelimiter("\\r\\n");
 			String line;
-			while (s.hasNext()) {
-				line = s.next();
-				// printCS(line);
-
-				if (line.matches("WARNING:.*")) {
-					printCS(line);
-				}
-				if (line.matches("INFO:.*")) {
-					printCS(line);
-				}
-				if (line.matches("ERROR:.*")) {
-					printCS(line);
-				}
-			}
+			// while (s.hasNext()) {
+			// line = s.next();
+			// // printCS(line);
+			//
+			// if (line.matches("WARNING:.*")) {
+			// printCS(line);
+			// }
+			// if (line.matches("INFO:.*")) {
+			// printCS(line);
+			// }
+			// if (line.matches("ERROR:.*")) {
+			// printCS(line);
+			// }
+			// }
 			// try {
 			// exportProcess.waitFor();
 			// long totalTimeInSec = (System.currentTimeMillis() - initialTime)

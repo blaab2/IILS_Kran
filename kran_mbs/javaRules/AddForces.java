@@ -144,10 +144,10 @@ public class AddForces extends JavaRule {
 		lastBody.setPositionReference(mbs.getGround());
 		lastBody.setGeometry(geometry43);
 
-		lastBody.setLocalX(-cuboid.getLengthX() / 2);
+		lastBody.setLocalX(kran.getArbeitsbereichx() * 1000 - cuboid.getLengthX() / 2);
 		lastBody.setLocalY(-cuboid.getLengthY() / 2);
-		lastBody.setLocalZ(5000.);
-		lastBody.setLocalX(kran.getArbeitsbereichx() * 1000);
+		lastBody.setLocalZ(15000.);
+
 		lastBody.setInertiaProperties(lastInertia);
 
 		lastInertia.setDensity(kran.getLast() / (1000 * 1000 * 1000));
