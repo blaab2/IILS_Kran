@@ -130,6 +130,9 @@ public class AddGittermastanschluss extends JavaRule {
 				}
 			}
 
+			psi = Math.atan2(dy1, dx1) * 180 / Math.PI;
+			theta = -Math.atan2(dz1, dx1) * 180 / Math.PI;
+
 			if (correspondingline != null) {
 				// Berechnen des Richtungsvektors des correspondierenden
 				// Anschlusstücks
@@ -149,9 +152,10 @@ public class AddGittermastanschluss extends JavaRule {
 				System.out.println(kx + " " + ky + " " + kz);
 				// Berechnen des senkrechten Vektors nach transformation um
 				// theta und psi
-				sx = -Math.sin(Math.atan2(dy1, dx1));
-				sy = 0;
-				sz = Math.cos(Math.atan2(dy1, dx1));
+				sx = Math.sin(-Math.atan2(dz1, dx1)) * Math.cos(Math.atan2(dy1, dx1));
+				sy = Math.cos(-Math.atan2(dz1, dx1));
+
+				sz = Math.sin(-Math.atan2(dz1, dx1)) * Math.sin(Math.atan2(dy1, dx1));
 				System.out.println("Körpervektor:");
 				System.out.println(sx + " " + sy + " " + sz);
 				// berechen von phi
@@ -166,9 +170,9 @@ public class AddGittermastanschluss extends JavaRule {
 				if (Double.isNaN(phi)) {
 					phi = 0;
 				}
-				if (phi != 0) {
-					phi = phi - 90;
-				}
+				// if (phi != 0) {
+				// phi = phi - 90;
+				// }
 				if (phi < 0) {
 
 				}
@@ -180,12 +184,8 @@ public class AddGittermastanschluss extends JavaRule {
 
 			// phi = 0;
 			// phi = 90;
-			System.out.println("Winkel");
-
-			psi = Math.atan2(dy1, dx1) * 180 / Math.PI;
-			theta = -Math.atan2(dz1, dx1) * 180 / Math.PI;
-
-			if (theta < 0) {
+			//
+			if (psi > 0) {
 				phi = -phi;
 			}
 
