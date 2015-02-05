@@ -498,7 +498,7 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zuMn416cEeSwHdgqWQIWdQ" points="[78, 0, -176, 8]$[243, 0, -11, 8]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zuQSQF6cEeSwHdgqWQIWdQ" id="(0.4782608695652174,0.17391304347826086)"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_bxKW4GNFEeS1vODGVvPBZA" type="4001" source="_agphMFYTEeS72uhOrKaBtw" target="_ipqj0lYgEeS5ZuK8eQfm1Q">
+    <edges xmi:type="notation:Edge" xmi:id="_bxKW4GNFEeS1vODGVvPBZA" type="4001" source="_agphMFYTEeS72uhOrKaBtw" target="_OCcbEoaaEeSDdbVg-MD9Ew">
       <children xmi:type="notation:DecorationNode" xmi:id="_bxKW5GNFEeS1vODGVvPBZA" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_bxKW5WNFEeS1vODGVvPBZA" y="40"/>
       </children>
@@ -7035,7 +7035,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_P51lG4abEeSDdbVg-MD9Ew"/>
       <element xmi:type="uml:Package" href="gittermastschuss.uml#_P4NNYYabEeSDdbVg-MD9Ew"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P51lHIabEeSDdbVg-MD9Ew" x="2" y="2" width="622" height="580"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P51lHIabEeSDdbVg-MD9Ew" x="2" y="2" width="630" height="519"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_P51lIIabEeSDdbVg-MD9Ew" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_P51lI4abEeSDdbVg-MD9Ew" type="5026"/>
@@ -7116,7 +7116,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_P51lIYabEeSDdbVg-MD9Ew"/>
       <element xmi:type="uml:Package" href="gittermastschuss.uml#_P4NNYoabEeSDdbVg-MD9Ew"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P51lIoabEeSDdbVg-MD9Ew" x="626" y="2" width="620" height="580"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P51lIoabEeSDdbVg-MD9Ew" x="634" y="2" width="628" height="519"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_P4NNZoabEeSDdbVg-MD9Ew"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_P4NNZ4abEeSDdbVg-MD9Ew"/>
@@ -7358,7 +7358,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Qiv_OoabEeSDdbVg-MD9Ew"/>
       <element xmi:type="uml:Package" href="gittermastschuss.uml#_QiAYUYabEeSDdbVg-MD9Ew"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qiv_O4abEeSDdbVg-MD9Ew" x="2" y="2" width="630" height="573"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qiv_O4abEeSDdbVg-MD9Ew" x="2" y="2" width="630" height="519"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_Qiv_P4abEeSDdbVg-MD9Ew" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_Qiv_QoabEeSDdbVg-MD9Ew" type="5026"/>
@@ -7439,7 +7439,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Qiv_QIabEeSDdbVg-MD9Ew"/>
       <element xmi:type="uml:Package" href="gittermastschuss.uml#_QiAYUoabEeSDdbVg-MD9Ew"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qiv_QYabEeSDdbVg-MD9Ew" x="634" y="2" width="628" height="573"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qiv_QYabEeSDdbVg-MD9Ew" x="634" y="2" width="628" height="519"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_QiAYVoabEeSDdbVg-MD9Ew"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_QiAYV4abEeSDdbVg-MD9Ew"/>
@@ -7579,7 +7579,7 @@
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_YEXWgIabEeSDdbVg-MD9Ew" type="4015" source="_W0BJDIabEeSDdbVg-MD9Ew" target="_W0BJFYabEeSDdbVg-MD9Ew">
       <children xmi:type="notation:DecorationNode" xmi:id="_YEXWhIabEeSDdbVg-MD9Ew" type="6016">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_YEXWhYabEeSDdbVg-MD9Ew" x="11" y="55"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YEXWhYabEeSDdbVg-MD9Ew" x="29" y="36"/>
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_YEXWgYabEeSDdbVg-MD9Ew"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_YEXWgoabEeSDdbVg-MD9Ew" fontName="Segoe UI"/>

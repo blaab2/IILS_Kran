@@ -4,6 +4,7 @@ import gittermastschuss.classes.Mastschuss;
 import gittermastschuss.classes.Stahlrohr;
 import gittermastschuss.classes.TeilMastschuss;
 import gittermastschuss.classes.impl.AnfangsTeilMastschussImpl;
+import gittermastschuss.classes.impl.HolmImpl;
 import gittermastschussanschluss.classes.Verbindungsstueck;
 
 import java.util.ArrayList;
@@ -58,7 +59,7 @@ public class AddGittermastanschluss extends JavaRule {
 	 *
 	 */
 	private void builtVSforMastschuss(Component component, TeilMastschuss teilMastschuss) {
-		double radius = 10, x, y, z, psi, theta, phi, x1, y1, z1, x2, y2, z2, dx, dy, dz, swap;
+		double radius = 10, x, y, z, psi, theta = 0, phi = 0, x1, y1, z1, x2, y2, z2, dx1, dy1, dz1, dx2, dy2, dz2, kx, ky, kz, sx, sy, sz, swap;
 		List<Line> lines = new ArrayList<Line>();
 
 		// handelt es sich bei dem teilMastschuss um ein AnfangsTeil muessen
@@ -74,9 +75,11 @@ public class AddGittermastanschluss extends JavaRule {
 		radius = addLine(radius, lines, teilMastschuss.getHolm2());
 		radius = addLine(radius, lines, teilMastschuss.getHolm3());
 		radius = addLine(radius, lines, teilMastschuss.getHolm4());
+		radius = addLine(radius, lines, teilMastschuss.getHolm5());
 
 		for (Line line : lines) {
 			double laenge, breite, hoehe, lochdurchmesser, anschlussdurchmesser, verrundungpro, typ, uberstand;
+			Line correspondingline = null;
 
 			// bereche geometrische Laenge
 			laenge = Math.pow((line.getEndPoint().getX() - line.getStartPoint().getX()), 2)
@@ -99,27 +102,111 @@ public class AddGittermastanschluss extends JavaRule {
 			x2 = line.getEndPoint().getX();
 			y2 = line.getEndPoint().getY();
 			z2 = line.getEndPoint().getZ();
-			dx = x2 - x1;
-			dy = y2 - y1;
-			dz = z2 - z1;
+			dx1 = x2 - x1;
+			dy1 = y2 - y1;
+			dz1 = z2 - z1;
 
+			Collection<Stahlrohr> stahlrohre = InstanceWrapperExtensions.allInstances(Stahlrohr.class);
+			for (Stahlrohr stahlrohr : stahlrohre) {
+				if (stahlrohr.getClass().equals(HolmImpl.class)) {
+					if (swap == 0) {
+						if (Math.abs(stahlrohr.getStartPoint().getX().doubleValue() - line.getEndPoint().getX().doubleValue()) < 0.01
+								&& Math.abs(stahlrohr.getStartPoint().getY().doubleValue() - line.getEndPoint().getY().doubleValue()) < 0.01
+								&& Math.abs(stahlrohr.getStartPoint().getZ().doubleValue() - line.getEndPoint().getZ().doubleValue()) < 0.01) {
+							correspondingline = stahlrohr;
+							System.out.println("found corresponding line");
+							break;
+						}
+					} else {
+						if (Math.abs(stahlrohr.getEndPoint().getX().doubleValue() - line.getStartPoint().getX().doubleValue()) < 0.01
+								&& Math.abs(stahlrohr.getEndPoint().getY().doubleValue() - line.getStartPoint().getY().doubleValue()) < 0.01
+								&& Math.abs(stahlrohr.getEndPoint().getZ().doubleValue() - line.getStartPoint().getZ().doubleValue()) < 0.01) {
+							correspondingline = stahlrohr;
+							System.out.println("found corresponding line swap = 1");
+							break;
+						}
+					}
+
+				}
+			}
+
+			if (correspondingline != null) {
+				// Berechnen des Richtungsvektors des correspondierenden
+				// Anschlusstücks
+				System.out.println("line");
+				System.out.println(dx1 + " " + dy1 + " " + dz1);
+
+				dx2 = correspondingline.getEndPoint().getX() - correspondingline.getStartPoint().getX();
+				dy2 = correspondingline.getEndPoint().getY() - correspondingline.getStartPoint().getY();
+				dz2 = correspondingline.getEndPoint().getZ() - correspondingline.getStartPoint().getZ();
+				System.out.println("corresponding line:");
+				System.out.println(dx2 + " " + dy2 + " " + dz2);
+				// Berechnen des normalen Vektors der Verbindungsebene
+				kx = (dy1 * dz2) - (dz1 * dy2);
+				ky = (dz1 * dx2) - (dx1 * dz2);
+				kz = (dx1 * dy2) - (dy1 * dx2);
+				System.out.println("Normalenvektor:");
+				System.out.println(kx + " " + ky + " " + kz);
+				// Berechnen des senkrechten Vektors nach transformation um
+				// theta und psi
+				sx = -Math.sin(Math.atan2(dy1, dx1));
+				sy = 0;
+				sz = Math.cos(Math.atan2(dy1, dx1));
+				System.out.println("Körpervektor:");
+				System.out.println(sx + " " + sy + " " + sz);
+				// berechen von phi
+				phi = Math.acos((kx * sx + ky * sy + kz * sz)
+						/ (Math.sqrt(Math.pow(kx, 2) + Math.pow(ky, 2) + Math.pow(kz, 2)) + Math.sqrt(Math.pow(sx, 2) + Math.pow(sy, 2) + Math.pow(sz, 2))));
+				phi = phi * 180 / Math.PI;
+				System.out.println("Phi");
+				System.out.println(phi);
+				if (Math.abs(kx) < 0.01 && Math.abs(ky) < 0.01 && Math.abs(kz) < 0.01) {
+					phi = 0;
+				}
+				if (Double.isNaN(phi)) {
+					phi = 0;
+				}
+				if (phi != 0) {
+					phi = phi - 90;
+				}
+				if (phi < 0) {
+
+				}
+				if (swap == 1) {
+					phi = -phi;
+				}
+				System.out.println(phi);
+			}
+
+			// phi = 0;
+			// phi = 90;
+			System.out.println("Winkel");
+
+			psi = Math.atan2(dy1, dx1) * 180 / Math.PI;
+			theta = -Math.atan2(dz1, dx1) * 180 / Math.PI;
+
+			if (theta < 0) {
+				phi = -phi;
+			}
+
+			System.out.println(theta + " " + psi + " " + phi);
 			if (swap == 0) {
 				typ = 1.;
 				x = x1;
 				y = y1;
 				z = z1;
-				phi = 0;
-				psi = Math.atan2(dy, dx) * 180 / Math.PI;
-				theta = -Math.atan2(dz, dx) * 180 / Math.PI;
+				phi = phi;
+				psi = psi;
+				theta = theta;
 
 			} else {
 				typ = 2.;
 				x = x2;
 				y = y2;
 				z = z2;
-				phi = 0;
-				psi = Math.atan2(dy, dx) * 180 / Math.PI;
-				theta = -Math.atan2(dz, dx) * 180 / Math.PI + 180;
+				phi = -phi;
+				psi = psi;
+				theta = theta + 180;
 			}
 
 			// Anschlussstueck generieren

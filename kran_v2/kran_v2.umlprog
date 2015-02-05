@@ -617,7 +617,7 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rVJJCYauEeSqo4qXCRIWnw" id="(0.8625,0.56)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rVJJCoauEeSqo4qXCRIWnw" id="(0.05405405405405406,0.475)"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_tN9r04auEeSqo4qXCRIWnw" type="4001" source="_rYMeMW5eEeSZbqAEkGjCoQ" target="_yEoiAG5TEeSZbqAEkGjCoQ">
+    <edges xmi:type="notation:Edge" xmi:id="_tN9r04auEeSqo4qXCRIWnw" type="4001" source="_rYMeMW5eEeSZbqAEkGjCoQ" target="_fz0WYXSQEeSBR-efoyvvwA">
       <children xmi:type="notation:DecorationNode" xmi:id="_tN9r14auEeSqo4qXCRIWnw" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_tN9r2IauEeSqo4qXCRIWnw" y="40"/>
       </children>
@@ -625,7 +625,6 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_tN9r1YauEeSqo4qXCRIWnw" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_tN9r0IauEeSqo4qXCRIWnw"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tN9r1oauEeSqo4qXCRIWnw" points="[1, 20, 0, -182]$[1, 190, 0, -12]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tN9r2YauEeSqo4qXCRIWnw" id="(0.35714285714285715,0.12)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_teVDE4auEeSqo4qXCRIWnw" type="4001" source="_yEoiAG5TEeSZbqAEkGjCoQ" target="_fz0WYXSQEeSBR-efoyvvwA">
       <children xmi:type="notation:DecorationNode" xmi:id="_teVDF4auEeSqo4qXCRIWnw" type="6003">
@@ -667,7 +666,7 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W3DaRqfWEeSXqJAYItWk1A" points="[-7, 20, 13, -45]$[-21, 45, -1, -20]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_znzRQKhkEeSQU6bZp_bSOw" id="(0.14035087719298245,0.35)"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_dgzCQ6rzEeSQHPYJZeB7yw" type="4001" source="_xoi1UpspEeSR2OSpWcZjoA" target="_n-HyMaryEeSQHPYJZeB7yw">
+    <edges xmi:type="notation:Edge" xmi:id="_dgzCQ6rzEeSQHPYJZeB7yw" type="4001" source="_xoi1UpspEeSR2OSpWcZjoA" target="_n3P6QFrGEeSb0OiVQ0FT7A">
       <children xmi:type="notation:DecorationNode" xmi:id="_dgzCR6rzEeSQHPYJZeB7yw" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_dgzCSKrzEeSQHPYJZeB7yw" y="40"/>
       </children>
@@ -675,7 +674,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_dgzCRarzEeSQHPYJZeB7yw" fontName="Segoe UI"/>
       <element xmi:type="uml:ControlFlow" href="kran_v2.uml#_dgzCQKrzEeSQHPYJZeB7yw"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dgzCRqrzEeSQHPYJZeB7yw" points="[-7, 20, 8, -29]$[-27, 40, -12, -9]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dgzCSarzEeSQHPYJZeB7yw" id="(0.3333333333333333,0.225)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dgzCSarzEeSQHPYJZeB7yw" id="(0.5925925925925926,0.1)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_dnDbQ6rzEeSQHPYJZeB7yw" type="4001" source="_n-HyMaryEeSQHPYJZeB7yw" target="_n3P6QFrGEeSb0OiVQ0FT7A">
       <children xmi:type="notation:DecorationNode" xmi:id="_dnDbR6rzEeSQHPYJZeB7yw" type="6003">
@@ -690,8 +689,8 @@
   </notation:Diagram>
   <notation:Diagram xmi:id="_kXDz8Fj4EeShbsHi_USVLg" type="UMLRule" name="Axiom" measurementUnit="Pixel">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kXNk8Fj4EeShbsHi_USVLg" source="Counter">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tqH_kKueEeSXNJC0sp7seg" key="countergewichte" value="2"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tqH_kaueEeSXNJC0sp7seg" key="countergewichte2" value="2"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MLgpsK0dEeSrmpK0AFZl0A" key="countergewichte" value="2"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MLgpsa0dEeSrmpK0AFZl0A" key="countergewichte2" value="2"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kXNk8Vj4EeShbsHi_USVLg" source="externalVariable"/>
     <children xmi:type="notation:Shape" xmi:id="_kZcZklj4EeShbsHi_USVLg" type="2014" fontName="Segoe UI" lineColor="0">
