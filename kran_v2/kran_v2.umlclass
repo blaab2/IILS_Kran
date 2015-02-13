@@ -2194,7 +2194,7 @@
     <styles xmi:type="notation:RoutingStyle" xmi:id="_A1hSoW80EeS9EOv-nBde_w" routing="Rectilinear"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_A1hSom80EeS9EOv-nBde_w" fontName="Segoe UI"/>
     <element xmi:type="uml:Association" href="kran_v2.uml#_A1OXsG80EeS9EOv-nBde_w"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A1hSo280EeS9EOv-nBde_w" points="[21, 606, -199, 33]$[147, 606, -73, 33]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A1hSo280EeS9EOv-nBde_w" points="[21, 54, -199, -527]$[42, 54, -178, -527]$[42, 581, -178, 0]$[147, 581, -73, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A1hSsm80EeS9EOv-nBde_w" id="(0.8628571428571429,0.15202702702702703)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_YwYw8HPBEeSmpMH8PGTtCg" type="4005" source="_J_V8gFj8EeShbsHi_USVLg" target="_J-KdUF3JEeStBc7AUOlucw">

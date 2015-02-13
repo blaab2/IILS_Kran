@@ -114,7 +114,7 @@ public class AddGittermastanschluss extends JavaRule {
 								&& Math.abs(stahlrohr.getStartPoint().getY().doubleValue() - line.getEndPoint().getY().doubleValue()) < 0.01
 								&& Math.abs(stahlrohr.getStartPoint().getZ().doubleValue() - line.getEndPoint().getZ().doubleValue()) < 0.01) {
 							correspondingline = stahlrohr;
-							System.out.println("found corresponding line");
+							// System.out.println("found corresponding line");
 							break;
 						}
 					} else {
@@ -122,7 +122,7 @@ public class AddGittermastanschluss extends JavaRule {
 								&& Math.abs(stahlrohr.getEndPoint().getY().doubleValue() - line.getStartPoint().getY().doubleValue()) < 0.01
 								&& Math.abs(stahlrohr.getEndPoint().getZ().doubleValue() - line.getStartPoint().getZ().doubleValue()) < 0.01) {
 							correspondingline = stahlrohr;
-							System.out.println("found corresponding line swap = 1");
+							// System.out.println("found corresponding line swap = 1");
 							break;
 						}
 					}
@@ -136,34 +136,34 @@ public class AddGittermastanschluss extends JavaRule {
 			if (correspondingline != null) {
 				// Berechnen des Richtungsvektors des correspondierenden
 				// Anschlusstücks
-				System.out.println("line");
-				System.out.println(dx1 + " " + dy1 + " " + dz1);
+				// System.out.println("line");
+				// System.out.println(dx1 + " " + dy1 + " " + dz1);
 
 				dx2 = correspondingline.getEndPoint().getX() - correspondingline.getStartPoint().getX();
 				dy2 = correspondingline.getEndPoint().getY() - correspondingline.getStartPoint().getY();
 				dz2 = correspondingline.getEndPoint().getZ() - correspondingline.getStartPoint().getZ();
-				System.out.println("corresponding line:");
-				System.out.println(dx2 + " " + dy2 + " " + dz2);
+				// System.out.println("corresponding line:");
+				// System.out.println(dx2 + " " + dy2 + " " + dz2);
 				// Berechnen des normalen Vektors der Verbindungsebene
 				kx = (dy1 * dz2) - (dz1 * dy2);
 				ky = (dz1 * dx2) - (dx1 * dz2);
 				kz = (dx1 * dy2) - (dy1 * dx2);
-				System.out.println("Normalenvektor:");
-				System.out.println(kx + " " + ky + " " + kz);
+				// System.out.println("Normalenvektor:");
+				// System.out.println(kx + " " + ky + " " + kz);
 				// Berechnen des senkrechten Vektors nach transformation um
 				// theta und psi
 				sx = Math.sin(-Math.atan2(dz1, dx1)) * Math.cos(Math.atan2(dy1, dx1));
 				sy = Math.cos(-Math.atan2(dz1, dx1));
 
 				sz = Math.sin(-Math.atan2(dz1, dx1)) * Math.sin(Math.atan2(dy1, dx1));
-				System.out.println("Körpervektor:");
-				System.out.println(sx + " " + sy + " " + sz);
+				// System.out.println("Körpervektor:");
+				// System.out.println(sx + " " + sy + " " + sz);
 				// berechen von phi
 				phi = Math.acos((kx * sx + ky * sy + kz * sz)
 						/ (Math.sqrt(Math.pow(kx, 2) + Math.pow(ky, 2) + Math.pow(kz, 2)) + Math.sqrt(Math.pow(sx, 2) + Math.pow(sy, 2) + Math.pow(sz, 2))));
 				phi = phi * 180 / Math.PI;
-				System.out.println("Phi");
-				System.out.println(phi);
+				// System.out.println("Phi");
+				// System.out.println(phi);
 				if (Math.abs(kx) < 0.01 && Math.abs(ky) < 0.01 && Math.abs(kz) < 0.01) {
 					phi = 0;
 				}
@@ -179,17 +179,17 @@ public class AddGittermastanschluss extends JavaRule {
 				if (swap == 1) {
 					phi = -phi;
 				}
-				System.out.println(phi);
+				// System.out.println(phi);
 			}
 
-			// phi = 0;
-			// phi = 90;
-			//
+			if (Math.abs(Math.abs(phi) - 90) <= 0.001) {
+				phi = 0;
+			}
 			if (psi > 0) {
 				phi = -phi;
 			}
 
-			System.out.println(theta + " " + psi + " " + phi);
+			// System.out.println(theta + " " + psi + " " + phi);
 			if (swap == 0) {
 				typ = 1.;
 				x = x1;
@@ -200,6 +200,9 @@ public class AddGittermastanschluss extends JavaRule {
 				theta = theta;
 
 			} else {
+				if (psi < 0 && theta < 0) {
+					phi = -phi;
+				}
 				typ = 2.;
 				x = x2;
 				y = y2;
