@@ -40,7 +40,7 @@
     </children>
     <styles xmi:type="notation:CanonicalStyle" xmi:id="_q7iyYaLrEeSKH4HWQWGQew"/>
     <element xmi:type="uml:Class" href="dossig_normverbindungen.uml#_q7GtgKLrEeSKH4HWQWGQew"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q7iyYqLrEeSKH4HWQWGQew" x="340" y="380"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q7iyYqLrEeSKH4HWQWGQew" x="265" y="420"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_wfPEcKLrEeSKH4HWQWGQew" type="2001" fontName="Segoe UI" fillColor="-537265" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wfPEhKLrEeSKH4HWQWGQew" source="Shortcut">
@@ -797,6 +797,30 @@
       <children xmi:type="notation:Node" xmi:id="_HQeCkae4EeSPBr8ME9nFrA" type="3001">
         <element xmi:type="uml:Property" href="dossig_normverbindungen.uml#_HQeCkKe4EeSPBr8ME9nFrA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_HQeCkqe4EeSPBr8ME9nFrA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lbSPMra9EeSxw9v0Qc8WdA" type="3001">
+        <element xmi:type="uml:Property" href="dossig_normverbindungen.uml#_P2VFIqe4EeSPBr8ME9nFrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lbSPM7a9EeSxw9v0Qc8WdA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lbSPNLa9EeSxw9v0Qc8WdA" type="3001">
+        <element xmi:type="uml:Property" href="dossig_normverbindungen.uml#_P2e2JKe4EeSPBr8ME9nFrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lbSPNba9EeSxw9v0Qc8WdA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lbSPNra9EeSxw9v0Qc8WdA" type="3001">
+        <element xmi:type="uml:Property" href="dossig_normverbindungen.uml#_P2e2Kae4EeSPBr8ME9nFrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lbSPN7a9EeSxw9v0Qc8WdA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lbSPOLa9EeSxw9v0Qc8WdA" type="3001">
+        <element xmi:type="uml:Property" href="dossig_normverbindungen.uml#_P2e2Lqe4EeSPBr8ME9nFrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lbSPOba9EeSxw9v0Qc8WdA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lbSPOra9EeSxw9v0Qc8WdA" type="3001">
+        <element xmi:type="uml:Property" href="dossig_normverbindungen.uml#_P2oAFKe4EeSPBr8ME9nFrA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lbSPO7a9EeSxw9v0Qc8WdA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_8imwELa9EeSxw9v0Qc8WdA" type="3001">
+        <element xmi:type="uml:Property" href="dossig_normverbindungen.uml#_8iKEILa9EeSxw9v0Qc8WdA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8imwEba9EeSxw9v0Qc8WdA"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_Ejmztqe4EeSPBr8ME9nFrA" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_Ejmzt6e4EeSPBr8ME9nFrA"/>

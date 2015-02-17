@@ -3,8 +3,8 @@
 /EndeMastImpl.java
 /MastImpl.java
 /KranImpl.java
-/UnterbauImpl.java
-/UnterbauModelImpl.java
+/OberwagenImpl.java
+/OberwagenModelImpl.java
 /HauptauslegerImpl.java
 /SpitzenauslegerImpl.java
 /SpitzenauslegerAbspannbockImpl.java

@@ -353,7 +353,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_ieet-WtdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_icGvYWtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ieet-mtdEeS4mM65aOoDEQ" x="2" y="2" width="638" height="468"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ieet-mtdEeS4mM65aOoDEQ" x="2" y="2" width="630" height="557"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_ieet_mtdEeS4mM65aOoDEQ" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_ieeuAWtdEeS4mM65aOoDEQ" type="5026"/>
@@ -374,7 +374,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_ieet_2tdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_icGvYmtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ieeuAGtdEeS4mM65aOoDEQ" x="642" y="2" width="636" height="468"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ieeuAGtdEeS4mM65aOoDEQ" x="634" y="2" width="628" height="557"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_icZqUWtdEeS4mM65aOoDEQ"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_icZqUmtdEeS4mM65aOoDEQ"/>
@@ -414,7 +414,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_l5CJS2tdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_l3ZKgWtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l5CJTGtdEeS4mM65aOoDEQ" x="2" y="2" width="638" height="677"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l5CJTGtdEeS4mM65aOoDEQ" x="2" y="2" width="630" height="557"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_l5CJUGtdEeS4mM65aOoDEQ" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_l5CJU2tdEeS4mM65aOoDEQ" type="5026"/>
@@ -540,7 +540,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_l5CJUWtdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_l3ZKgmtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l5CJUmtdEeS4mM65aOoDEQ" x="642" y="2" width="636" height="677"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l5CJUmtdEeS4mM65aOoDEQ" x="634" y="2" width="628" height="557"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_l3ZKhmtdEeS4mM65aOoDEQ"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_l3ZKh2tdEeS4mM65aOoDEQ"/>
@@ -682,7 +682,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_3sLay2tdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_3qsNAWtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3sLazGtdEeS4mM65aOoDEQ" x="2" y="2" width="505" height="354"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3sLazGtdEeS4mM65aOoDEQ" x="2" y="2" width="630" height="557"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_3sLa0GtdEeS4mM65aOoDEQ" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_3sLa02tdEeS4mM65aOoDEQ" type="5026"/>
@@ -739,7 +739,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_3sLa0WtdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_3qsNAmtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3sLa0mtdEeS4mM65aOoDEQ" x="509" y="2" width="503" height="354"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3sLa0mtdEeS4mM65aOoDEQ" x="634" y="2" width="628" height="557"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_3qsNBmtdEeS4mM65aOoDEQ"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_3qsNB2tdEeS4mM65aOoDEQ"/>
@@ -811,7 +811,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8KkRq2tdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_8IfOAWtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8KkRrGtdEeS4mM65aOoDEQ" x="2" y="2" width="852" height="841"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8KkRrGtdEeS4mM65aOoDEQ" x="2" y="2" width="841" height="744"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_8KkRsGtdEeS4mM65aOoDEQ" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_8KkRs2tdEeS4mM65aOoDEQ" type="5026"/>
@@ -1027,7 +1027,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8KkRsWtdEeS4mM65aOoDEQ"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_8IfOAmtdEeS4mM65aOoDEQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8KkRsmtdEeS4mM65aOoDEQ" x="856" y="2" width="850" height="841"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8KkRsmtdEeS4mM65aOoDEQ" x="845" y="2" width="839" height="744"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_8IfOBmtdEeS4mM65aOoDEQ"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_8IfOB2tdEeS4mM65aOoDEQ"/>
@@ -3128,7 +3128,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1oZo9W19EeSro7iWsEulmw"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_1lNLAG19EeSro7iWsEulmw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1oZo9m19EeSro7iWsEulmw" x="2" y="2" width="638" height="630"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1oZo9m19EeSro7iWsEulmw" x="2" y="2" width="630" height="557"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_1oZo-m19EeSro7iWsEulmw" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_1oZo_W19EeSro7iWsEulmw" type="5026"/>
@@ -3197,7 +3197,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1oZo-219EeSro7iWsEulmw"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_1lNLAW19EeSro7iWsEulmw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1oZo_G19EeSro7iWsEulmw" x="642" y="2" width="636" height="630"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1oZo_G19EeSro7iWsEulmw" x="634" y="2" width="628" height="557"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_1mHJ8W19EeSro7iWsEulmw"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_1mHJ8m19EeSro7iWsEulmw"/>
@@ -4020,7 +4020,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C_Qe6W2KEeSro7iWsEulmw"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_C-vhgW2KEeSro7iWsEulmw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C_Qe6m2KEeSro7iWsEulmw" x="2" y="2" width="505" height="346"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C_Qe6m2KEeSro7iWsEulmw" x="2" y="2" width="630" height="557"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_C_Qe7m2KEeSro7iWsEulmw" type="2016" fontName="Segoe UI" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_C_Qe8W2KEeSro7iWsEulmw" type="5026"/>
@@ -4089,7 +4089,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C_Qe722KEeSro7iWsEulmw"/>
       <element xmi:type="uml:Package" href="gegengewichte.uml#_C-wIkG2KEeSro7iWsEulmw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C_Qe8G2KEeSro7iWsEulmw" x="509" y="2" width="503" height="346"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C_Qe8G2KEeSro7iWsEulmw" x="634" y="2" width="628" height="557"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_C-wvoW2KEeSro7iWsEulmw"/>
     <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_C-wvom2KEeSro7iWsEulmw"/>

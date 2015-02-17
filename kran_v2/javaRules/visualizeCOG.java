@@ -5,7 +5,7 @@ import java.util.Collection;
 
 import kran_v2.classes.Kran;
 import kran_v2.classes.Mast;
-import kran_v2.classes.UnterbauModel;
+import kran_v2.classes.OberwagenModel;
 import de.iils.dc43.scriptrule.InstanceWrapperExtensions;
 import de.iils.dc43.transformationengine.javarule.JavaRule;
 import de.iils.dc43.transformationengine.popup.actions.TransformationRunner;
@@ -65,8 +65,8 @@ public class visualizeCOG extends JavaRule {
 
 		/* ------------ visualisiere Unterbaumodell ------------ */
 
-		Collection<UnterbauModel> unterbaumodelle = InstanceWrapperExtensions.allInstances(UnterbauModel.class);
-		UnterbauModel unterbaumodel = unterbaumodelle.iterator().next();
+		Collection<OberwagenModel> unterbaumodelle = InstanceWrapperExtensions.allInstances(OberwagenModel.class);
+		OberwagenModel unterbaumodel = unterbaumodelle.iterator().next();
 
 		Component cogcomponent = InstanceWrapperExtensions.createInstance(Component.class, unterbaumodel.umlInstance().getName() + "cogcomponent");
 		Sphere cogsphere = InstanceWrapperExtensions.createInstance(Sphere.class, unterbaumodel.umlInstance().getName() + "cogsphere");

@@ -23,7 +23,7 @@ public class drawOverviewPanel extends JavaRule {
 
 		JFrame f = new JFrame();
 		f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		f.setSize(1200, 900);
+		f.setSize(1200, 1000);
 		f.setTitle(filename);
 		f.setBackground(new Color(255, 255, 255));
 		f.add(new drawoverview());

@@ -31,7 +31,7 @@ public class drawoverview extends JPanel {
 		Kran kran = InstanceWrapperExtensions.allInstances(Kran.class).iterator().next();
 
 		int koordinatenursprung_x = (int) (70);
-		int koordinatenursprung_z = (int) (820);
+		int koordinatenursprung_z = (int) (900);
 
 		int hauptausleger_laenge = (int) (kran.getHauptausleger().getLaenge().doubleValue());
 		// System.out.println("arbeitsbereich x " + hauptausleger_laenge);
@@ -67,7 +67,7 @@ public class drawoverview extends JPanel {
 		double kran_arbeitsbereich_xneu = 0;
 		int draw_background_arcs_count = 10;
 
-		int settings_deltadeg = 10;
+		int settings_deltadeg = 5;
 
 		// Arbeitsbereich
 		kran_schwerpunkt_xsolo = kran_schwerpunkt_x + (kran_last / (kran_gesamtmasse - kran_last)) * (kran_schwerpunkt_x - kran_arbeitsbereich_x);
@@ -95,7 +95,8 @@ public class drawoverview extends JPanel {
 
 		// Berechnung
 		g2.setStroke(doted1);
-		for (theta = theta; (theta > 0); theta = theta - settings_deltadeg) {
+		int prevx = 0;
+		for (theta = 85; (theta > 0); theta = theta - settings_deltadeg) {
 
 			int x = (int) (Math.cos(theta * Math.PI / 180) * hauptausleger_laenge + koordinatenursprung_x + hauptausleger_x0);
 			int x2 = (int) (Math.cos(theta * Math.PI / 180) * hauptausleger_laenge * 1.1 + koordinatenursprung_x + hauptausleger_x0);
@@ -110,7 +111,11 @@ public class drawoverview extends JPanel {
 			double kran_lastneu = (kran_gesamtmasse - kran_last) * (kran_schwerpunkt_xsolo - kran_schwerpunkt_x)
 					/ (kran_schwerpunkt_x - kran_arbeitsbereich_xneu);
 
-			g2.drawString(numberFormatLength.format(kran_arbeitsbereich_xneu) + " m", x, koordinatenursprung_z + 20);
+			if (prevx == 0 || x - prevx > 50) {
+				g2.drawString(numberFormatLength.format(kran_arbeitsbereich_xneu) + " m", x, koordinatenursprung_z + 20);
+				prevx = x;
+			}
+
 			g2.drawString(numberFormatLoad.format(kran_lastneu / 1000) + " t", xlabel, zlabel);
 			g2.drawLine(koordinatenursprung_x + hauptausleger_x0, koordinatenursprung_z + hauptausleger_z0, x2, z2);
 
