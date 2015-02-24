@@ -400,6 +400,14 @@
         <element xmi:type="uml:Property" href="kran_v2.uml#_fuE50Fj8EeShbsHi_USVLg"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_fuOq0Vj8EeShbsHi_USVLg"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_y4VBsLwkEeSasqpx_Q-czw" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_y4LQsLwkEeSasqpx_Q-czw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_y4VBsbwkEeSasqpx_Q-czw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sWR0gLwlEeSIYavk74zUtA" type="3001">
+        <element xmi:type="uml:Property" href="kran_v2.uml#_sV-5kLwlEeSIYavk74zUtA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sWR0gbwlEeSIYavk74zUtA"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_J_V8hlj8EeShbsHi_USVLg" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_J_V8h1j8EeShbsHi_USVLg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_J_V8iFj8EeShbsHi_USVLg"/>
@@ -1493,8 +1501,8 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_YBoym1j8EeShbsHi_USVLg" type="6003">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_YBoynFj8EeShbsHi_USVLg" y="20"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_YBoynVj8EeShbsHi_USVLg" visible="false" type="6005">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_YBoynlj8EeShbsHi_USVLg" y="-15"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YBoynVj8EeShbsHi_USVLg" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YBoynlj8EeShbsHi_USVLg" x="-54" y="12"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_YBoyn1j8EeShbsHi_USVLg" type="6006">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_YBoyoFj8EeShbsHi_USVLg" y="-30"/>

@@ -36,10 +36,14 @@ public class AddGittermastanschluss extends JavaRule {
 				mast.sub_add_(component);
 
 				// Baue SolidVerbindungsStuecke für AnfangsTeilMastschuesse
-				builtVSforMastschuss(component, mastschuss.getAnfangsTeilMastschuss());
+				if (mastschuss.getAnfangsTeilMastschuss() != null) {
+					builtVSforMastschuss(component, mastschuss.getAnfangsTeilMastschuss());
+				}
 
 				// Baue SolidVerbindungsStuecke für EndTeilmastschuesse
-				builtVSforMastschuss(component, mastschuss.getEndTeilMastschuss());
+				if (mastschuss.getEndTeilMastschuss() != null) {
+					builtVSforMastschuss(component, mastschuss.getEndTeilMastschuss());
+				}
 			}
 
 		}
@@ -75,7 +79,7 @@ public class AddGittermastanschluss extends JavaRule {
 		radius = addLine(radius, lines, teilMastschuss.getHolm2());
 		radius = addLine(radius, lines, teilMastschuss.getHolm3());
 		radius = addLine(radius, lines, teilMastschuss.getHolm4());
-		radius = addLine(radius, lines, teilMastschuss.getHolm5());
+		// radius = addLine(radius, lines, teilMastschuss.getHolm5());
 
 		for (Line line : lines) {
 			double laenge, breite, hoehe, lochdurchmesser, anschlussdurchmesser, verrundungpro, typ, uberstand;
@@ -200,7 +204,11 @@ public class AddGittermastanschluss extends JavaRule {
 				theta = theta;
 
 			} else {
-				if (psi < 0 && theta < 0) {
+				System.out.println("neues swap teil");
+				System.out.println("psi " + psi);
+				System.out.println("theta " + theta);
+				System.out.println("phi " + phi);
+				if (psi <= 0 && theta < 0) {
 					phi = -phi;
 				}
 				typ = 2.;
@@ -213,6 +221,7 @@ public class AddGittermastanschluss extends JavaRule {
 			}
 
 			// Anschlussstueck generieren
+
 			Verbindungsstueck stueck = generateanschluss(line, laenge, breite, hoehe, lochdurchmesser, anschlussdurchmesser, verrundungpro, typ, uberstand, x,
 					y, z, phi, theta, psi, swap);
 
@@ -254,7 +263,7 @@ public class AddGittermastanschluss extends JavaRule {
 		verbindungsstueck.setHoehe(hoehe);
 		verbindungsstueck.setLochdurchmesser(lochdurchmesser);
 		verbindungsstueck.setAnschlussdurchmesser(anschlussdurchmesser);
-		verbindungsstueck.setVerrundungpro(verrundungpro);
+		verbindungsstueck.setVerrundungprozent(verrundungpro);
 		verbindungsstueck.setTyp(typ);
 		verbindungsstueck.setUberstand(uberstand);
 		verbindungsstueck.setDx(x);
@@ -271,7 +280,7 @@ public class AddGittermastanschluss extends JavaRule {
 		verbindungsstueck.umlSlotHoehe().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotLochdurchmesser().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotAnschlussdurchmesser().applyStereotype(spgconstStereo);
-		verbindungsstueck.umlSlotVerrundungpro().applyStereotype(spgconstStereo);
+		verbindungsstueck.umlSlotVerrundungprozent().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotTyp().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotUberstand().applyStereotype(spgconstStereo);
 		verbindungsstueck.umlSlotSwap().applyStereotype(spgconstStereo);

@@ -196,6 +196,7 @@ public class exportAbaqus extends JavaRule {
 		fixpoints.add(hauptausleger.getAnfangMast().getAnfangsTeilMastschuss().getEbenehinten().getP3());
 		fixpoints.add(hauptausleger.getAnfangMast().getAnfangsTeilMastschuss().getEbenehinten().getP4());
 
+		// Randbedingungen
 		bw.write("*NSET,NSET=FIX");
 		bw.newLine();
 
@@ -215,6 +216,7 @@ public class exportAbaqus extends JavaRule {
 			}
 		}
 
+		// LOAD
 		bw.newLine();
 		loadpoints.add(hauptausleger.getEndeMast().getEndTeilMastschuss().getEbenehinten().getP1());
 		loadpoints.add(hauptausleger.getEndeMast().getEndTeilMastschuss().getEbenehinten().getP2());
