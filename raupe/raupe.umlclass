@@ -222,7 +222,7 @@
     </children>
     <styles xmi:type="notation:CanonicalStyle" xmi:id="_bbVsoVqZEeS77NvZsjw4Eg"/>
     <element xmi:type="uml:Class" href="raupe.uml#_bbQNEFqZEeS77NvZsjw4Eg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbVsolqZEeS77NvZsjw4Eg" x="565" y="225"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbVsolqZEeS77NvZsjw4Eg" x="565" y="245"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_ebHQcFqZEeS77NvZsjw4Eg" type="2001" fontName="Segoe UI" fillColor="-537265" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ebHQhFqZEeS77NvZsjw4Eg" source="Shortcut">

@@ -11,7 +11,9 @@ public class setStartTime extends JavaRule {
 		// Set the Starttime Slot in the Kran-Output Instance
 		Long l = new Long(System.currentTimeMillis());
 		InstanceWrapperExtensions.allInstances(Kran.class).iterator().next().getOutput().setStarttime(l.doubleValue());
-
+		System.out.println("########################################################");
+		System.out.println("########                 new RUN                ########");
+		System.out.println("########################################################");
 	}
 
 }

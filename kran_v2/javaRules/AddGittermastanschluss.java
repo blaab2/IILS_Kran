@@ -204,10 +204,10 @@ public class AddGittermastanschluss extends JavaRule {
 				theta = theta;
 
 			} else {
-				System.out.println("neues swap teil");
-				System.out.println("psi " + psi);
-				System.out.println("theta " + theta);
-				System.out.println("phi " + phi);
+				// System.out.println("neues swap teil");
+				// System.out.println("psi " + psi);
+				// System.out.println("theta " + theta);
+				// System.out.println("phi " + phi);
 				if (psi <= 0 && theta < 0) {
 					phi = -phi;
 				}

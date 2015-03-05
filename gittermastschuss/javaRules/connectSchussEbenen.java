@@ -3,9 +3,9 @@ import gittermastschuss.classes.MittelTeilMastschuss;
 import gittermastschuss.classes.TeilMastschuss;
 
 import java.util.Collection;
-import java.util.List;
 
 import de.iils.dc43.scriptrule.InstanceWrapperExtensions;
+import de.iils.dc43.scriptrule.UmlConnectedCollection;
 import de.iils.dc43.transformationengine.javarule.JavaRule;
 import de.iils.dc43.transformationengine.popup.actions.TransformationRunner;
 
@@ -19,7 +19,7 @@ public class connectSchussEbenen extends JavaRule {
 
 			if (mastschuss.getExpanded().doubleValue() == 0.5) {
 
-				List<MittelTeilMastschuss> mittelTeilMastschuesse = mastschuss.getMittelTeilMastschuss();
+				UmlConnectedCollection<MittelTeilMastschuss> mittelTeilMastschuesse = mastschuss.getMittelTeilMastschuss();
 				TeilMastschuss previtem = mastschuss.getAnfangsTeilMastschuss();
 
 				for (MittelTeilMastschuss mittelTeilMastschuss : mittelTeilMastschuesse) {

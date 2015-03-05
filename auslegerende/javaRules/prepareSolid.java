@@ -35,8 +35,8 @@ public class prepareSolid extends JavaRule {
 				firstpoint = polyLine.getStart();
 				startpoint = firstpoint;
 
-				while (startpoint.getNextPoint().get(0) != null && startpoint.getNextPoint().get(0) != firstpoint) {
-					nextpoint = startpoint.getNextPoint().get(0);
+				while (startpoint.getNextPoint().iterator().next() != null && startpoint.getNextPoint().iterator().next() != firstpoint) {
+					nextpoint = startpoint.getNextPoint().iterator().next();
 
 					Line line = InstanceWrapperExtensions.createInstance(Line.class, polyLine.umlInstance().getName() + startpoint.umlInstance().getName()
 							+ "line");

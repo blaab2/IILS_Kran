@@ -1,4 +1,3 @@
-/NormElementImpl.java
 /PartImpl.java
 /ScrewImpl.java
 /ThreadClassImpl.java
@@ -8,4 +7,8 @@
 /HeadImpl.java
 /HeadBaseImpl.java
 /HexagonImpl.java
+/ThreadProfilImpl.java
+/TrapezGewindeProfilImpl.java
+/ShaftImpl.java
+/TestScrewImpl.java
 /ClassesFactoryImpl.java

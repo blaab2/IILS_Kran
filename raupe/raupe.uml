@@ -1134,11 +1134,6 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E5R6UlqsEeSX-OlzyYglGQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E5R6U1qsEeSX-OlzyYglGQ" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_zoxok1q7EeSX-OlzyYglGQ" name="color" association="_zojmIFq7EeSX-OlzyYglGQ">
-          <type xmi:type="uml:Class" href="pathmap://GEOMETRY_CLASSES/geometry.profile.uml#_Vxgs8AonEeGDPuCCiqXvfA"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zoxolFq7EeSX-OlzyYglGQ" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zoxolVq7EeSX-OlzyYglGQ" value="1"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_0425AIEeEeS56uUUC6c8Jg" name="hoehe" visibility="public" aggregation="composite">
           <type xmi:type="uml:DataType" href="pathmap://UTILITY_PROFILE/dimensions43.uml#_ts1R4OAyEd--GtowLWgB4Q"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1kmksIEeEeS56uUUC6c8Jg" value="1"/>
@@ -1193,12 +1188,6 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_zC0ZoVqsEeSX-OlzyYglGQ" name="raupe" type="_bbQNEFqZEeS77NvZsjw4Eg" association="_zC0ZoFqsEeSX-OlzyYglGQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zC1AsFqsEeSX-OlzyYglGQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zC1AsVqsEeSX-OlzyYglGQ" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_zojmIFq7EeSX-OlzyYglGQ" memberEnd="_zoxokFq7EeSX-OlzyYglGQ _zoxok1q7EeSX-OlzyYglGQ">
-        <ownedEnd xmi:type="uml:Property" xmi:id="_zoxokFq7EeSX-OlzyYglGQ" name="fahrwerk" type="_vUlyMFqdEeS77NvZsjw4Eg" association="_zojmIFq7EeSX-OlzyYglGQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zoxokVq7EeSX-OlzyYglGQ" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zoxoklq7EeSX-OlzyYglGQ" value="1"/>
         </ownedEnd>
       </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vjMskFq2EeSX-OlzyYglGQ">

@@ -3,9 +3,9 @@ import gegengewichte.classes.Gewichtestapel;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 import de.iils.dc43.scriptrule.InstanceWrapperExtensions;
+import de.iils.dc43.scriptrule.UmlConnectedCollection;
 import de.iils.dc43.transformationengine.javarule.JavaRule;
 import de.iils.dc43.transformationengine.popup.actions.TransformationRunner;
 
@@ -18,7 +18,7 @@ public class orderGewichte extends JavaRule {
 
 		for (Gewichtestapel gewichte : gewichtecollection) {
 
-			List<Gewicht> gewichtlist = gewichte.getGewicht();
+			UmlConnectedCollection<Gewicht> gewichtlist = gewichte.getGewicht();
 			ArrayList<Gewicht> list = new ArrayList<Gewicht>();
 			Gewicht lastgewicht;
 			list.addAll(gewichtlist);
