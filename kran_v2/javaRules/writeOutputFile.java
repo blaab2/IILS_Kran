@@ -18,7 +18,7 @@ public class writeOutputFile extends JavaRule {
 
 		// Öffne Kran
 		Kran kran = InstanceWrapperExtensions.allInstances(Kran.class).iterator().next();
-		DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.GERMAN);
+		DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.ENGLISH);
 		DecimalFormat format1 = new DecimalFormat("0.00000", otherSymbols);
 		DecimalFormat format2 = new DecimalFormat("0", otherSymbols);
 
@@ -42,7 +42,7 @@ public class writeOutputFile extends JavaRule {
 		// Datei Settings
 		String outputfile_path = getProjectDir() + "results\\";
 		String outputfile_name = "resultfile.csv";
-		String csvseparator = ";";
+		String csvseparator = ",";
 
 		// Erstelle neuen Ordner, wenn Ordner noch nicht existiert
 		if (new File(outputfile_path).exists() == false) {
